@@ -4,6 +4,7 @@ import ChampionCardsContainer from "./ChampionCardsContainer/ChampionCardsContai
 const CardCollection = () => {
   return (
     <>
+    <div className="figure-overlay"></div>
       <Navigation/>
       <ChampionCardsContainer/>
     </>

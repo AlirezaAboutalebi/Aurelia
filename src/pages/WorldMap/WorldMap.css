@@ -1,0 +1,120 @@
+/* Container for the entire map page */
+/* Apply specific styling to the navigation inside the map-page */
+.map-page .navbar {
+    position: fixed; /* Ensure it's fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure it's above the map */
+    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+}
+
+.map-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Disable scrolling */
+}
+  
+/* Full height for the map image */
+.map-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    background-position: top center; /* Center the map image */
+    z-index: 1; /* This is behind the navigation */
+}
+
+/* Ensure the navigation floats above the map */
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Ensure navigation is on top */
+    background: rgba(255, 255, 255, 0.8); /* Assuming your rgba background */
+}
+
+/* Map navigation buttons */
+.map-navigation-buttons {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex; /* Use flexbox to arrange the buttons */
+    justify-content: space-between; /* Space buttons evenly */
+    width: 660px; /* Increase width to avoid text breaking */
+    z-index: 5; /* Above the map image */
+    gap: 16px; /* Reduced gap between buttons */
+}
+
+/* Button styles */
+.nav-button {
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    background-color: #E94F2D; /* Default color */
+    color: #f1eee4;
+    border: 1px solid #f1eee4;
+    padding: 16px 32px;
+    font-size: 16px;
+    width: 220px; /* Ensure the width prevents text from breaking */
+    justify-content: center; /* Center text and icon horizontally */
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: 0 2px 0 #292827;
+    box-shadow: 0 2px 0 #292827;
+    outline: none;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.nav-button:hover {
+    background-color: #d8431e;
+}
+
+.nav-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+}
+
+/* Active button style */
+.nav-button.active {
+    background-color: #cc401d; /* Active map button color */
+}
+
+/* Icon styles inside the button */
+.nav-button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px; /* Gap between icon and text */
+}
+
+/* Overlays for the map */
+.map__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.map__overlay--left {
+    background: linear-gradient(to left, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.map__overlay--right {
+    background: linear-gradient(to right, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.map__overlay--bottom {
+    background: linear-gradient(to top, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.map__overlay--top {
+    background: linear-gradient(to bottom, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
