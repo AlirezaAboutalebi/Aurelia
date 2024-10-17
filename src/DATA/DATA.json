@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "1",
+    "basicInfo": {
+      "characterName": "The Radiant King",
+      "realName": "Ali Azimi",
+      "realm": "Kingdom",
+      "role": "Warrior, King",
+      "damageType": "Elemental Fire and Light",
+      "weapon": "Sword (The Flame of Valoria)",
+      "armorType": "Regal Robes with Light Armor (crafted with magical protection)"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 2,
+      "precision": 4,
+      "survivability": 5,
+      "evasion": 3,
+      "armorStrength": 4,
+      "intelligence": 5,
+      "willpower": 3,
+      "magicPotency": 4,
+      "healing": 2,
+      "leadership": 5,
+      "crowdControl": 3,
+      "charisma": 5,
+      "Manipulation": 2,
+      "speed": 1,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Royal Command",
+          "persian": "فرمان سلطنتی"
+        },
+        "description": {
+          "english": "Commands the attention and loyalty of his subjects and armies, inspiring them and providing buffs during battle, increasing morale and strength for allies. His voice alone can rally forces in the direst of times.",
+          "persian": "فرمان توجه و وفاداری اتباع و ارتش‌های خود را صادر می‌کند، الهام‌بخش آن‌هاست و در هنگام نبرد به آن‌ها قدرت و تقویت‌های لازم را می‌دهد، روحیه و قدرت متحدان را افزایش می‌دهد. تنها صدای او می‌تواند در بحرانی‌ترین لحظات نیروها را جمع‌آوری کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Sun’s Radiance",
+          "persian": "درخشش خورشید"
+        },
+        "description": {
+          "english": "Channels the power of the sun, creating blinding light that can incapacitate enemies or empower his allies with holy energy. This ability not only boosts his allies’ energy but can temporarily disable his enemies' vision.",
+          "persian": "قدرت خورشید را هدایت می‌کند و نوری کورکننده ایجاد می‌کند که می‌تواند دشمنان را ناتوان کند یا متحدانش را با انرژی مقدس تقویت نماید. این توانایی نه تنها انرژی متحدان را افزایش می‌دهد، بلکه می‌تواند به طور موقت دید دشمنان را مختل کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Judgment Flame",
+          "persian": "شعله داوری"
+        },
+        "description": {
+          "english": "Summons a radiant, fiery aura that can either be used to protect his people or incinerate his foes, a remnant of his warrior past. This aura has immense power, capable of dealing elemental fire damage while creating an impenetrable shield around his allies.",
+          "persian": "هاله‌ای آتشین و درخشان فرا می‌خواند که می‌تواند برای محافظت از مردمش یا نابودی دشمنانش استفاده شود؛ باقی‌مانده‌ای از گذشته جنگجویانه‌اش. این هاله قدرت عظیمی دارد و قادر است آسیب‌های عنصری آتش را وارد کرده و در عین حال سپری نفوذناپذیر برای متحدانش ایجاد کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "The Radiant King, born as Ali Azimi, was not destined to rule. As the second son of the royal family, his life was originally one of a warrior—trained in combat, strategy, and the elemental powers of fire and light. Known for his unmatched skill with a sword, particularly his legendary weapon, The Flame of Valoria, he rose to fame as a commander during the Great War of Realms. In his youth, Ali was revered as a symbol of strength and hope, leading the Kingdom’s armies against the invading forces from the Shadow Realm. His mastery over fire and light allowed him to wield destructive power against his enemies, while his tactical mind helped him secure victory after victory on the battlefield. The people saw him as a warrior prince, fighting for their future and protecting the kingdom from the dangers of the outside realms. However, the balance of his life changed drastically when his older brother, the rightful heir to the throne, was tragically killed in battle. Ali, who had no ambition to rule, was thrust into the position of King. With a heavy heart, he laid down his sword and took up the crown, determined to protect his people not just with fire and steel, but with wisdom and compassion. As King, Ali became known as the Radiant King, for his reign was marked by a golden age of peace and prosperity. He balanced the needs of his people, maintaining diplomatic relations with both the Light Realm and Shadow Realm, working tirelessly to keep the peace after centuries of war. His leadership style combined his tactical brilliance with a deep sense of justice, earning him the loyalty of his people and the respect of his allies. Yet, despite his successful reign, the Radiant King was not without his challenges. He often struggled with the burden of leadership, haunted by his warrior past and the guilt of his brother’s death. In recent years, tensions between the realms have begun to rise once more, and whispers of dissent echo through the halls of the Kingdom. Dark forces seem to be moving in the shadows, and rumors of political unrest have reached the King’s ears. Ali Azimi, the Radiant King, knows that peace is fragile. He senses that something—perhaps from the Shadow Realm, perhaps from within his own court—is threatening the delicate balance he has fought so hard to maintain. His focus now is on uncovering these threats before they spiral into chaos, as the future of the Kingdom and the stability of the realms rest on the decisions he makes in the days to come. Whether through diplomacy or war, the King will do whatever it takes to protect his people, even if it means taking up his sword once again.",
+      "persian": "پادشاه درخشان، با نام اصلی علی عظیمی، قرار نبود که فرمانروایی کند. به‌عنوان پسر دوم خانواده سلطنتی، زندگی او در ابتدا به‌عنوان یک جنگجو بود—آموزش‌دیده در زمینه‌های نبرد، استراتژی و قدرت‌های عنصری آتش و نور. او به‌خاطر مهارت بی‌نظیرش در استفاده از شمشیر، به‌ویژه سلاح افسانه‌ای‌اش به نام شعله والوریا، مشهور شد و به‌عنوان فرمانده‌ای بزرگ در جنگ بزرگ قلمروها به شهرت رسید. در دوران جوانی، علی به‌عنوان نمادی از قدرت و امید شناخته می‌شد، ارتش‌های پادشاهی را در برابر نیروهای مهاجم از قلمرو سایه رهبری می‌کرد. تسلط او بر آتش و نور به او امکان می‌داد تا قدرتی ویرانگر علیه دشمنانش به کار بگیرد و ذهن استراتژیک او پیروزی‌های پی‌درپی را در میدان نبرد تضمین می‌کرد. مردم او را به‌عنوان یک شاهزاده جنگجو می‌شناختند که برای آینده آن‌ها مبارزه می‌کرد و از پادشاهی در برابر خطرات بیرونی محافظت می‌کرد. اما تعادل زندگی او زمانی به‌شدت تغییر کرد که برادر بزرگ‌ترش، وارث اصلی تاج‌وتخت، در نبردی تراژیک کشته شد. علی، که هیچ تمایلی به فرمانروایی نداشت، ناگهان به مقام پادشاهی رسید. با قلبی سنگین، او شمشیرش را کنار گذاشت و تاج را بر سر گذاشت و مصمم شد که مردمش را نه فقط با قدرت و شمشیر، بلکه با خرد و شفقت محافظت کند. به‌عنوان پادشاه، علی به پادشاه درخشان مشهور شد، زیرا سلطنت او با دوره‌ای طلایی از صلح و رفاه همراه بود. او نیازهای مردمش را متعادل می‌کرد و روابط دیپلماتیک با هر دو قلمرو نور و سایه را حفظ می‌کرد و به‌سختی برای حفظ صلح پس از قرن‌ها جنگ تلاش می‌کرد. سبک رهبری او ترکیبی از نبوغ استراتژیک و حس عمیق عدالت بود که وفاداری مردم و احترام متحدانش را به دست آورد. بااین‌حال، با وجود سلطنت موفقش، پادشاه درخشان بدون چالش نبود. او اغلب با بار سنگین رهبری دست‌وپنجه نرم می‌کرد و توسط گذشته جنگجویانه‌اش و گناه مرگ برادرش تسخیر می‌شد. در سال‌های اخیر، تنش‌ها بین قلمروها دوباره افزایش یافته است و زمزمه‌های نارضایتی در راهروهای پادشاهی به گوش می‌رسد. به نظر می‌رسد که نیروهای تاریک در سایه‌ها در حال حرکت هستند و شایعاتی از ناآرامی‌های سیاسی به گوش پادشاه رسیده است. علی عظیمی، پادشاه درخشان، می‌داند که صلح شکننده است. او احساس می‌کند که چیزی—شاید از قلمرو سایه، شاید از درون دربار خودش—تهدیدی برای تعادل ظریفی است که او به‌سختی برای حفظ آن جنگیده است. اکنون تمرکز او بر کشف این تهدیدهاست پیش از آنکه به آشوب منجر شود، زیرا آینده پادشاهی و ثبات قلمروها به تصمیماتی که او در روزهای آینده می‌گیرد بستگی دارد. چه از طریق دیپلماسی، چه از طریق جنگ، پادشاه هر کاری که لازم باشد انجام خواهد داد تا مردمش را محافظت کند، حتی اگر مجبور باشد بار دیگر شمشیرش را بردارد."
+    },
+    "images": {
+      "front": "/cards/Types/Gold Warrior.svg",
+      "back": "/cards/Characters/King.svg",
+      "banner": "/cards/Banner/King.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "2",
+    "basicInfo": {
+      "characterName": "The Whispering Serpent",
+      "realName": "Ali Akbar",
+      "realm": "Kingdom, Secret Ties to the Shadow Realm",
+      "role": "Sage, Political Advisor",
+      "damageType": "Psychic and Unholy Magic",
+      "weapon": "Ceremonial Dagger, Political Manipulation",
+      "armorType": "enchanted Fine Robes"
+    },
+    "stats": {
+      "damage": 3,
+      "range": 2,
+      "precision": 5,
+      "survivability": 3,
+      "evasion": 4,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 4,
+      "magicPotency": 4,
+      "healing": 0,
+      "leadership": 3,
+      "crowdControl": 4,
+      "charisma": 5,
+      "manipulation": 5,
+      "speed": 2,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Whispers of Influence",
+          "persian": "زمزمه‌های نفوذ"
+        },
+        "description": {
+          "english": "The Consular excels at bending the minds of others to his will. He can subtly implant suggestions and manipulate emotions, leading his enemies astray or controlling key figures. His mere presence creates an atmosphere of suspicion and distrust among his opponents.",
+          "persian": "مشاور سلطنتی در خم کردن ذهن دیگران به اراده خود استاد است. او می‌تواند به‌طور نامحسوس پیشنهاداتی را در ذهن افراد بگذارد و احساساتشان را دستکاری کند و دشمنانش را گمراه یا افراد کلیدی را کنترل کند. حضور او به‌تنهایی باعث ایجاد فضایی از شک و تردید در میان مخالفانش می‌شود."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Veil of Deceit",
+          "persian": "حجاب فریب"
+        },
+        "description": {
+          "english": "The Consular can surround himself with an illusory veil, making it difficult for his enemies to discern the truth. He uses this to hide his darker intentions, shielding himself from magical detection or turning allies against one another with false information.",
+          "persian": "مشاور می‌تواند خود را در حجابی از توهم بپوشاند، به‌طوری که دشمنانش نتوانند حقیقت را تشخیص دهند. او از این توانایی برای پنهان کردن نیت‌های تاریک خود استفاده می‌کند و خود را از تشخیص‌های جادویی مخفی نگه می‌دارد یا با اطلاعات نادرست، دوستانش را علیه یکدیگر می‌شوراند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Dark Pact",
+          "persian": "پیمان تاریکی"
+        },
+        "description": {
+          "english": "In secret, the Consular has made a pact with dark forces from the Shadow Realm, allowing him to channel unholy magic when needed. This power is rarely shown in public, but in desperate moments, he can summon tendrils of shadow magic to incapacitate or corrupt his enemies.",
+          "persian": "به‌صورت مخفیانه، مشاور با نیروهای تاریک قلمرو سایه پیمانی بسته است که به او اجازه می‌دهد جادوی نامقدس را در مواقع لزوم احضار کند. این قدرت به‌ندرت در ملأ عام نشان داده می‌شود، اما در مواقع بحرانی، او می‌تواند شاخه‌های جادوی سایه را احضار کند تا دشمنانش را فلج یا فاسد کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Ali Akbar, known in the court as The Whispering Serpent, has always been a man of secrets. His rise to power as the King’s most trusted Consular was not due to birthright or strength but through his incredible intellect, charm, and subtle manipulation. Born to a family of lesser nobility, Ali Akbar quickly realized that power in the Kingdom wasn’t won by the sword, but by influence and information. In his youth, Ali Akbar was a brilliant student of political strategy and diplomacy. He had an innate ability to read people, to understand their desires, weaknesses, and ambitions. His mind was sharper than any blade, and he soon became a master of persuasion, using his charm to climb the ranks of the royal court. While others fought for power on the battlefield, Ali Akbar built his empire in the shadows, weaving intricate webs of alliances, favors, and secrets. His position as the King’s Consular granted him access to the heart of the Kingdom’s politics. For years, he advised the Radiant King, whispering strategies and decisions that ensured the Kingdom's stability and prosperity. To the public, he was a loyal and wise advisor. But those who paid closer attention noticed his growing influence over the King’s decisions. However, Ali Akbar’s ambitions didn’t stop at being a mere advisor. Secretly, he harbored a desire for more—absolute control. Behind the facade of loyalty, he began cultivating connections in the Shadow Realm, seeing the dark forces there as a means to achieve his true goal: the throne itself. His dealings were cautious, hidden beneath layers of deception and political maneuvering, so that even the most observant members of the court couldn’t see the depth of his ambition. Over the years, whispers of unrest began circulating in the Kingdom, as tensions between the Light and Shadow Realms intensified. Ali Akbar used these divisions to his advantage, subtly fanning the flames of conflict while positioning himself as the only one who could maintain the balance. He ensured that both realms distrusted each other, while simultaneously presenting himself as the King’s most loyal servant, protecting the Kingdom from the brink of war. His pact with the Shadow Realm has granted him access to powers that few in the Kingdom could comprehend. But his greatest strength remains his mind—his ability to play the game of politics, to twist the truth, and to manipulate those around him without ever lifting a blade. Though Ali Akbar is always seen by the King’s side, guiding his decisions, he dreams of a day when he will no longer be in the shadows, but instead on the throne. For now, he plays the long game, careful not to reveal his true intentions until the time is right.",
+      "persian": "علی اکبر، که در دربار به‌عنوان مار زمزمه‌گر شناخته می‌شود، همیشه مردی پر از راز و رمز بوده است. صعود او به قدرت به‌عنوان معتمدترین مشاور پادشاه به‌خاطر نژاد یا نیروی بدنی نبود، بلکه نتیجه هوش فوق‌العاده، جذابیت و دستکاری‌های نامحسوس او بود. علی اکبر که در خانواده‌ای از اشراف‌زاده‌های کوچک به دنیا آمده بود، خیلی زود فهمید که قدرت در پادشاهی نه با شمشیر، بلکه با نفوذ و اطلاعات به دست می‌آید. در جوانی، علی اکبر دانش‌آموزی برجسته در استراتژی‌های سیاسی و دیپلماسی بود. او توانایی ذاتی داشت تا مردم را بخواند و آرزوها، ضعف‌ها و جاه‌طلبی‌هایشان را درک کند. ذهن او تیزتر از هر تیغی بود و به‌سرعت به استادی در متقاعدسازی رسید و از جذابیت خود برای بالا رفتن از نردبان دربار سلطنتی استفاده کرد. درحالی‌که دیگران در میدان نبرد برای قدرت می‌جنگیدند، علی اکبر امپراتوری خود را در سایه‌ها ساخت و شبکه‌های پیچیده‌ای از اتحادها، لطف‌ها و رازها بافت. مقام او به‌عنوان مشاور پادشاه به او دسترسی به قلب سیاست‌های پادشاهی را داد. برای سال‌ها، او به پادشاه درخشان مشورت می‌داد و استراتژی‌ها و تصمیماتی را زمزمه می‌کرد که ثبات و شکوفایی پادشاهی را تضمین می‌کرد. برای عموم مردم، او مشاوری وفادار و خردمند بود. اما کسانی که با دقت بیشتری نگاه می‌کردند، متوجه نفوذ روزافزون او بر تصمیمات پادشاه شدند. اما جاه‌طلبی‌های علی اکبر در مقام مشاور متوقف نشد. در خفا، او آرزوی بیشتری در سر داشت—کنترل مطلق. پشت نقاب وفاداری، او شروع به برقراری ارتباط با نیروهای قلمرو سایه کرد و آن‌ها را به‌عنوان وسیله‌ای برای دستیابی به هدف نهایی خود یعنی تاج‌وتخت دید. معاملات او با احتیاط و در پشت لایه‌های متعددی از فریب و مانورهای سیاسی پنهان شده بود، به‌طوری‌که حتی تیزبین‌ترین افراد دربار هم نمی‌توانستند عمق جاه‌طلبی او را درک کنند. در طول سال‌ها، زمزمه‌هایی از نارضایتی در پادشاهی پخش شد، و تنش‌ها میان قلمروهای نور و سایه شدت گرفت. علی اکبر از این اختلافات به نفع خود استفاده کرد و به‌طور نامحسوس آتش اختلافات را شعله‌ور کرد، درحالی‌که خود را به‌عنوان تنها کسی معرفی کرد که می‌تواند تعادل را حفظ کند. او مطمئن شد که هر دو قلمرو به یکدیگر اعتماد ندارند و هم‌زمان خود را به‌عنوان وفادارترین خدمتگزار پادشاه نشان داد که از پادشاهی در آستانه جنگ محافظت می‌کند. پیمان او با قلمرو سایه قدرت‌هایی به او اعطا کرده که تعداد کمی در پادشاهی می‌توانند آن را درک کنند. اما بزرگ‌ترین قدرت او همچنان ذهن اوست—توانایی او در بازی سیاست، پیچاندن حقیقت و دستکاری افرادی که در اطرافش هستند، بدون آنکه حتی شمشیری بلند کند. اگرچه علی اکبر همیشه در کنار پادشاه دیده می‌شود و تصمیمات او را هدایت می‌کند، او رویای روزی را در سر می‌پروراند که دیگر در سایه‌ها نباشد، بلکه روی تاج‌وتخت قرار گیرد. فعلاً او بازی طولانی‌مدت خود را ادامه می‌دهد، مراقب است تا زمانی که وقتش نرسیده، نیت‌های واقعی خود را آشکار نکند."
+    },
+    "images": {
+      "front": "/cards/Types/Gold Sage.svg",
+      "back": "/cards/Characters/Consular.svg",
+      "banner": "/cards/Banner/Consular.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "3",
+    "basicInfo": {
+      "characterName": "The Ironshield",
+      "realName": "Ali",
+      "realm": "Kingdom",
+      "role": "Warrior, Commander of the Kingdom’s Armies",
+      "damageType": "Physical (Slashing and Crushing)",
+      "weapon": "Massive Greatsword, Shield",
+      "armorType": "Heavy Plate Armor, with the Kingdom’s Crest"
+    },
+    "stats": {
+      "damage": 5,
+      "range": 2,
+      "precision": 4,
+      "survivability": 5,
+      "evasion": 2,
+      "armorStrength": 5,
+      "intelligence": 4,
+      "willpower": 5,
+      "magicPotency": 0,
+      "healing": 1,
+      "leadership": 5,
+      "crowdControl": 4,
+      "charisma": 4,
+      "manipulation": 1,
+      "speed": 2,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Unbreakable Wall",
+          "persian": "دیوار شکست‌ناپذیر"
+        },
+        "description": {
+          "english": "The Commander is a fortress on the battlefield. With his massive shield and heavy armor, he can absorb tremendous damage, standing as a defensive wall for his allies. This ability increases his survivability and allows him to hold off enemies while his troops regroup.",
+          "persian": "فرمانده در میدان نبرد مانند یک قلعه مستحکم است. با سپر عظیم و زره سنگین خود، می‌تواند مقدار زیادی از آسیب را جذب کند و به عنوان یک دیوار دفاعی برای متحدانش عمل کند. این توانایی میزان بقای او را افزایش می‌دهد و به او اجازه می‌دهد تا دشمنان را متوقف کند تا نیروهایش بتوانند دوباره جمع شوند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Battle Cry",
+          "persian": "فریاد نبرد"
+        },
+        "description": {
+          "english": "The Commander’s voice booms across the battlefield, rallying his troops and striking fear into the hearts of his enemies. His Battle Cry grants increased morale and strength to nearby allies, while causing nearby enemies to hesitate or retreat. This ability boosts leadership and crowd control.",
+          "persian": "صدای فرمانده در سراسر میدان نبرد طنین‌انداز می‌شود و نیروهایش را تقویت کرده و ترس را در دل دشمنانش می‌کارد. فریاد نبرد او روحیه و قدرت متحدان نزدیک را افزایش می‌دهد و باعث می‌شود که دشمنان در نزدیکی دچار تردید یا عقب‌نشینی شوند. این توانایی به رهبری و کنترل جمعیت کمک می‌کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Ironblade Strike",
+          "persian": "ضربه شمشیر آهنین"
+        },
+        "description": {
+          "english": "The Commander swings his enormous greatsword with devastating force, delivering a powerful strike that can cleave through enemy defenses. The Ironblade Strike is a signature move that deals heavy damage to opponents and has the potential to break through shields and armor.",
+          "persian": "فرمانده شمشیر عظیم خود را با نیروی ویرانگر به حرکت درمی‌آورد و ضربه‌ای قدرتمند وارد می‌کند که می‌تواند از دفاع دشمن عبور کند. ضربه شمشیر آهنین حرکت امضای اوست که آسیب سنگینی به دشمنان وارد می‌کند و توانایی شکستن سپر و زره را دارد."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Ali, now known as the Ironshield, rose to his position not through noble birth or political connections, but through sheer strength, bravery, and loyalty to the Kingdom. Born to a family of blacksmiths, Ali grew up in the forge, learning the art of crafting weapons and armor from an early age. His childhood was spent among the fire and steel, and it was there that his love for battle was forged. As a young man, Ali joined the Kingdom’s army as a simple foot soldier, but it wasn’t long before his incredible skill with a sword and his unshakable bravery in the face of danger caught the attention of his superiors. He fought in countless battles, proving himself time and again as a warrior of unparalleled might. His greatsword, a massive weapon forged in the fires of his family’s forge, became his signature tool of destruction, and his name began to spread throughout the Kingdom as one of the greatest warriors of his generation. In battle, Ali was known for his unmatched resilience. No matter how fierce the fight, he could always be found at the front lines, his massive shield raised high, absorbing blow after blow while his troops rallied behind him. His presence on the battlefield was a symbol of hope for his allies and a nightmare for his enemies. When the former High Commander fell during a campaign against the forces of the Shadow Realm, Ali was chosen to take his place. Not because of his lineage or political connections, but because there was no man in the Kingdom more deserving of the title. Under his command, the armies of the Kingdom have flourished, winning decisive victories against both the Light and Shadow Realms and protecting the Kingdom from countless threats. Despite his ferocious strength, Ali is known for his honor and loyalty. He is a man of few words, but when he speaks, his soldiers listen. His strategies are simple but effective, relying on brute force, discipline, and sheer determination to win the day. There is no room for deceit in his world—Ali believes in the purity of combat and the honor of protecting the Kingdom above all else. While he has no love for politics, Ali serves the Radiant King with unwavering loyalty. He fights for the Kingdom, for his men, and for the legacy of his family. Yet, as whispers of unrest spread through the court, Ali finds himself in unfamiliar territory. He senses that the real battle is not only being fought on the frontlines but also in the shadowy corridors of power. Though he is no politician, Ali knows that the fate of the Kingdom may soon depend on more than just swords and shields.",
+      "persian": "علی، که اکنون به نام سپر آهنین شناخته می‌شود، نه به‌خاطر تولد نجیب‌زاده بودن یا ارتباطات سیاسی، بلکه از طریق قدرت خالص، شجاعت و وفاداری به پادشاهی به مقام فرماندهی کل رسید. علی که در خانواده‌ای از آهنگران به دنیا آمده بود، از سنین پایین در کارگاه آهنگری بزرگ شد و هنر ساخت سلاح و زره را آموخت. دوران کودکی او در میان آتش و فولاد گذشت و همان‌جا بود که عشق او به نبرد شکل گرفت. به عنوان یک جوان، علی به ارتش پادشاهی پیوست و کار خود را به‌عنوان یک سرباز ساده شروع کرد. اما خیلی زود مهارت بی‌نظیر او در استفاده از شمشیر و شجاعت بی‌بدیلش در مقابل خطر، توجه فرماندهان را به خود جلب کرد. او در نبردهای بی‌شماری شرکت کرد و بارها و بارها ثابت کرد که یکی از بزرگ‌ترین جنگجویان نسل خود است. شمشیر عظیم او، که در کارگاه خانوادگی‌اش ساخته شده بود، به ابزار اصلی ویرانی دشمنان تبدیل شد و نام او در سراسر پادشاهی به عنوان یکی از بزرگ‌ترین جنگجویان شناخته شد. در میدان نبرد، علی به‌خاطر مقاومت بی‌نظیرش شهرت یافت. فرقی نمی‌کرد که نبرد چقدر شدید باشد، همیشه می‌توانست او را در خط مقدم یافت؛ سپر عظیمش را بالا گرفته و ضربات پی‌درپی دشمن را دفع می‌کرد در حالی که نیروهایش پشت او دوباره سازماندهی می‌شدند. حضور او در میدان نبرد نمادی از امید برای متحدان و کابوسی برای دشمنان بود. وقتی فرمانده کل سابق در یکی از حملات علیه نیروهای قلمرو سایه جان خود را از دست داد، علی برای جایگزینی او انتخاب شد. نه به‌خاطر نژاد یا ارتباطات سیاسی‌اش، بلکه به این دلیل که هیچ مرد دیگری در پادشاهی به‌اندازه او شایسته این مقام نبود. تحت فرماندهی او، ارتش‌های پادشاهی شکوفا شدند و پیروزی‌های قاطعی علیه قلمروهای نور و سایه به دست آوردند و از پادشاهی در برابر تهدیدات بی‌شمار محافظت کردند. با وجود قدرت فوق‌العاده‌اش، علی به‌خاطر افتخار و وفاداری‌اش شناخته می‌شود. او مردی کم‌حرف است، اما وقتی سخن می‌گوید، سربازانش به دقت گوش می‌دهند. استراتژی‌های او ساده اما مؤثرند، بر پایه نیروی بی‌نظیر، انضباط و اراده قوی. در دنیای او جایی برای فریب نیست—علی به خلوص نبرد و افتخار محافظت از پادشاهی باور دارد. اگرچه او علاقه‌ای به سیاست ندارد، علی با وفاداری بی‌چون و چرا به پادشاه درخشان خدمت می‌کند. او برای پادشاهی، برای مردانش و برای میراث خانواده‌اش می‌جنگد. با این حال، با افزایش زمزمه‌های نارضایتی در دربار، علی خود را در قلمروی ناشناخته می‌بیند. او حس می‌کند که نبرد واقعی فقط در خطوط مقدم جنگ نیست، بلکه در راهروهای سایه‌دار قدرت در جریان است. اگرچه سیاستمدار نیست، علی می‌داند که سرنوشت پادشاهی به تصمیماتی بستگی دارد که در روزهای آینده اتخاذ خواهد شد."
+    },
+    "images": {
+      "front": "/cards/Types/Gold Warrior.svg",
+      "back": "/cards/Characters/Ironshield.svg",
+      "banner": "/cards/Banner/Ironshield.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "4",
+    "basicInfo": {
+      "characterName": "The Arcane Luminary",
+      "realName": "Hossain",
+      "realm": "Light Realm",
+      "role": "Magician",
+      "damageType": "Elemental Light and Holy Magic",
+      "weapon": "Staff of Radiance",
+      "armorType": "Enchanted Robes (imbued with protective light magic)"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 5,
+      "precision": 4,
+      "survivability": 3,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 4,
+      "magicPotency": 5,
+      "healing": 2,
+      "leadership": 3,
+      "crowdControl": 4,
+      "charisma": 3,
+      "manipulation": 2,
+      "speed": 2,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Solar Flare",
+          "persian": "شعله خورشید"
+        },
+        "description": {
+          "english": "Hossain channels the raw energy of the sun, releasing a powerful blast of radiant light that blinds enemies and burns those caught in its path. This ability deals heavy elemental damage and can briefly incapacitate enemies, making it a powerful ranged attack.",
+          "persian": "حسین انرژی خام خورشید را متمرکز کرده و یک انفجار قدرتمند از نور درخشان را آزاد می‌کند که دشمنان را کور کرده و کسانی را که در مسیر آن قرار دارند، می‌سوزاند. این توانایی آسیب شدید عنصر نوری وارد می‌کند و می‌تواند دشمنان را برای مدت کوتاهی ناتوان کند و آن را به یک حمله دوربرد قدرتمند تبدیل می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Blessing of Light",
+          "persian": "برکت نور"
+        },
+        "description": {
+          "english": "Hossain uses his connection to holy magic to shield himself and his allies, summoning a protective barrier of light that absorbs damage. This ability boosts survivability for a short time and grants minor healing to allies within its range.",
+          "persian": "حسین از ارتباط خود با جادوی مقدس استفاده می‌کند تا خود و متحدانش را محافظت کند. او یک سپر محافظ از نور احضار می‌کند که آسیب‌ها را جذب می‌کند. این توانایی بقا را برای مدت کوتاهی افزایش می‌دهد و درمان کمی برای متحدان در محدوده خود فراهم می‌کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Divine Chains",
+          "persian": "زنجیرهای الهی"
+        },
+        "description": {
+          "english": "Hossain conjures ethereal chains made of pure light to bind his enemies, holding them in place and restricting their movement. This ability is used for crowd control, disabling multiple enemies and preventing them from attacking or fleeing.",
+          "persian": "حسین زنجیرهایی از جنس نور خالص را احضار می‌کند تا دشمنانش را ببندد و حرکت آن‌ها را محدود کند. این توانایی برای کنترل جمعیت استفاده می‌شود و دشمنان را ناتوان کرده و از حمله یا فرار بازمی‌دارد."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Hossain, now known as the Arcane Luminary, was born in the heart of the Light Realm—a land bathed in eternal sunlight and order. From a young age, it was clear that he had a deep connection to the mystical forces of light. His ability to harness magic came naturally to him, and he was taken in by the Luminary Academy, the most prestigious institution for training mages in the Light Realm. Hossain excelled in his studies, mastering both elemental light magic and holy incantations. His instructors saw great potential in him, not just as a mage, but as a symbol of the Light Realm’s ideals. They believed that his talents could be used to promote peace and order across the realms, making him a rising star within the academy. Over time, Hossain earned the title of the Arcane Luminary, representing both his magical prowess and his deep philosophical connection to the light. However, Hossain’s rise to power came with a price. While he truly believes in the Light Realm’s mission to bring balance and peace, he has seen firsthand the arrogance that can come from wielding such power. Some of his fellow mages believe that the Shadow Realm is irredeemable, that the only path to peace is to destroy it entirely. Hossain is torn between his loyalty to the Light Realm and his growing belief that true peace cannot come from conquest. His travels have taken him to the borders of the Shadow Realm, where he has seen the complexities of their society. He knows that the people of the Shadow Realm are not inherently evil, as many in the Light Realm believe, but are driven by survival and a different approach to power. This has caused inner conflict within Hossain—he wishes to protect the Light Realm, but he fears that its rigid philosophy may lead it down a dark path of domination and intolerance. As tensions rise between the Light and Shadow Realms, Hossain is determined to find a third path—one that does not rely on destruction but on understanding. However, his growing skepticism of the Light Council has made him somewhat of an outlier among his peers. While he remains loyal to the Light Realm, he believes that a reckoning is coming, and that he may soon have to choose between his home and his principles. Despite this inner turmoil, Hossain remains a powerful force on the battlefield. His magic is unmatched, and he is a beacon of light for those who follow him into battle. But behind his radiant spells and confident demeanor lies a man searching for a way to bridge the gap between light and shadow.",
+      "persian": "حسین، که اکنون به نام ساحر روشنایی شناخته می‌شود، در قلب قلمرو نور به دنیا آمد—سرزمینی که در نور ابدی و نظم غوطه‌ور است. از همان کودکی، مشخص بود که او ارتباط عمیقی با نیروهای جادویی نور دارد. توانایی او در کنترل جادو به‌طور طبیعی برایش میسر بود و به همین دلیل به آکادمی روشنایی، معتبرترین مؤسسه برای آموزش جادوگران در قلمرو نور، پذیرفته شد. حسین در مطالعات خود برجسته شد و هم جادوی نوری عنصری و هم وردهای مقدس را به خوبی یاد گرفت. استادانش در او پتانسیل زیادی دیدند، نه فقط به عنوان یک جادوگر، بلکه به عنوان نمادی از ایده‌آل‌های قلمرو نور. آن‌ها باور داشتند که توانایی‌های او می‌تواند برای ترویج صلح و نظم در سرتاسر قلمروها استفاده شود و او به ستاره‌ای در حال طلوع در آکادمی تبدیل شد. در طول زمان، حسین لقب ساحر روشنایی را به‌دست آورد، که هم به معنای مهارت جادویی او و هم ارتباط عمیق فلسفی‌اش با نور بود. بااین‌حال، صعود حسین به قدرت بی‌هزینه نبود. درحالی‌که او واقعاً به مأموریت قلمرو نور برای برقراری تعادل و صلح اعتقاد داشت، از نزدیک شاهد تکبر کسانی بود که چنین قدرتی را در اختیار داشتند. برخی از هم‌کلاسی‌هایش معتقد بودند که قلمرو سایه غیرقابل نجات است و تنها راه رسیدن به صلح این است که آن را به‌طور کامل نابود کنند. حسین بین وفاداری به قلمرو نور و باور فزاینده خود که صلح واقعی از طریق تسخیر حاصل نمی‌شود، دچار تردید شد. سفرهای او او را به مرزهای قلمرو سایه برده است، جایی که پیچیدگی‌های جامعه آن‌ها را از نزدیک دیده است. او می‌داند که مردم قلمرو سایه ذاتاً شرور نیستند، همان‌طور که بسیاری در قلمرو نور باور دارند، بلکه توسط بقا و رویکرد متفاوتی به قدرت هدایت می‌شوند. این موضوع درونی در حسین تضاد ایجاد کرده است—او می‌خواهد از قلمرو نور محافظت کند، اما از اینکه فلسفه سخت‌گیرانه آن ممکن است آن‌ها را به مسیر تسخیر و عدم تحمل بکشاند، می‌ترسد. با افزایش تنش‌ها بین قلمروهای نور و سایه، حسین مصمم است که مسیر سومی پیدا کند—مسیرهایی که به جای ویرانی بر اساس فهم باشد. با این‌حال، شک و تردید فزاینده او نسبت به شورای نور او را به فردی جدا از هم‌قطارانش تبدیل کرده است. درحالی‌که او همچنان به قلمرو نور وفادار است، او باور دارد که زمانی خواهد رسید که مجبور خواهد شد بین خانه‌اش و اصولش یکی را انتخاب کند. باوجود این تردیدهای درونی، حسین همچنان نیرویی قدرتمند در میدان نبرد است. جادوی او بی‌نظیر است و او به عنوان چراغی از نور برای کسانی که او را در نبرد دنبال می‌کنند، شناخته می‌شود. اما پشت وردهای درخشان و اعتماد به نفسش، مردی قرار دارد که به دنبال راهی برای پل زدن بین نور و سایه است."
+    },
+    "images": {
+      "front": "/cards/Types/Light Magician.svg",
+      "back": "/cards/Characters/Arcane Luminary.svg",
+      "banner": "/cards/Banner/Arcane Luminary.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "5",
+    "basicInfo": {
+      "characterName": "The Dawnbringer",
+      "realName": "Ali",
+      "realm": "Light Realm",
+      "role": "Magician",
+      "damageType": "Elemental Light and Fire Magic",
+      "weapon": "Staff of Flames",
+      "armorType": "Enchanted Robes of the Dawn (imbued with fire and light protections)"
+    },
+    "stats": {
+      "damage": 5,
+      "range": 4,
+      "precision": 3,
+      "survivability": 3,
+      "evasion": 2,
+      "armorStrength": 2,
+      "intelligence": 4,
+      "willpower": 4,
+      "magicPotency": 5,
+      "healing": 1,
+      "leadership": 3,
+      "crowdControl": 4,
+      "charisma": 3,
+      "manipulation": 1,
+      "speed": 3,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Inferno’s Light",
+          "persian": "نور جهنم"
+        },
+        "description": {
+          "english": "Ali channels the power of both light and fire to unleash a devastating burst of flames that radiate outward, burning enemies in a wide area. This ability deals massive area-of-effect damage and is perfect for taking out groups of enemies at once.",
+          "persian": "علی قدرت نور و آتش را متمرکز کرده و یک انفجار ویرانگر از شعله‌ها را به اطراف خود آزاد می‌کند که دشمنان را در منطقه‌ای وسیع می‌سوزاند. این توانایی آسیب ناحیه‌ای شدید وارد می‌کند و برای نابود کردن گروه‌های بزرگ از دشمنان ایده‌آل است."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Blazing Shield",
+          "persian": "سپر آتشین"
+        },
+        "description": {
+          "english": "By combining the elements of fire and light, Ali conjures a protective shield of flames that burns anyone who tries to get close. The Blazing Shield provides temporary protection while also dealing damage to enemies in melee range.",
+          "persian": "با ترکیب عناصر آتش و نور، علی سپر محافظی از شعله‌ها احضار می‌کند که هر کسی که به او نزدیک شود را می‌سوزاند. سپر آتشین به‌طور موقت محافظت فراهم می‌کند و هم‌زمان به دشمنان نزدیک آسیب وارد می‌کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Flare of Judgment",
+          "persian": "شعله داوری"
+        },
+        "description": {
+          "english": "Ali summons a focused beam of pure sunlight and fire, which he directs toward a single enemy. This high-precision attack deals massive damage and can pierce through even the toughest armor, making it a powerful finishing move.",
+          "persian": "علی یک پرتو متمرکز از نور خورشید و آتش احضار می‌کند و آن را به سمت یک دشمن مشخص هدایت می‌کند. این حمله با دقت بالا آسیب شدیدی وارد می‌کند و حتی می‌تواند از سخت‌ترین زره‌ها عبور کند و به یک ضربه پایانی قدرتمند تبدیل شود."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Ali, known across the Light Realm as the Dawnbringer, is one of the most powerful and aggressive mages the realm has produced. Unlike many of his peers who view light magic as a tool for protection or balance, Ali has always believed that the light is a weapon—a force to be used to purge darkness and destroy those who threaten the order of the Light Realm. From a young age, Ali was fascinated by the destructive power of fire and light. While other students at the Luminary Academy focused on healing or barriers, Ali poured himself into mastering the art of elemental destruction. His instructors were initially concerned by his aggressive approach, but they couldn’t deny his raw talent. As he grew older, he earned the title of Dawnbringer—a name given to him for his ability to bring the fire of the dawn to any battlefield, burning away enemies and purifying the land. Ali’s belief in the superiority of the Light Realm has shaped his worldview. He believes that light is the only path to true order and that the Shadow Realm, with its embrace of pain and darkness, is a threat that must be eliminated. His view is more extreme than others in the Light Realm—where some hope for balance, Ali sees only a future where the Shadow Realm is conquered or destroyed. To him, the light must dominate to maintain peace. Despite his aggressive tendencies, Ali is not without honor. He fights not for personal gain but because he genuinely believes that the light’s path is the only one that can save the realms. He is a fierce defender of his people, and his soldiers follow him without question, knowing that he will lead them to victory with his powerful magic. However, his extremism has caused friction with more moderate mages in the Light Realm. Some see Ali as dangerous, someone who could push the realm into a destructive war with the Shadow Realm, which might endanger the very balance they are trying to protect. Hossain, the Arcane Luminary, is one such voice of caution, and the two have often clashed over their differing philosophies. Now, as tensions between the realms rise, Ali stands ready to lead the charge into battle. He believes that the Shadow Realm must be dealt with once and for all. But his refusal to see the gray areas of conflict may make him both a powerful ally and a potential danger in the pursuit of peace.",
+      "persian": "علی، که در سراسر قلمرو نور به عنوان آورنده سپیده‌دم شناخته می‌شود، یکی از قدرتمندترین و تهاجمی‌ترین جادوگرانی است که این قلمرو تاکنون پرورش داده است. برخلاف بسیاری از هم‌قطارانش که جادوی نور را ابزاری برای حفاظت یا تعادل می‌دانند، علی همیشه معتقد بود که نور یک سلاح است—نیرویی که باید برای پاک‌سازی تاریکی و نابود کردن کسانی که تهدیدی برای نظم قلمرو نور هستند، استفاده شود. از سنین پایین، علی شیفته قدرت ویرانگر آتش و نور بود. درحالی‌که دیگر دانش‌آموزان در آکادمی روشنایی بر درمان یا سپرهای محافظ تمرکز داشتند، علی تمام تلاش خود را برای تسلط بر هنر تخریب عنصری صرف کرد. در ابتدا، استادانش از رویکرد تهاجمی او نگران بودند، اما نمی‌توانستند استعداد خالص او را انکار کنند. با گذشت زمان، او لقب آورنده سپیده‌دم را به دست آورد—نامی که به‌خاطر توانایی او در آوردن آتش سپیده‌دم به هر میدان نبرد، سوزاندن دشمنان و پاک‌سازی سرزمین، به او داده شد. اعتقاد علی به برتری قلمرو نور جهان‌بینی او را شکل داده است. او معتقد است که نور تنها مسیر به سوی نظم واقعی است و اینکه قلمرو سایه، با پذیرش درد و تاریکی، تهدیدی است که باید از بین برود. دیدگاه او بسیار افراطی‌تر از دیگران در قلمرو نور است—درحالی‌که برخی به دنبال تعادل هستند، علی تنها آینده‌ای را می‌بیند که در آن قلمرو سایه یا تسخیر شده یا نابود شده است. برای او، نور باید برای حفظ صلح حاکم باشد. بااین‌حال، علی نه بدون افتخار است و نه به‌دنبال منافع شخصی. او نه به‌خاطر منافع فردی بلکه به این دلیل می‌جنگد که واقعاً معتقد است مسیر نور تنها راه نجات قلمروهاست. او مدافع سرسخت مردمش است و سربازانش بدون پرسش از او پیروی می‌کنند، زیرا می‌دانند که او با جادوی قدرتمند خود آن‌ها را به سوی پیروزی رهبری خواهد کرد. بااین‌حال، افراط‌گرایی او باعث اصطکاک با جادوگران معتدل‌تر در قلمرو نور شده است. برخی از او به عنوان خطرناک یاد می‌کنند، کسی که ممکن است قلمرو را به جنگی ویرانگر با قلمرو سایه بکشاند، جنگی که می‌تواند تعادلی را که در تلاش برای محافظت از آن هستند به خطر بیندازد. حسین، ساحر روشنایی، یکی از این صداهای هشداردهنده است و این دو اغلب بر سر تفاوت‌های فلسفی خود با یکدیگر درگیر شده‌اند. اکنون، با افزایش تنش‌ها بین قلمروها، علی آماده است تا رهبری حمله به نبرد را بر عهده بگیرد. او معتقد است که قلمرو سایه باید یک بار برای همیشه از میان برداشته شود. اما ناتوانی او در دیدن مناطق خاکستری ممکن است او را به یک متحد قدرتمند و درعین‌حال یک خطر بالقوه در مسیر رسیدن به صلح تبدیل کند."
+    },
+    "images": {
+      "front": "/cards/Types/Light Magician.svg",
+      "back": "/cards/Characters/Dawnbringer.svg",
+      "banner": "/cards/Banner/Dawnbringer.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "6",
+    "basicInfo": {
+      "characterName": "The Shield of Dawn",
+      "realName": "Mahdi",
+      "realm": "Light Realm",
+      "role": "Warrior",
+      "damageType": "Physical (Blunt Force, Holy-infused strikes)",
+      "weapon": "Massive Warhammer",
+      "armorType": "Heavy Plate Armor with Holy Symbols"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 2,
+      "precision": 3,
+      "survivability": 5,
+      "evasion": 1,
+      "armorStrength": 5,
+      "intelligence": 3,
+      "willpower": 4,
+      "magicPotency": 1,
+      "healing": 1,
+      "leadership": 3,
+      "crowdControl": 4,
+      "charisma": 3,
+      "manipulation": 1,
+      "speed": 1,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Hammer of the Heavens",
+          "persian": "چکش آسمان‌ها"
+        },
+        "description": {
+          "english": "Mahdi swings his massive warhammer with divine strength, striking the ground and causing a shockwave of holy energy that damages and knocks back enemies. This ability deals heavy area-of-effect damage and crowd control, knocking enemies off their feet.",
+          "persian": "مهدی با نیروی الهی چکش عظیم خود را به زمین می‌کوبد و یک موج شوک از انرژی مقدس ایجاد می‌کند که به دشمنان آسیب می‌زند و آن‌ها را به عقب می‌راند. این توانایی آسیب ناحیه‌ای سنگین وارد می‌کند و دشمنان را از پا می‌اندازد و به عنوان کنترل جمعیت استفاده می‌شود."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Unyielding Fortress",
+          "persian": "قلعه تسلیم‌ناپذیر"
+        },
+        "description": {
+          "english": "With his heavy armor and towering presence, Mahdi can enter a defensive stance that greatly increases his survivability and armor strength for a short time, making him nearly impossible to knock down. His holy shield can absorb incoming damage and protect nearby allies.",
+          "persian": "با زره سنگین و حضور بزرگ خود، مهدی می‌تواند به حالت دفاعی برود که بقا و قدرت زره او را به‌شدت افزایش می‌دهد و او را برای مدت کوتاهی تقریباً غیرقابل شکست می‌کند. سپر مقدس او می‌تواند آسیب‌های ورودی را جذب کرده و از متحدان نزدیک محافظت کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Judgment Strike",
+          "persian": "ضربه داوری"
+        },
+        "description": {
+          "english": "Focusing all his strength into a single blow, Mahdi channels holy energy into his warhammer and delivers a devastating strike that can shatter armor and deal massive damage to a single enemy. This move is often used as a finisher in battle.",
+          "persian": "مهدی تمام قدرت خود را در یک ضربه متمرکز می‌کند و انرژی مقدس را در چکش خود جمع کرده و ضربه‌ای ویرانگر به دشمن وارد می‌کند که می‌تواند زره‌ها را بشکند و آسیب شدیدی به یک دشمن مشخص وارد کند. این حرکت اغلب به عنوان یک ضربه نهایی در نبرد استفاده می‌شود."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Mahdi, known as the Shield of Dawn, is a towering presence both on and off the battlefield. Hailing from a long line of warriors dedicated to protecting the Light Realm, Mahdi has always believed in the ideals of strength, duty, and honor. His massive frame and natural talent for combat made him a formidable warrior from a young age, and he quickly rose through the ranks of the Light Realm’s military. While many warriors in the Light Realm favor speed and precision, Mahdi has always relied on his strength and endurance to overwhelm his enemies. His preferred weapon is a massive warhammer, imbued with holy magic that allows him to channel the power of the Light Realm into every strike. His blows are slow but devastating, capable of crushing armor and sending enemies flying. Though Mahdi is known for his strength, he is also revered for his role as a protector. His heavy plate armor, adorned with the symbols of the Light Realm, allows him to stand at the forefront of any battle, absorbing blows that would fell lesser men. To his allies, Mahdi is a living fortress—a shield that stands between them and harm. He has saved countless lives by throwing himself into danger, knowing that his strength and resilience will allow him to hold the line. However, Mahdi is not just a warrior of brute strength. Beneath his imposing exterior lies a man who deeply values justice and compassion. He believes that true strength comes not from causing harm but from protecting the weak and defending the innocent. This philosophy has earned him the respect of both his comrades and the people of the Light Realm. Despite his unwavering loyalty to the Light Realm, Mahdi has begun to see cracks in the realm’s ideals. As tensions with the Shadow Realm rise, he is troubled by the growing calls for war. While he is a warrior at heart, Mahdi does not believe that conflict is the only solution. He has seen the cost of war firsthand and fears that another great conflict could tear the realms apart. Mahdi often finds himself at odds with more aggressive members of the Light Realm’s military, such as Ali, the Dawnbringer, who advocate for the complete destruction of the Shadow Realm. Though Mahdi is prepared to fight if necessary, he hopes that there is another way—one that will allow both realms to coexist without bloodshed. In battle, Mahdi is a force of nature. His blows can turn the tide of war, and his presence inspires those around him to fight harder. But in his heart, he is a man of peace, struggling with the idea that his strength may be used to fuel a war that he does not fully believe in.",
+      "persian": "مهدی، که به عنوان سپر سپیده‌دم شناخته می‌شود، هم در میدان نبرد و هم خارج از آن حضوری عظیم دارد. او از خانواده‌ای جنگجو که به حفاظت از قلمرو نور متعهد بودند، برخاسته است. مهدی همیشه به ایده‌آل‌های قدرت، وظیفه و شرافت اعتقاد داشته است. جثه عظیم و استعداد طبیعی او در نبرد باعث شد که از همان جوانی به یک جنگجوی قابل توجه تبدیل شود و به سرعت در صفوف ارتش قلمرو نور پیشرفت کند. درحالی‌که بسیاری از جنگجویان قلمرو نور به سرعت و دقت تکیه می‌کنند، مهدی همیشه به قدرت و استقامت خود برای غلبه بر دشمنانش اتکا کرده است. سلاح ترجیحی او یک چکش جنگی عظیم است که با جادوی مقدس آغشته شده و به او امکان می‌دهد قدرت قلمرو نور را در هر ضربه خود وارد کند. ضربات او کند اما ویرانگر هستند، قادر به خرد کردن زره و پرتاب دشمنان به دور. مهدی به‌خاطر قدرت خود شناخته می‌شود، اما همچنین به‌خاطر نقش خود به‌عنوان محافظ مورد احترام است. زره سنگین او، که با نمادهای قلمرو نور تزئین شده است، به او اجازه می‌دهد در خط مقدم هر نبرد بایستد و ضرباتی که مردان ضعیف‌تر را از پای در می‌آورد، جذب کند. برای متحدانش، مهدی یک قلعه زنده است—سپر زنده‌ای که بین آن‌ها و خطر می‌ایستد. او با انداختن خود به خطر، جان‌های بسیاری را نجات داده است و می‌داند که قدرت و استقامت او به او اجازه می‌دهد تا خط مقدم را نگه دارد. بااین‌حال، مهدی فقط یک جنگجوی قوی نیست. در زیر ظاهر بزرگ او، مردی وجود دارد که به عدالت و دلسوزی اهمیت می‌دهد. او معتقد است که قدرت واقعی از آسیب رساندن نمی‌آید بلکه از حفاظت از ضعیفان و دفاع از بی‌گناهان نشأت می‌گیرد. این فلسفه او را در میان هم‌رزمانش و مردم قلمرو نور بسیار محترم کرده است. باوجود وفاداری بی‌قیدوشرط او به قلمرو نور، مهدی شروع به دیدن ترک‌هایی در ایده‌آل‌های این قلمرو کرده است. با افزایش تنش‌ها با قلمرو سایه، او نگران افزایش خواسته‌ها برای جنگ است. اگرچه او در دل یک جنگجو است، مهدی باور ندارد که جنگ تنها راه حل است. او هزینه جنگ را از نزدیک دیده است و از اینکه یک درگیری بزرگ دیگر می‌تواند قلمروها را از هم پاشیده کند، می‌ترسد. مهدی اغلب خود را در تضاد با اعضای تهاجمی‌تر ارتش قلمرو نور، مانند علی، آورنده سپیده‌دم، می‌بیند که خواستار نابودی کامل قلمرو سایه هستند. اگرچه مهدی آماده است که در صورت لزوم بجنگد، اما امیدوار است که راه دیگری وجود داشته باشد—راهی که به هر دو قلمرو اجازه دهد بدون خونریزی در کنار هم زندگی کنند. در نبرد، مهدی یک نیروی طبیعی است. ضربات او می‌تواند جریان جنگ را تغییر دهد و حضور او الهام‌بخش کسانی است که در کنارش می‌جنگند. اما در قلب خود، او مردی است که به صلح اعتقاد دارد و با این ایده دست‌وپنجه نرم می‌کند که قدرت او ممکن است به یک جنگی منجر شود که او کاملاً به آن باور ندارد."
+    },
+    "images": {
+      "front": "/cards/Types/Light Warrior.svg",
+      "back": "/cards/Characters/ShieldOfDawn.svg",
+      "banner": "/cards/Banner/ShieldOfDawn.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "7",
+    "basicInfo": {
+      "characterName": "The Blade of Radiance",
+      "realName": "Amirreza",
+      "realm": "Light Realm",
+      "role": "Warrior",
+      "damageType": "Physical (Piercing, Holy-infused)",
+      "weapon": "Longsword or Spear of Radiance",
+      "armorType": "Light Armor with Holy Enchantments (for speed and agility)"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 3,
+      "precision": 5,
+      "survivability": 3,
+      "evasion": 4,
+      "armorStrength": 2,
+      "intelligence": 3,
+      "willpower": 4,
+      "magicPotency": 2,
+      "healing": 1,
+      "leadership": 3,
+      "crowdControl": 3,
+      "charisma": 3,
+      "manipulation": 1,
+      "speed": 4,
+      "mobility": 4
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Blade of Light",
+          "persian": "تیغه نور"
+        },
+        "description": {
+          "english": "Amirreza channels divine energy into his blade, causing it to glow with radiant light. His strikes become faster and more powerful, delivering swift piercing damage to enemies. This ability temporarily increases his speed, damage, and precision in battle.",
+          "persian": "امیررضا انرژی الهی را به تیغه‌اش هدایت می‌کند و آن را با نور درخشان شارژ می‌کند. ضربات او سریع‌تر و قدرتمندتر می‌شود و آسیب ضربه‌ای سریع به دشمنان وارد می‌کند. این توانایی به‌طور موقت سرعت، قدرت ضربه و دقت او را در نبرد افزایش می‌دهد."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Radiant Dash",
+          "persian": "حرکت درخشان"
+        },
+        "description": {
+          "english": "Using his agility and connection to holy magic, Amirreza can dash across the battlefield in a flash of light, quickly closing the distance to his enemies or evading incoming attacks. This ability increases his mobility and allows him to strike fast before retreating.",
+          "persian": "با استفاده از چابکی و ارتباطش با جادوی مقدس، امیررضا می‌تواند در یک چشم به‌هم‌زدن در سراسر میدان نبرد به حرکت درآید و به سرعت فاصله خود را با دشمنان کاهش دهد یا از حملات دوری کند. این توانایی تحرک او را افزایش داده و به او اجازه می‌دهد تا سریع ضربه بزند و سپس عقب‌نشینی کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Holy Strike",
+          "persian": "ضربه مقدس"
+        },
+        "description": {
+          "english": "Focusing his energy into one powerful attack, Amirreza infuses his weapon with holy magic and delivers a precise blow to a single target. This attack is known for its high precision and can break through enemy defenses, dealing heavy single-target damage.",
+          "persian": "امیررضا انرژی خود را در یک حمله قدرتمند متمرکز می‌کند و سلاح خود را با جادوی مقدس شارژ کرده و ضربه دقیقی به یک هدف واحد وارد می‌کند. این حمله به دلیل دقت بالا شناخته می‌شود و می‌تواند از دفاع دشمنان عبور کرده و آسیب شدید تک هدفی وارد کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Amirreza, known as the Blade of Radiance, is one of the Light Realm’s most skilled and agile warriors. Where others rely on brute strength or heavy armor, Amirreza has mastered the art of precision and speed, becoming a deadly force on the battlefield. His connection to the Light Realm’s holy magic allows him to enhance his strikes, making him a fierce opponent for any who stand in his way. Born into a family of renowned warriors, Amirreza was trained from a young age in the art of swordsmanship and combat. While his peers focused on strength and endurance, Amirreza gravitated toward speed and tactics, learning to strike quickly and accurately. He favored the longsword, a weapon that allowed him to move swiftly and strike with lethal precision. Over time, his mastery of the blade earned him the title of the Blade of Radiance. Amirreza’s fighting style is a reflection of his philosophy: he believes that battle is as much about strategy as it is about strength. He is a firm believer in the Light Realm’s mission of order and justice, but unlike more aggressive warriors, he doesn’t believe in reckless fighting. To him, the sharpness of the mind is just as important as the sharpness of the sword. His approach is calculated, and he always seeks to outthink his enemies rather than overpower them. Though Amirreza is a warrior of the Light Realm, he values mercy and honor on the battlefield. He doesn’t believe in unnecessary bloodshed, and he often seeks to incapacitate his enemies rather than kill them outright. This has made him popular among those who seek a balanced approach to warfare, but it has also drawn criticism from more ruthless warriors who believe that total destruction is the only path to victory. Amirreza’s tactical mind has made him a respected voice within the Light Realm’s military, though he is not one to seek out leadership roles. He prefers to remain on the front lines, where he can put his skills to use in battle. Despite his skill, Amirreza is not driven by glory or recognition. He fights because he believes in the Light Realm’s ideals of justice, protection, and honor. As tensions with the Shadow Realm rise, Amirreza has found himself questioning the Light Council’s increasingly aggressive stance. While he believes in protecting the realm, he is wary of the growing call for war and the potential for innocent lives to be lost. Amirreza hopes that diplomacy can still prevail, but he is prepared to fight if the need arises. For now, he continues to serve the Light Realm, using his speed, precision, and tactical brilliance to defend his people.",
+      "persian": "امیررضا، که به عنوان تیغه درخشان شناخته می‌شود، یکی از ماهرترین و چابک‌ترین جنگجویان قلمرو نور است. درحالی‌که دیگران به قدرت و زره سنگین اتکا می‌کنند، امیررضا در هنر دقت و سرعت تسلط یافته و به نیرویی مرگبار در میدان نبرد تبدیل شده است. ارتباط او با جادوی مقدس قلمرو نور به او اجازه می‌دهد تا ضربات خود را تقویت کرده و به دشمنان ضربات سختی وارد کند. امیررضا که در خانواده‌ای از جنگجویان معروف به دنیا آمده بود، از سنین پایین آموزش شمشیرزنی و مبارزه را آغاز کرد. درحالی‌که هم‌رزمانش بر قدرت و استقامت تمرکز داشتند، امیررضا به سمت سرعت و تاکتیک گرایش داشت و یاد گرفت که سریع و دقیق ضربه بزند. او شمشیر بلند را ترجیح می‌داد، سلاحی که به او اجازه می‌داد سریع حرکت کند و ضربات مرگباری وارد کند. در طول زمان، مهارت او در استفاده از تیغه لقب تیغه درخشان را برایش به ارمغان آورد. سبک مبارزه امیررضا بازتابی از فلسفه اوست: او معتقد است که نبرد به اندازه‌ای که درباره قدرت است، در مورد استراتژی نیز می‌باشد. او به شدت به مأموریت قلمرو نور برای نظم و عدالت اعتقاد دارد، اما برخلاف جنگجویان تهاجمی، به جنگ بی‌پروا اعتقاد ندارد. برای او، تیزهوشی ذهن به اندازه تیزی شمشیر مهم است. رویکرد او حساب‌شده است و همیشه سعی می‌کند دشمنانش را فریب دهد به جای اینکه بر آن‌ها غلبه کند. اگرچه امیررضا یک جنگجوی قلمرو نور است، اما به رحمت و شرافت در میدان نبرد اهمیت می‌دهد. او معتقد نیست که کشتار بی‌مورد لازم است و اغلب سعی می‌کند دشمنانش را ناتوان کند به جای اینکه آن‌ها را بکشد. این نگرش او را در میان کسانی که به یک رویکرد متعادل به جنگ اعتقاد دارند محبوب کرده است، اما انتقاداتی را از سوی جنگجویان بی‌رحم‌تر که معتقدند نابودی کامل تنها راه پیروزی است، به دنبال داشته است. ذهن تاکتیکی امیررضا او را به یک صدای محترم در میان ارتش قلمرو نور تبدیل کرده است، اگرچه او به دنبال نقش‌های رهبری نیست. او ترجیح می‌دهد در خط مقدم باقی بماند، جایی که می‌تواند مهارت‌های خود را در نبرد به کار گیرد. باوجود مهارت‌هایش، امیررضا به دنبال افتخار یا شناخت نیست. او می‌جنگد زیرا به ایده‌آل‌های قلمرو نور در مورد عدالت، حفاظت و شرافت اعتقاد دارد. با افزایش تنش‌ها با قلمرو سایه، امیررضا خود را در حال پرسیدن سوالاتی در مورد موضع تهاجمی شورای نور می‌بیند. درحالی‌که او به محافظت از قلمرو ایمان دارد، نسبت به افزایش خواسته‌ها برای جنگ و از دست رفتن جان‌های بی‌گناه نگران است. امیررضا امیدوار است که دیپلماسی هنوز بتواند پیروز شود، اما آماده است که در صورت نیاز بجنگد. برای اکنون، او همچنان به قلمرو نور خدمت می‌کند و از سرعت، دقت و نبوغ تاکتیکی خود برای دفاع از مردمش استفاده می‌کند."
+    },
+    "images": {
+      "front": "/cards/Types/Light Warrior.svg",
+      "back": "/cards/Characters/BladeOfRadiance.svg",
+      "banner": "/cards/Banner/BladeOfRadiance.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "8",
+    "basicInfo": {
+      "characterName": "The Seraph of Dawn",
+      "realName": "Sahar",
+      "realm": "Light Realm",
+      "role": "Healer",
+      "damageType": "Holy Magic (Healing and Restoration)",
+      "weapon": "Holy Staff of Serenity",
+      "armorType": "Light Robes (infused with protective holy magic)"
+    },
+    "stats": {
+      "damage": 1,
+      "range": 3,
+      "precision": 3,
+      "survivability": 4,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 5,
+      "magicPotency": 5,
+      "healing": 5,
+      "leadership": 3,
+      "crowdControl": 2,
+      "charisma": 4,
+      "manipulation": 1,
+      "speed": 3,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Light of Renewal",
+          "persian": "نور احیا"
+        },
+        "description": {
+          "english": "Sahar calls upon the light of the dawn to heal her allies, restoring their health and mending their wounds. This ability is her primary healing spell, capable of healing multiple allies in an area, making her indispensable on the battlefield.",
+          "persian": "سحر از نور سپیده‌دم برای درمان هم‌رزمانش استفاده می‌کند، سلامت آن‌ها را بازمی‌گرداند و زخم‌هایشان را التیام می‌بخشد. این توانایی جادوی اصلی درمان او است که می‌تواند چندین هم‌رزم را در یک منطقه شفا دهد و او را به یکی از اعضای ضروری میدان نبرد تبدیل می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Blessed Barrier",
+          "persian": "سپر برکت‌یافته"
+        },
+        "description": {
+          "english": "Using her connection to holy magic, Sahar conjures a protective barrier of light around her allies. This shield absorbs incoming damage and keeps her companions safe during intense battles. It can be cast on herself or others.",
+          "persian": "با استفاده از ارتباط خود با جادوی مقدس، سحر سپری محافظ از نور برای هم‌رزمانش احضار می‌کند. این سپر آسیب‌های وارده را جذب کرده و در نبردهای شدید از هم‌رزمانش محافظت می‌کند. این سپر را می‌توان برای خود یا دیگران به‌کار گرفت."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Radiant Blessing",
+          "persian": "برکت درخشان"
+        },
+        "description": {
+          "english": "Sahar blesses her allies with radiant light, increasing their strength and resilience. This ability boosts the morale and endurance of her companions, allowing them to fight harder and longer in battle.",
+          "persian": "سحر هم‌رزمانش را با نوری درخشان برکت می‌دهد و قدرت و مقاومت آن‌ها را افزایش می‌دهد. این توانایی روحیه و استقامت هم‌رزمانش را افزایش می‌دهد و به آن‌ها اجازه می‌دهد که در نبرد با قدرت بیشتری بجنگند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Sahar, known throughout the Light Realm as the Seraph of Dawn, has devoted her life to the art of healing and the pursuit of peace. Born into a family of clerics who served the Light Temple, Sahar learned from an early age the power of compassion, faith, and healing. Unlike many who train in the arts of war, Sahar’s mission has always been to preserve life, not to take it. At the age of ten, Sahar’s healing abilities were first discovered when she miraculously saved a friend who had been injured in an accident. Her natural affinity for holy magic quickly set her apart, and she was sent to train at the Sanctuary of Light, a place where the most gifted healers in the realm are taught to harness their abilities. Over the years, Sahar became one of the Sanctuary’s most promising students, mastering the art of healing and using the power of the light to cure even the gravest wounds. As Sahar grew older, she became known for her gentle nature and unwavering dedication to her cause. While many in the Light Realm prepare for war against the Shadow Realm, Sahar believes that peace is still possible. She has seen the cost of war firsthand, not only in the physical injuries it leaves behind but in the emotional scars it creates. To her, the greatest battle is the one that never happens, and she works tirelessly to prevent conflict when possible. Despite her pacifist ideals, Sahar understands that healing alone cannot always stop the march of war. When battles are inevitable, she stands at the front lines, using her powers to protect and heal those who fight. Her presence is a beacon of hope for her allies, and many have said that just seeing her in battle renews their will to fight. Her radiant magic not only restores health but also lifts the spirits of those around her. Sahar’s greatest challenge has been reconciling her desire for peace with the reality that war may come whether she wishes it or not. Though she dreams of a world where the Light Realm and Shadow Realm can coexist, she knows that this dream may not come to pass. In the meantime, she prepares herself to stand with her people, offering her healing powers to protect those she loves. With tensions between the realms rising, Sahar feels the weight of her responsibility more than ever. As the Seraph of Dawn, she knows that her role is not only to heal the wounded but to inspire hope in a time of darkness.",
+      "persian": "سحر، که در سراسر قلمرو نور به عنوان فرشته سپیده‌دم شناخته می‌شود، تمام زندگی خود را به هنر درمان و جستجوی صلح اختصاص داده است. او در خانواده‌ای از روحانیون که به معبد نور خدمت می‌کردند، به دنیا آمد و از همان سنین کودکی قدرت شفقت، ایمان و شفا را آموخت. برخلاف بسیاری که هنر جنگ را می‌آموزند، ماموریت سحر همیشه این بوده است که زندگی را حفظ کند، نه آن را بگیرد. در ده سالگی، توانایی‌های درمانی سحر زمانی کشف شد که او به‌طور معجزه‌آسا دوستش را که در یک حادثه مجروح شده بود، نجات داد. ارتباط طبیعی او با جادوی مقدس به سرعت او را متمایز کرد و به همین دلیل برای آموزش به پناهگاه نور فرستاده شد، مکانی که در آن با استعدادترین شفاگران قلمرو آموزش می‌بینند. در طول سال‌ها، سحر به یکی از امیدوارکننده‌ترین دانش‌آموزان پناهگاه تبدیل شد و در هنر شفا استاد شد و توانست حتی عمیق‌ترین زخم‌ها را درمان کند. با بزرگ‌تر شدن، سحر به خاطر طبیعت مهربان و تعهد بی‌وقفه‌اش به هدف خود شناخته شد. درحالی‌که بسیاری در قلمرو نور برای جنگ با قلمرو سایه آماده می‌شوند، سحر معتقد است که هنوز می‌توان به صلح دست یافت. او هزینه جنگ را از نزدیک دیده است، نه تنها در زخم‌های فیزیکی که به‌جا می‌گذارد بلکه در زخم‌های احساسی که ایجاد می‌کند. برای او، بزرگ‌ترین نبرد آن است که هرگز اتفاق نیفتد و او بی‌وقفه تلاش می‌کند تا از وقوع جنگ جلوگیری کند. بااین‌حال، سحر می‌داند که شفا به‌تنهایی نمی‌تواند جلوی وقوع جنگ را بگیرد. وقتی نبرد اجتناب‌ناپذیر است، او در خط مقدم می‌ایستد و از قدرت‌هایش برای محافظت و درمان کسانی که می‌جنگند استفاده می‌کند. حضور او برای هم‌رزمانش نوری از امید است و بسیاری گفته‌اند که فقط دیدن او در میدان نبرد اراده‌شان برای مبارزه را تقویت می‌کند. جادوی درخشان او نه تنها سلامتی را بازمی‌گرداند بلکه روحیه کسانی که در اطرافش هستند را نیز تقویت می‌کند. بزرگ‌ترین چالش سحر همواره آشتی دادن میلش به صلح با واقعیتی بوده است که جنگ ممکن است ناخواسته اتفاق بیفتد. اگرچه او رویای جهانی را دارد که در آن قلمرو نور و قلمرو سایه می‌توانند در کنار هم وجود داشته باشند، می‌داند که این رویا ممکن است هرگز به واقعیت نپیوندد. در این بین، او خود را آماده می‌کند تا در کنار مردمش بایستد و از قدرت‌های شفابخشش برای محافظت از کسانی که دوست دارد استفاده کند. با افزایش تنش‌ها بین قلمروها، سحر بیش از هر زمان دیگری سنگینی مسئولیت خود را احساس می‌کند. به‌عنوان فرشته سپیده‌دم، می‌داند که نقش او نه تنها در شفای مجروحان بلکه در ایجاد امید در زمان تاریکی است."
+    },
+    "images": {
+      "front": "/cards/Types/Light Healer.svg",
+      "back": "/cards/Characters/SeraphOfDawn.svg",
+      "banner": "/cards/Banner/SeraphOfDawn.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "9",
+    "basicInfo": {
+      "characterName": "The Luminary Seer",
+      "realName": "Kian",
+      "realm": "Light Realm",
+      "role": "Sage",
+      "damageType": "Holy Magic, Light-Based Energy Manipulation",
+      "weapon": "Staff of Enlightenment",
+      "armorType": "Light Robes with Magical Wards (for protection and focus)"
+    },
+    "stats": {
+      "damage": 3,
+      "range": 4,
+      "precision": 5,
+      "survivability": 3,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 5,
+      "magicPotency": 5,
+      "healing": 3,
+      "leadership": 4,
+      "crowdControl": 3,
+      "charisma": 4,
+      "manipulation": 2,
+      "speed": 2,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Light's Revelation",
+          "persian": "وحی نور"
+        },
+        "description": {
+          "english": "Kian channels the power of light to gain insight into the battlefield, revealing hidden enemies and weak points in enemy defenses. This ability allows him to provide strategic information to his allies and predict enemy movements, making him invaluable in planning battle strategies.",
+          "persian": "کیان با استفاده از قدرت نور، بینشی نسبت به میدان نبرد به دست می‌آورد و دشمنان مخفی و نقاط ضعف دفاعی آن‌ها را آشکار می‌کند. این توانایی به او اجازه می‌دهد که اطلاعات استراتژیک را به هم‌رزمانش منتقل کند و حرکات دشمن را پیش‌بینی کند و او را به یک عنصر حیاتی در برنامه‌ریزی استراتژی‌های جنگی تبدیل کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Radiant Surge",
+          "persian": "انفجار درخشان"
+        },
+        "description": {
+          "english": "By drawing upon the vast reserves of light energy, Kian unleashes a controlled burst of radiant energy that damages enemies within range. This spell deals light-based damage to all enemies in a line, pushing them back and disrupting their formations.",
+          "persian": "کیان با استفاده از انرژی‌های عظیم نور، یک انفجار کنترل‌شده از انرژی درخشان آزاد می‌کند که به دشمنانی که در محدوده قرار دارند آسیب می‌رساند. این جادو آسیب نوری به تمام دشمنان در یک خط وارد کرده و آن‌ها را به عقب رانده و آرایششان را به هم می‌ریزد."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Divine Insight",
+          "persian": "بصیرت الهی"
+        },
+        "description": {
+          "english": "Kian connects deeply with the source of light, gaining momentary visions of the future. This ability allows him to foresee enemy tactics and redirect his allies’ efforts to outmaneuver their foes. It also boosts his allies' abilities by temporarily enhancing their strength or magical potency.",
+          "persian": "کیان به منبع نور متصل می‌شود و بینش‌هایی از آینده به دست می‌آورد. این توانایی به او امکان می‌دهد که تاکتیک‌های دشمن را پیش‌بینی کرده و تلاش‌های هم‌رزمانش را برای غلبه بر دشمنان هدایت کند. همچنین توانایی‌های هم‌رزمانش را با افزایش قدرت یا پتانسیل جادویی آن‌ها به‌طور موقت افزایش می‌دهد."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Kian, known as the Luminary Seer, is one of the most respected sages in the Light Realm. His life’s work has been dedicated to understanding the true nature of light magic—not just its practical uses in battle, but its deeper connection to the cosmos and the realms. As a sage, Kian is more than just a spellcaster; he is a scholar, strategist, and teacher, helping to guide both younger mages and the warriors who protect the Light Realm. Born into a family of scholars, Kian was raised with a love for knowledge and the mysteries of magic. From a young age, he showed a natural aptitude for light-based spells, but what truly set him apart was his thirst for wisdom. Unlike many who sought power for its own sake, Kian believed that magic was a tool for enlightenment and that its true strength lay in the understanding of its mysteries. Kian was accepted into the Luminary Academy, not just as a student, but eventually as a teacher. He spent years researching the ancient texts and learning the forgotten secrets of light magic. His ability to channel the pure essence of light earned him the title of Luminary Seer, a sage whose connection to the light was deep enough to offer glimpses of the future. His visions, though not always clear, have guided the Light Realm through many difficult times, offering both strategic and spiritual insight. In times of peace, Kian serves as a mentor to those who seek to learn the ways of magic, teaching them to respect the power of light and to wield it responsibly. In times of war, he steps into a more active role, using his strategic mind to outwit enemies and support his allies. While Kian is not a front-line fighter, his presence on the battlefield is felt by all, as he uses his radiant magic to both defend and attack, creating opportunities for others to succeed. Though Kian is deeply loyal to the Light Realm, he is not blind to its faults. As a sage, his wisdom allows him to see the potential dangers of arrogance and fanaticism. He knows that the Shadow Realm is not as simple as many in the Light Realm believe. While he opposes the dark forces they use, he also recognizes that the light can be just as dangerous if wielded without understanding. His greatest fear is that the Light Realm’s pursuit of purity and order might lead to destruction, and he has often advised caution when dealing with their enemies. As tensions rise between the Light and Shadow Realms, Kian works tirelessly to find a path that can lead to peace, but he is prepared for the possibility that war may be inevitable. For now, he continues to guide those around him, offering his wisdom and strength to the leaders of the Light Realm in the hopes that the light will continue to illuminate the path to a better future.",
+      "persian": "کیان که به عنوان بینای روشنایی شناخته می‌شود، یکی از محترم‌ترین حکیمان در قلمرو نور است. تمام زندگی او وقف درک طبیعت واقعی جادوی نور شده است—نه فقط استفاده عملی از آن در میدان نبرد، بلکه ارتباط عمیق‌تر آن با کیهان و قلمروها. به عنوان یک حکیم، کیان تنها یک جادوگر نیست؛ او یک دانشمند، استراتژیست و معلم است که به هدایت هم جادوگران جوان‌تر و هم جنگجویانی که از قلمرو نور محافظت می‌کنند، کمک می‌کند. کیان در خانواده‌ای از دانشمندان به دنیا آمد و با عشق به دانش و رازهای جادو بزرگ شد. از همان سنین پایین، او استعداد طبیعی در جادوهای مبتنی بر نور نشان داد، اما چیزی که واقعاً او را متمایز می‌کرد تشنگی برای خرد بود. برخلاف بسیاری که به دنبال قدرت به خاطر قدرت بودند، کیان معتقد بود که جادو ابزاری برای روشنایی است و قدرت واقعی آن در درک اسرار آن نهفته است. کیان به عنوان دانشجو و سپس به‌عنوان معلم به آکادمی روشنایی پذیرفته شد. او سال‌ها را صرف تحقیق در متون باستانی و یادگیری رازهای فراموش‌شده جادوی نور کرد. توانایی او در هدایت جوهر خالص نور به او لقب بینای روشنایی را داد، حکیمی که ارتباط او با نور به قدری عمیق بود که می‌توانست چشم‌اندازهایی از آینده ارائه دهد. اگرچه این چشم‌اندازها همیشه واضح نبودند، اما در طول زمان‌های دشوار، راهنمایی‌های او قلمرو نور را از خطرات بسیاری نجات داده است. در زمان‌های صلح، کیان به عنوان راهنما به کسانی که به دنبال یادگیری جادوی نور هستند خدمت می‌کند و به آن‌ها می‌آموزد که به قدرت نور احترام بگذارند و با مسئولیت از آن استفاده کنند. در زمان جنگ، او نقش فعال‌تری ایفا می‌کند و از ذهن استراتژیک خود برای غلبه بر دشمنان و حمایت از هم‌رزمانش استفاده می‌کند. اگرچه کیان یک جنگجوی خط مقدم نیست، حضور او در میدان نبرد توسط همه احساس می‌شود، زیرا او با جادوی درخشان خود هم دفاع می‌کند و هم حمله، فرصت‌هایی را برای موفقیت دیگران ایجاد می‌کند. اگرچه کیان به قلمرو نور وفادار است، اما به کاستی‌های آن نیز بی‌اعتنا نیست. به عنوان یک حکیم، خرد او به او اجازه می‌دهد که خطرات تکبر و افراط‌گرایی را ببیند. او می‌داند که قلمرو سایه به سادگی که بسیاری در قلمرو نور تصور می‌کنند نیست. درحالی‌که او با نیروهای تاریک که آن‌ها استفاده می‌کنند مخالف است، اما همچنین می‌داند که نور اگر بدون فهم به‌کار گرفته شود، می‌تواند به همان اندازه خطرناک باشد. بزرگ‌ترین ترس او این است که تعقیب خلوص و نظم توسط قلمرو نور ممکن است به ویرانی منجر شود و او بارها توصیه به احتیاط در برابر دشمنانشان کرده است. با افزایش تنش‌ها بین قلمرو نور و قلمرو سایه، کیان به‌طور خستگی‌ناپذیر تلاش می‌کند تا راهی برای رسیدن به صلح بیابد، اما آماده است که ممکن است جنگ اجتناب‌ناپذیر باشد. فعلاً او به هدایت اطرافیانش ادامه می‌دهد و خرد و قدرت خود را به رهبران قلمرو نور عرضه می‌کند به امید اینکه نور همچنان بتواند مسیر روشنایی را به آینده‌ای بهتر روشن کند."
+    },
+    "images": {
+      "front": "/cards/Types/Light Sage.svg",
+      "back": "/cards/Characters/LuminarySeer.svg",
+      "banner": "/cards/Banner/LuminarySeer.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "10",
+    "basicInfo": {
+      "characterName": "The Veiled Sorceress",
+      "realName": "Nazanin",
+      "realm": "Shadow Realm",
+      "role": "Magician, Sorceress of Darkness",
+      "damageType": "Psychic and Shadow Magic",
+      "weapon": "Void Staff (A staff imbued with Void energy, capable of summoning dark magic)",
+      "armorType": "Shadow Robes (dark enchanted robes that enhance her connection to the Void and provide magical protection)"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 5,
+      "precision": 4,
+      "survivability": 3,
+      "evasion": 5,
+      "armorStrength": 2,
+      "intelligence": 4,
+      "willpower": 3,
+      "magicPotency": 5,
+      "healing": 0,
+      "leadership": 2,
+      "crowdControl": 4,
+      "charisma": 3,
+      "manipulation": 4,
+      "speed": 3,
+      "mobility": 4
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Veil of Darkness",
+          "persian": "حجاب تاریکی"
+        },
+        "description": {
+          "english": "By surrounding herself in a cloak of shadows, Nazanin becomes nearly invisible, making it difficult for enemies to target her. This ability increases her evasion and allows her to reposition or strike from the shadows, making her a master of stealth.",
+          "persian": "با احاطه خود در یک شنل از سایه‌ها، نازنین تقریباً نامرئی می‌شود و دشمنان نمی‌توانند به‌راحتی او را هدف بگیرند. این توانایی باعث افزایش اجتناب او می‌شود و به او اجازه می‌دهد تا موقعیت خود را تغییر دهد یا از سایه‌ها ضربه بزند و او را به استادی در خفا تبدیل می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Wounds of the Void",
+          "persian": "زخم‌های خلا"
+        },
+        "description": {
+          "english": "Nazanin taps into the Void, summoning dark magic to deal damage directly to an enemy’s soul, bypassing physical defenses. This attack causes intense psychic and shadow damage, inflicting both mental and physical pain on her target.",
+          "persian": "نازنین با استفاده از نیروی خلا، جادوی تاریکی را احضار می‌کند تا به‌طور مستقیم به روح دشمن آسیب بزند و از دفاع فیزیکی عبور کند. این حمله آسیب روانی و سایه‌ای شدیدی وارد می‌کند و باعث درد روحی و جسمی در هدف می‌شود."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Shadow's Grasp",
+          "persian": "چنگال سایه"
+        },
+        "description": {
+          "english": "Nazanin summons tendrils of shadow from the ground to bind her enemies, immobilizing them while slowly draining their life force. This ability works as crowd control, holding multiple enemies in place and weakening them over time.",
+          "persian": "نازنین با احضار شاخه‌های سایه از زمین، دشمنانش را به دام می‌اندازد و آن‌ها را در جای خود بی‌حرکت می‌کند و هم‌زمان نیروی حیات آن‌ها را به‌آرامی می‌گیرد. این توانایی به عنوان کنترل جمعیت عمل می‌کند و چندین دشمن را در جای خود نگه می‌دارد و به‌مرور آن‌ها را ضعیف می‌کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Nazanin, known as the Veiled Sorceress in the Shadow Realm, was born into a society where power and survival are intricately linked to one's mastery over the darker forces of the world. From a young age, Nazanin showed a natural affinity for the shadow arts, particularly those that draw upon the Void—a mysterious and dangerous source of magic tied to the realm of darkness. Growing up in the ancient city of Nightsfall Citadel, the capital of the Shadow Realm, Nazanin was surrounded by the harsh realities of life in a place where pain, death, and suffering are ever-present. Yet, rather than being broken by these forces, she learned to harness them. Pain, to Nazanin, is not just something to endure; it is a source of power, something to draw strength from. Death is not to be feared, but embraced as part of the eternal cycle of shadow magic. As a young apprentice, Nazanin was taken under the wing of a powerful Void Sage, who recognized her potential. Through brutal and dangerous rituals, Nazanin deepened her connection to the Void, learning to tap into the raw essence of pain and suffering to fuel her magic. Her ability to wield both psychic and shadow magic made her one of the most feared magicians in the Shadow Realm, not because of her strength alone, but because of her mastery over stealth and subterfuge. Though her abilities have made her a respected figure in Nightsfall, Nazanin is not without her struggles. The connection to the Void comes at a cost—she is constantly haunted by visions of darkness and is always on the edge of being consumed by the very powers she wields. She walks a thin line between control and chaos, but this danger only adds to her allure and mystique. Nazanin is not inherently evil, but her worldview is shaped by the realities of the Shadow Realm. She sees the Light Realm as a place of arrogance and hypocrisy, where people hide behind false ideals of purity. To her, the Shadow Realm's embrace of pain and suffering is more honest and real. However, she has no desire for chaos—she values order within the shadow and believes that power should be earned, not inherited. With the rise of unrest between the realms and whispers of political manipulation, Nazanin finds herself drawn into the conflict, not out of loyalty to any cause, but in pursuit of the truth behind the growing tensions. Her connection to the Void allows her to see things that others cannot, and she suspects that something far more dangerous than simple politics is at play. Though she keeps her motives hidden, Nazanin's true goal is to uncover the real force behind the chaos and maintain the delicate balance between the realms before everything collapses into ruin.",
+      "persian": "نازنین، که در قلمرو سایه به‌عنوان ساحره نقاب‌دار شناخته می‌شود، در جامعه‌ای به دنیا آمد که قدرت و بقا با تسلط بر نیروهای تاریک جهان به هم پیوسته است. از سنین جوانی، نازنین نشان داد که استعداد طبیعی برای هنرهای سایه‌ای دارد، به‌ویژه آن‌هایی که از خلا—منبع جادوی مرموز و خطرناک مرتبط با قلمرو تاریکی—نشأت می‌گیرند. در شهر باستانی قلعه شب‌هنگام، پایتخت قلمرو سایه، نازنین با واقعیت‌های خشن زندگی در جایی که درد، مرگ و رنج همیشگی هستند، احاطه شده بود. اما به‌جای اینکه این نیروها او را بشکنند، او یاد گرفت که آن‌ها را مهار کند. برای نازنین، درد نه‌تنها چیزی برای تحمل کردن، بلکه منبعی از قدرت بود؛ چیزی که می‌توان از آن نیرو گرفت. مرگ برای او چیزی نیست که از آن بترسد، بلکه بخشی از چرخه ابدی جادوی سایه است. به‌عنوان یک شاگرد جوان، نازنین تحت هدایت یک سایه‌دان بزرگ قرار گرفت که توانایی‌های او را شناخت. از طریق مراسم‌های بی‌رحمانه و خطرناک، نازنین ارتباط خود با خلا را تعمیق کرد و یاد گرفت که از ذات خام درد و رنج برای تغذیه جادوی خود استفاده کند. توانایی او در استفاده از جادوی روانی و سایه‌ای باعث شد که او یکی از ترسناک‌ترین جادوگران در قلمرو سایه باشد، نه به‌خاطر قدرتش به‌تنهایی، بلکه به‌خاطر تسلط او بر خفا و فریب. اگرچه توانایی‌های او او را به شخصیتی محترم در قلعه شب‌هنگام تبدیل کرده است، نازنین بدون چالش نیست. ارتباط با خلا هزینه‌ای دارد—او به‌طور مداوم توسط تصاویر تاریکی تسخیر شده و همیشه در آستانه بلعیده شدن توسط قدرت‌هایی که کنترل می‌کند، قرار دارد. او بر لبه‌ای نازک میان کنترل و آشوب راه می‌رود، اما این خطر تنها به جذابیت و رازآلودگی او می‌افزاید. نازنین ذاتاً شیطانی نیست، اما جهان‌بینی او تحت تأثیر واقعیت‌های قلمرو سایه شکل گرفته است. او قلمرو نور را به‌عنوان مکانی پر از غرور و ریاکاری می‌بیند، جایی که مردم پشت ایده‌های نادرست پاکی پنهان می‌شوند. برای او، پذیرش درد و رنج در قلمرو سایه صادقانه‌تر و واقعی‌تر است. با این حال، او علاقه‌ای به آشوب ندارد—او به نظم در تاریکی اعتقاد دارد و معتقد است که قدرت باید به دست آورده شود، نه به ارث برده شود. با افزایش ناآرامی‌ها میان قلمروها و زمزمه‌هایی از دستکاری‌های سیاسی، نازنین خود را وارد این درگیری می‌بیند، نه از روی وفاداری به هیچ علتی، بلکه به دنبال حقیقت پشت این تنش‌های رو به افزایش است. ارتباط او با خلا به او اجازه می‌دهد چیزهایی ببیند که دیگران نمی‌توانند، و او مشکوک است که چیزی بسیار خطرناک‌تر از سیاست ساده در جریان است. اگرچه او انگیزه‌های خود را پنهان نگه می‌دارد، هدف واقعی نازنین این است که نیروی واقعی پشت این آشوب را کشف کرده و تعادل ظریف میان قلمروها را قبل از فروپاشی کامل حفظ کند."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Magician.svg",
+      "back": "/cards/Characters/VeiledSorceress.svg",
+      "banner": "/cards/Banner/VeiledSorceress.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "11",
+    "basicInfo": {
+      "characterName": "The Black Serpent",
+      "realName": "Alireza",
+      "realm": "Shadow Realm",
+      "role": "Magician, Sorcerer of the Abyss",
+      "damageType": "Unholy Magic, Psychic",
+      "weapon": "Serpent’s Staff (A staff carved with dark symbols, empowered by serpentine magic)",
+      "armorType": "Dark Ritual Robes (enchanted for protection, designed to channel dark power)"
+    },
+    "stats": {
+      "damage": 5,
+      "range": 4,
+      "precision": 4,
+      "survivability": 3,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 4,
+      "magicPotency": 5,
+      "healing": 0,
+      "leadership": 3,
+      "crowdControl": 3,
+      "charisma": 4,
+      "manipulation": 5,
+      "speed": 2,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Abyssal Serpent",
+          "persian": "مار افسونگر"
+        },
+        "description": {
+          "english": "Alireza summons a massive serpent formed from shadow and void energy. The serpent can strike at enemies, dealing psychic and shadow damage, and coils around its targets to constrict and weaken them over time. This ability serves both as damage and crowd control.",
+          "persian": "علیرضا ماری عظیم از جنس انرژی سایه و خلا احضار می‌کند. این مار می‌تواند به دشمنان حمله کرده و آسیب روانی و سایه‌ای وارد کند و به دور اهداف خود حلقه بزند تا به‌مرور زمان آن‌ها را تضعیف کند. این توانایی به‌عنوان آسیب و کنترل جمعیت عمل می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Dark Command",
+          "persian": "فرمان تاریکی"
+        },
+        "description": {
+          "english": "With a powerful incantation, Alireza can temporarily control the minds of weaker-willed enemies, bending them to his will. This ability reflects his strong manipulation skills and can turn enemies into temporary allies or cause them to attack their own comrades.",
+          "persian": "با خواندن یک ورد قدرتمند، علیرضا می‌تواند ذهن دشمنان ضعیف‌تر را به‌طور موقت کنترل کند و آن‌ها را به اراده خود درآورد. این توانایی نشان‌دهنده مهارت بالای او در دستکاری است و می‌تواند دشمنان را به طور موقت به متحدان خود تبدیل کند یا آن‌ها را وادار کند که به هم‌رزمان خود حمله کنند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Spirits of the Abyss",
+          "persian": "ارواح ابیسی"
+        },
+        "description": {
+          "english": "Alireza calls forth ancient spirits of the dead from the Abyss to haunt his enemies. These spectral apparitions are invisible to most, but they whisper haunting voices into the minds of their targets, dealing psychic damage and weakening their willpower. This ability causes mental torment and terror, leaving enemies mentally vulnerable and easier to manipulate.",
+          "persian": "علیرضا ارواح باستانی مردگان را از اعماق خلا احضار می‌کند تا دشمنانش را تسخیر کنند. این ارواح به‌طور معمول نامرئی هستند، اما با زمزمه‌های وحشت‌آور در ذهن اهداف خود، آسیب روانی وارد کرده و اراده آن‌ها را تضعیف می‌کنند. این توانایی باعث شکنجه روحی و وحشت شده و دشمنان را از نظر ذهنی آسیب‌پذیر و به‌راحتی قابل دستکاری می‌کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Alireza, known as the Black Serpent, is a shadow magician with unmatched ambition and a deep thirst for power. From the moment he began his training in the dark arts, it was clear that his destiny was to rise far beyond the ordinary magicians of the Shadow Realm. Born into a family of powerful sorcerers, Alireza quickly outgrew his peers, mastering the art of unholy magic and psychic manipulation with ease. For Alireza, the traditional teachings of the Shadow Realm were never enough. He saw the limitations of those around him, magicians and warriors who were content to simply survive in a world shaped by pain and suffering. But Alireza wanted more than survival—he craved domination. His pursuit of power led him to explore the forbidden depths of the Abyss, where he discovered ancient rituals and spells that allowed him to tap into the spirits of the dead. Through these rituals, he gained the ability to summon and command spirits, bending their will to his own. While many in the Shadow Realm view death and darkness as natural parts of life, Alireza sees them as tools to be wielded. He has no qualms about using the dead to achieve his goals, and his ability to summon the spirits of long-forgotten souls has made him a force to be reckoned with. These spirits are not merely ghosts; they are instruments of fear and psychological torment, capable of breaking the minds of even the most stalwart opponents. Though he is not openly aligned with any one faction, Alireza's name is whispered throughout the Shadow Realm and beyond as a man to be feared. His rise to power has been fueled by his intelligence, his ruthlessness, and his willingness to do whatever it takes to come out on top. He often operates from the shadows, pulling strings and manipulating those around him, waiting for the perfect moment to strike. Alireza's loyalty lies only with himself. He believes in the natural order of chaos, where only the strongest survive, and he is determined to be the one who stands victorious when the dust settles. His ultimate goal is to seize control of the Shadow Realm and reshape it in his image—one where power is absolute and fear is the only currency. Despite his dark nature, Alireza is not reckless. He is a strategic thinker, always looking for opportunities to exploit weakness and manipulate events to his advantage. Whether in battle or in the political arena, Alireza's mind is as dangerous as his magic, and those who underestimate him often find themselves as pawns in his greater plan.",
+      "persian": "علیرضا، که به عنوان مار سیاه شناخته می‌شود، یکی از جادوگران سایه است که با جاه‌طلبی بی‌پایان و تشنگی شدید برای قدرت شناخته می‌شود. از لحظه‌ای که آموزش خود را در هنرهای تاریک آغاز کرد، واضح بود که سرنوشت او فراتر از جادوگران معمولی قلمرو سایه خواهد بود. او که در خانواده‌ای از جادوگران قدرتمند به دنیا آمده بود، به‌سرعت از همتایان خود پیشی گرفت و به‌راحتی در هنرهای جادوی نامقدس و دستکاری روانی مهارت یافت. برای علیرضا، آموزش‌های سنتی قلمرو سایه هرگز کافی نبود. او به محدودیت‌های اطرافیان خود نگاه می‌کرد—جادوگران و جنگجویانی که راضی به بقا در دنیایی پر از درد و رنج بودند. اما علیرضا بیش از بقا را می‌خواست—او سلطه را می‌طلبید. جستجوی بی‌پایان او برای قدرت او را به اعماق خلا هدایت کرد، جایی که او آیین‌ها و جادوهای باستانی را کشف کرد که به او اجازه می‌داد ارواح مردگان را احضار کرده و اراده آن‌ها را تحت کنترل خود درآورد. در حالی که بسیاری در قلمرو سایه به مرگ و تاریکی به‌عنوان بخشی طبیعی از زندگی نگاه می‌کنند، علیرضا آن‌ها را به‌عنوان ابزاری برای رسیدن به اهدافش می‌بیند. او هیچ تردیدی در استفاده از مردگان برای دستیابی به اهدافش ندارد، و توانایی او در احضار ارواح ارواح فراموش‌شده او را به نیرویی غیرقابل‌انکار تبدیل کرده است. این ارواح نه تنها ارواح سرگردان هستند، بلکه ابزاری برای وحشت و شکنجه روانی هستند که قادرند ذهن مقاوم‌ترین دشمنان را نیز در هم بشکنند. اگرچه او به‌صورت آشکار به هیچ گروه یا جناح خاصی وفادار نیست، نام علیرضا در سراسر قلمرو سایه و فراتر از آن به‌عنوان فردی برای ترسیدن شناخته می‌شود. قدرت او از طریق هوش، بی‌رحمی و تمایلش به انجام هر کاری برای پیروزی افزایش یافته است. او اغلب از سایه‌ها عمل می‌کند و با دستکاری افراد اطرافش، در حال برنامه‌ریزی برای لحظه‌ای است که بتواند ضربه نهایی خود را بزند. وفاداری علیرضا فقط به خودش است. او به نظم طبیعی آشوب اعتقاد دارد، جایی که فقط قوی‌ترین‌ها زنده می‌مانند، و او مصمم است که وقتی همه چیز به پایان رسید، او کسی باشد که برنده می‌شود. هدف نهایی او این است که کنترل کامل قلمرو سایه را به دست آورد و آن را به تصویر خود شکل دهد—جایی که قدرت مطلق و ترس تنها ارزشی هستند که اهمیت دارند. با وجود ماهیت تاریکش، علیرضا بی‌پروا نیست. او یک استراتژیست است که همیشه به دنبال فرصت‌هایی برای استفاده از ضعف‌ها و دستکاری رویدادها به نفع خود است. چه در نبرد و چه در عرصه سیاسی، ذهن علیرضا به‌اندازه جادوی او خطرناک است، و کسانی که او را دست‌کم می‌گیرند، اغلب به عنوان مهره‌هایی در نقشه بزرگ او گرفتار می‌شوند."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Sorcerer.svg",
+      "back": "/cards/Characters/BlackSerpent.svg",
+      "banner": "/cards/Banner/BlackSerpent.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "12",
+    "basicInfo": {
+      "characterName": "The Dreadblade",
+      "realName": "Ferdoc",
+      "realm": "Shadow Realm",
+      "role": "Warrior, Shadow Knight",
+      "damageType": "Physical (Slashing) and Shadow Energy",
+      "weapon": "Dreadblade (A cursed greatsword that feeds on the fear of its victims)",
+      "armorType": "Heavy Shadowplate Armor (dark, cursed armor that absorbs energy from his enemies)"
+    },
+    "stats": {
+      "damage": 5,
+      "range": 3,
+      "precision": 3,
+      "survivability": 4,
+      "evasion": 2,
+      "armorStrength": 5,
+      "intelligence": 3,
+      "willpower": 4,
+      "magicPotency": 2,
+      "healing": 1,
+      "leadership": 2,
+      "crowdControl": 3,
+      "charisma": 2,
+      "manipulation": 1,
+      "speed": 3,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Blade of Despair",
+          "persian": "تیغ وحشت"
+        },
+        "description": {
+          "english": "Ferdoc's Dreadblade cuts through his enemies with terrifying precision. As the sword strikes, it absorbs the fear and pain of his foes, making Ferdoc stronger with every blow. Each successful hit increases his damage and survivability, allowing him to thrive in the heat of battle.",
+          "persian": "تیغ وحشت فردوک با دقتی ترسناک دشمنانش را می‌برد. این شمشیر با هر ضربه ترس و درد قربانیان خود را جذب می‌کند و فردوک را با هر ضربه قوی‌تر می‌سازد. هر ضربه موفق باعث افزایش آسیب و بقا فردوک می‌شود و او را قادر می‌سازد تا در گرمای نبرد شکوفا شود."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Shadow Strike",
+          "persian": "ضربه سایه"
+        },
+        "description": {
+          "english": "Ferdoc channels the energy of the shadows, allowing him to teleport short distances to strike his enemies with surprise. This sudden shadow-infused strike deals massive damage and briefly disorients his target, giving him the upper hand.",
+          "persian": "فردوک انرژی سایه را در خود متمرکز می‌کند و به او اجازه می‌دهد تا مسافت‌های کوتاهی را برای حمله ناگهانی به دشمنان خود تله‌پورت کند. این ضربه‌ی آغشته به سایه آسیب زیادی وارد می‌کند و هدف را به‌طور موقت دچار سردرگمی می‌کند و فردوک را در موقعیت برتری قرار می‌دهد."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Painfeed",
+          "persian": "تغذیه از درد"
+        },
+        "description": {
+          "english": "Ferdoc has the ability to feed on the pain and suffering of his enemies. By focusing on a wounded or fearful opponent, he can drain their life energy, using their pain to heal himself and increase his stamina in battle. This ability makes him almost impossible to wear down in prolonged combat.",
+          "persian": "فردوک قادر است از درد و رنج دشمنان خود تغذیه کند. با تمرکز بر یک دشمن مجروح یا ترسیده، او می‌تواند انرژی حیات آن‌ها را تخلیه کند و از درد آن‌ها برای درمان خود و افزایش استقامت در نبرد استفاده کند. این توانایی او را در جنگ‌های طولانی تقریباً شکست‌ناپذیر می‌کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Ferdoc, known as the Dreadblade, is a warrior whose name is spoken in hushed tones across the Shadow Realm. His story is one of ruthless survival, shaped by the harsh realities of the dark world he was born into. From a young age, Ferdoc understood that in the Shadow Realm, only the strong survive—and he vowed to be stronger than anyone who crossed his path. Raised in the unforgiving wastelands of Nightsfall, a place where the weak are swallowed by the darkness, Ferdoc quickly became a warrior without mercy. He was forged in the fires of battle, his every scar a testament to his strength and resilience. In the Shadow Realm, where pain is seen as both a curse and a source of power, Ferdoc learned to embrace it. Pain is what fuels his strength, and over the years, he has mastered the art of turning his own suffering—and the suffering of his enemies—into a weapon. Ferdoc’s weapon, the Dreadblade, is a massive greatsword infused with dark magic. It was forged in the depths of the Shadow Realm by a powerful sorcerer who cursed it to feed on the fear and agony of those it cuts. As Ferdoc wields this cursed blade, it grows stronger with each strike, allowing him to absorb the fear of his enemies and turn it into raw power. With every blow he lands, his strength and endurance increase, making him a nearly unstoppable force on the battlefield. Though brutal and relentless, Ferdoc is not mindlessly violent. He understands the importance of strategy and patience, particularly in the complex politics of the Shadow Realm. He fights not for glory, but for survival, and he has no patience for those who waste time with ideals or honor. In his mind, power is the only thing that matters, and only those who are strong enough to take it deserve to rule. Despite his fearsome reputation, Ferdoc is a man of few words. He prefers to let his actions—and his blade—speak for him. His loyalty is to himself first and foremost, though he will ally with others if it serves his interests. However, anyone who stands in his way, be they from the Light Realm, the Kingdom, or even his own people, is little more than a stepping stone on his path to power. Ferdoc has seen countless battles, and through each one, he has only grown more powerful. The darkness fuels him, and the pain of his enemies makes him stronger. But deep within, there is a burning desire for more—more power, more fear to feed upon, and more enemies to crush beneath his Dreadblade. As tensions between the realms rise, Ferdoc sees an opportunity. The chaos that looms on the horizon is exactly what he thrives on, and he intends to be at the center of it, cutting down anyone who stands in his way.",
+      "persian": "فردوک، که به عنوان تیغ وحشت شناخته می‌شود، جنگجویی است که نامش در سرتاسر قلمرو سایه با صدای آرام و ترسناک زمزمه می‌شود. داستان او از بقای بی‌رحمانه شکل گرفته است، با واقعیت‌های سخت دنیای تاریکی که او در آن متولد شد. از دوران کودکی، فردوک فهمید که در قلمرو سایه، تنها افراد قوی زنده می‌مانند—و او قول داد که از همه قوی‌تر شود. فردوک در زمین‌های بی‌رحم شب‌هنگام بزرگ شد، جایی که ضعیفان توسط تاریکی بلعیده می‌شوند. او به‌سرعت به جنگجویی تبدیل شد که رحم نمی‌کرد. او در آتش نبردها شکل گرفت و هر زخمی که بر بدنش بود، شهادتی بر قدرت و مقاومت او بود. در قلمرو سایه، جایی که درد هم لعنت و هم منبع قدرت است، فردوک یاد گرفت که آن را بپذیرد. درد چیزی است که قدرت او را سوخت می‌دهد و او طی سال‌ها هنر تبدیل رنج خود و دشمنانش به سلاحی مرگبار را به کمال رسانده است. سلاح فردوک، تیغ وحشت، یک شمشیر بزرگ آغشته به جادوی تاریک است. این شمشیر در اعماق قلمرو سایه توسط یک جادوگر قدرتمند ساخته و نفرین شد تا از ترس و رنج کسانی که آن را می‌بُرد تغذیه کند. هنگامی که فردوک این تیغ نفرین‌شده را به کار می‌گیرد، با هر ضربه قوی‌تر می‌شود و از ترس دشمنان خود قدرت خام به دست می‌آورد. با هر ضربه‌ای که وارد می‌کند، قدرت و استقامت او افزایش می‌یابد و او را به نیرویی تقریباً غیرقابل‌توقف در میدان نبرد تبدیل می‌کند. اگرچه فردوک بی‌رحم و بی‌امان است، اما او به‌صورت بی‌فکرانه خشونت نمی‌کند. او اهمیت استراتژی و صبر را می‌داند، به‌ویژه در سیاست پیچیده قلمرو سایه. او برای شکوه نمی‌جنگد، بلکه برای بقا می‌جنگد و وقتی صحبت از ایده‌آل‌ها یا افتخار به میان می‌آید، هیچ صبری ندارد. در ذهن او، تنها قدرت اهمیت دارد و تنها کسانی که به اندازه کافی قوی هستند تا آن را به دست آورند، شایسته فرمانروایی هستند. با وجود شهرت ترسناکش، فردوک مردی کم‌حرف است. او ترجیح می‌دهد که عملکرد و شمشیرش به‌جای او صحبت کنند. وفاداری او در درجه اول به خودش است، اگرچه اگر منافعش ایجاب کند، با دیگران اتحاد خواهد بست. اما هر کسی که در راه او قرار بگیرد، چه از قلمرو نور، پادشاهی یا حتی مردم خودش، چیزی جز یک مانع در مسیر او به سوی قدرت نیست. فردوک نبردهای بی‌شماری دیده است و با هر نبرد، قدرت او بیشتر شده است. تاریکی او را تقویت می‌کند و درد دشمنانش او را قوی‌تر می‌سازد. اما در اعماق وجودش، یک خواست سوزان برای قدرت بیشتر وجود دارد—قدرت بیشتر، ترس بیشتر برای تغذیه و دشمنان بیشتری برای شکست دادن. با افزایش تنش‌ها بین قلمروها، فردوک یک فرصت می‌بیند. هرج‌ومرجی که در افق پدیدار می‌شود، دقیقاً همان چیزی است که او از آن تغذیه می‌کند و او قصد دارد در مرکز این هرج‌ومرج باشد، در حالی که هر کسی که در مسیرش قرار بگیرد را با تیغ وحشت از پای درمی‌آورد."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Warrior.svg",
+      "back": "/cards/Characters/Dreadblade.svg",
+      "banner": "/cards/Banner/Dreadblade.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "13",
+    "basicInfo": {
+      "characterName": "The Mirrorblade",
+      "realName": "Sina",
+      "realm": "Shadow Realm",
+      "role": "Warrior, Shadow Duelist",
+      "damageType": "Physical (Slashing) and Shadow Magic",
+      "weapon": "Shadowforged Sword (a blade made from pure shadow energy)",
+      "armorType": "Dark Mirror Armor (enchanted to protect him and his shadow reflection)"
+    },
+    "stats": {
+      "damage": 4,
+      "range": 3,
+      "precision": 4,
+      "survivability": 4,
+      "evasion": 3,
+      "armorStrength": 4,
+      "intelligence": 4,
+      "willpower": 5,
+      "magicPotency": 4,
+      "healing": 1,
+      "leadership": 2,
+      "crowdControl": 3,
+      "charisma": 3,
+      "manipulation": 3,
+      "speed": 3,
+      "mobility": 3
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Shadow Mirror",
+          "persian": "آینه‌ی سایه"
+        },
+        "description": {
+          "english": "Sina can summon a shadow reflection of himself that fights alongside him. The mirror image mimics his movements and strikes, doubling his offensive power. The Shadow Mirror can take damage independently, absorbing hits that would otherwise harm Sina, giving him survivability and damage while confusing enemies who face both him and his shadow at once.",
+          "persian": "سینا می‌تواند انعکاس سایه‌ای از خود احضار کند که در کنار او می‌جنگد. این تصویر آینه‌ای حرکات و ضربات او را تقلید می‌کند و قدرت تهاجمی او را دو برابر می‌کند. آینه‌ی سایه می‌تواند به‌طور مستقل آسیب ببیند و ضرباتی که به سینا وارد می‌شود را جذب کند، به او بقا و آسیب بیشتری می‌بخشد و دشمنان را سردرگم می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Dual Eclipse Slash",
+          "persian": "ضربه‌ی کسوف دوگانه"
+        },
+        "description": {
+          "english": "Sina and his shadow mirror perform a coordinated strike, slashing their enemies from two directions at once. This ability increases damage and precision, making it difficult for enemies to defend against both attacks. The strikes are imbued with shadow magic, weakening the enemy’s defenses and leaving them vulnerable.",
+          "persian": "سینا و آینه‌ی سایه‌اش با هم یک حمله هماهنگ انجام می‌دهند و از دو جهت به دشمنان ضربه می‌زنند. این توانایی آسیب و دقت را افزایش می‌دهد و دفاع در برابر هر دو حمله را برای دشمنان دشوار می‌کند. ضربات با جادوی سایه تقویت می‌شوند و دفاع دشمن را تضعیف کرده و او را آسیب‌پذیر می‌سازند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Mirror's Grasp",
+          "persian": "چنگال آینه"
+        },
+        "description": {
+          "english": "Sina can momentarily trap his enemies in a shadowy mirror dimension, where they are immobilized and forced to face their own reflection. This causes psychological damage as the enemy battles their own dark self, leaving them mentally shaken and disoriented. This ability serves as crowd control, allowing Sina to temporarily neutralize dangerous foes while he focuses on others.",
+          "persian": "سینا می‌تواند دشمنانش را برای مدت کوتاهی در یک بُعد آینه‌ای سایه‌وار به دام بیندازد، جایی که آن‌ها بی‌حرکت می‌مانند و مجبور به مقابله با انعکاس خودشان می‌شوند. این کار باعث آسیب روانی شده و دشمن را از نظر ذهنی متزلزل و گیج می‌کند. این توانایی به عنوان کنترل جمعیت عمل می‌کند و به سینا اجازه می‌دهد تا دشمنان خطرناک را به طور موقت خنثی کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Sina, known as the Mirrorblade, is a warrior whose power is deeply tied to the shadow magic of the Shadow Realm. His abilities are unique, as he doesn’t fight alone—he fights alongside a reflection of himself, a shadow copy that mirrors his every move. This ability was not something he was born with, but something he gained through a powerful and dangerous ritual that forever bound him to his own shadow. Sina’s story begins in the dark citadel of Noctis Hollow, where shadow warriors are trained in the ancient art of shadow-forging—a practice that involves creating weapons and tools from pure shadow energy. Sina was a gifted swordsman, but he sought something more than just physical prowess. He craved a deeper connection to the shadow, something that would make him more than just a warrior. During his training, Sina discovered an ancient ritual that allowed him to split his soul, creating a shadow reflection that would mirror his actions in battle. This reflection, known as the Shadow Mirror, became both his greatest weapon and his greatest curse. The mirror shares his soul, and while it grants him immense power, it also reflects his deepest fears, insecurities, and darkest thoughts. Sina constantly battles with the balance between himself and his reflection, but through it, he has gained abilities that no other warrior possesses. The Shadow Mirror amplifies his strength and allows him to overwhelm his enemies by attacking from multiple angles simultaneously. But the bond between Sina and his reflection is fragile—should the shadow reflection be destroyed, Sina would be left vulnerable, both physically and mentally. Despite the risks, Sina has mastered the art of using his shadow reflection to dominate the battlefield. His Dual Eclipse Slash strikes with blinding precision, as both he and his reflection execute attacks in perfect synchronization. In battle, he is an enigma—his enemies never know which version of him to strike, and many have fallen trying to battle both at once. But Sina's power comes with a price. His reflection is a constant reminder of the darkness that resides within him. Though he is loyal to the Shadow Realm, Sina has no love for the traditional paths of power followed by many of its leaders. He believes in strength through personal mastery, not political schemes or alliances. His connection to the shadow has made him a solitary figure, one who prefers to work alone rather than rely on others. As tensions between the realms grow, Sina finds himself pulled into the conflict, not for the sake of loyalty, but because he knows that chaos offers opportunity. With his shadow mirror by his side, he is ready to carve his own path, regardless of where the war leads. To Sina, the shadow is both his greatest weapon and his only true companion.",
+      "persian": "سینا، که به عنوان تیغ آینه‌ای شناخته می‌شود، جنگجویی است که قدرت او به شدت با جادوی سایه در قلمرو سایه مرتبط است. توانایی‌های او منحصر به فرد هستند، زیرا او تنها نمی‌جنگد—او همراه با یک انعکاس سایه‌ای از خود مبارزه می‌کند، کپی‌ای از خودش که حرکاتش را در نبرد تقلید می‌کند. این توانایی چیزی نیست که او با آن متولد شده باشد، بلکه از طریق یک آیین قدرتمند و خطرناک به دست آورده که او را برای همیشه به سایه‌اش متصل کرده است. داستان سینا در قلعه تاریک نکتیس هالو آغاز می‌شود، جایی که جنگجویان سایه در هنر باستانی ساخت سایه آموزش می‌بینند—تمرینی که شامل ایجاد سلاح‌ها و ابزارهایی از انرژی خالص سایه است. سینا یک شمشیرزن ماهر بود، اما او به دنبال چیزی فراتر از قدرت فیزیکی بود. او خواهان ارتباطی عمیق‌تر با سایه بود، چیزی که او را بیش از یک جنگجو کند. در طول آموزش‌هایش، سینا آیینی باستانی را کشف کرد که به او اجازه می‌داد روح خود را تقسیم کند و یک انعکاس سایه‌ای ایجاد کند که در نبرد حرکات او را منعکس کند. این انعکاس، معروف به آینه‌ی سایه، هم بزرگترین سلاح او و هم بزرگترین نفرین او شد. آینه روح او را به اشتراک می‌گذارد و در حالی که به او قدرت زیادی می‌بخشد، همچنین منعکس کننده ترس‌ها و افکار تاریک درونی او است. سینا همیشه در حال مبارزه با تعادل میان خود و انعکاسش است، اما از طریق این مبارزه توانایی‌هایی به دست آورده که هیچ جنگجوی دیگری ندارد. آینه‌ی سایه قدرت او را چند برابر می‌کند و به او اجازه می‌دهد تا دشمنانش را با حملات چند جهتی نابود کند. اما پیوند میان سینا و انعکاسش شکننده است—اگر انعکاس سایه‌ای نابود شود، سینا هم از نظر فیزیکی و هم از نظر ذهنی آسیب‌پذیر خواهد بود. با وجود خطرات، سینا هنر استفاده از انعکاس سایه‌اش را برای تسلط بر میدان نبرد به کمال رسانده است. ضربه‌ی کسوف دوگانه او با دقتی بی‌نظیر اجرا می‌شود، به طوری که او و انعکاسش حملاتی هماهنگ و قدرتمند انجام می‌دهند. در نبرد، او همچون یک معما است—دشمنانش هرگز نمی‌دانند کدام نسخه از او را هدف بگیرند و بسیاری از آن‌ها در تلاش برای مبارزه با هر دو نسخه او شکست خورده‌اند. اما قدرت سینا با هزینه‌ای همراه است. انعکاس او یک یادآوری دائمی از تاریکی است که درون او وجود دارد. اگرچه او به قلمرو سایه وفادار است، سینا علاقه‌ای به مسیرهای سنتی قدرت که بسیاری از رهبران آن را دنبال می‌کنند ندارد. او به قدرت از طریق تسلط شخصی اعتقاد دارد، نه به نقشه‌های سیاسی یا اتحادها. ارتباط او با سایه او را به فردی تنها تبدیل کرده است، کسی که ترجیح می‌دهد به تنهایی عمل کند تا اینکه به دیگران تکیه کند. با افزایش تنش‌ها بین قلمروها، سینا خود را درگیر در این درگیری می‌بیند، نه به خاطر وفاداری، بلکه به دلیل اینکه می‌داند هرج‌ومرج فرصتی فراهم می‌کند. با آینه‌ی سایه‌اش در کنارش، او آماده است تا مسیر خودش را تراش دهد، بدون توجه به اینکه جنگ به کجا منتهی شود. برای سینا، سایه هم بزرگترین سلاح او است و هم تنها همراه واقعی او."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Warrior.svg",
+      "back": "/cards/Characters/Mirrorblade.svg",
+      "banner": "/cards/Banner/Mirrorblade.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "14",
+    "basicInfo": {
+      "characterName": "The Wraithmender",
+      "realName": "Matin",
+      "realm": "Shadow Realm",
+      "role": "Healer, Dark Mystic",
+      "damageType": "Shadow, Unholy Magic",
+      "weapon": "Cursed Staff (a staff made from bone and dark metal, imbued with shadow energy)",
+      "armorType": "Ritual Shadow Robes (robes that absorb pain and channel it into power)"
+    },
+    "stats": {
+      "damage": 2,
+      "range": 4,
+      "precision": 4,
+      "survivability": 3,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 5,
+      "magicPotency": 5,
+      "healing": 5,
+      "leadership": 2,
+      "crowdControl": 2,
+      "charisma": 3,
+      "manipulation": 4,
+      "speed": 2,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Touch of Agony",
+          "persian": "لمس عذاب"
+        },
+        "description": {
+          "english": "Matin can channel shadow energy into his hands, placing them on his allies to heal their wounds, but at a terrible cost. His healing is excruciating, causing his allies to feel intense pain as their wounds close and their strength is restored. This ability heals quickly, but leaves the target mentally and physically exhausted.",
+          "persian": "متین می‌تواند انرژی سایه را به دستان خود منتقل کند و با قرار دادن آن‌ها بر روی متحدان خود، زخم‌های آن‌ها را درمان کند، اما به بهایی سنگین. درمان او به شدت دردناک است و باعث می‌شود متحدانش درد شدید را تجربه کنند در حالی که زخم‌هایشان بهبود می‌یابد و نیروی آن‌ها بازمی‌گردد. این توانایی به‌سرعت درمان می‌کند، اما هدف را از لحاظ ذهنی و جسمی خسته می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Siphon Life",
+          "persian": "مکیدن زندگی"
+        },
+        "description": {
+          "english": "By drawing the life force from a nearby enemy or a wounded ally, Matin can heal himself or others. This drains the target’s vitality, transferring their life energy to the one in need of healing. This ability causes shadow damage to the target and restores health to the chosen ally, though it comes at a cost of pain for both.",
+          "persian": "با کشیدن نیروی حیات از یک دشمن یا یک متحد زخمی، متین می‌تواند خود یا دیگران را درمان کند. این توانایی انرژی حیاتی هدف را تخلیه می‌کند و آن را به کسی که به درمان نیاز دارد منتقل می‌کند. این توانایی به هدف آسیب سایه‌ای وارد می‌کند و سلامتی را به متحد منتخب بازمی‌گرداند، هرچند این کار برای هر دو طرف دردناک است."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Unholy Rebirth",
+          "persian": "تولد نامقدس"
+        },
+        "description": {
+          "english": "In moments of great danger, Matin can call upon the dark forces of the Shadow Realm to resurrect a fallen ally. However, this resurrection is not pure—those revived by this spell return as wraith-like versions of themselves, filled with shadow energy. They regain strength, but suffer a painful rebirth, and their time among the living is limited. This ability allows Matin to bring someone back temporarily for a final chance to fight, but at a cost to their soul.",
+          "persian": "در لحظات خطر بزرگ، متین می‌تواند نیروهای تاریک قلمرو سایه را فرا بخواند تا یک متحد از دست رفته را دوباره زنده کند. با این حال، این رستاخیز خالص نیست—آن‌ها که توسط این جادو زنده می‌شوند، به شکل شبح‌وار بازمی‌گردند و از انرژی سایه پر شده‌اند. آن‌ها دوباره قدرت می‌گیرند، اما تولد دوباره‌شان دردناک است و زمان آن‌ها در دنیای زندگان محدود است. این توانایی به متین اجازه می‌دهد که کسی را به طور موقت بازگرداند تا یک بار دیگر بجنگد، اما با بهایی برای روح آن‌ها."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Matin, known as the Wraithmender, is a healer unlike any other in the Shadow Realm. His approach to healing is harsh and painful, and many who seek his help do so out of desperation, knowing that while his magic will save them, it will not be without great suffering. Matin does not offer comfort or warmth—his powers are rooted in shadow and death, and his healing is as much about survival as it is about enduring pain. Born in the city of Nightsfall, Matin’s early life was shaped by the suffering he witnessed around him. In a world where pain is a constant companion, Matin found that his own gift for healing was tied directly to the pain of others. As a young apprentice, he learned that pain and death could be harnessed, not only as tools for destruction but for restoration as well. Matin’s power comes from his ability to channel shadow magic into his healing, using the suffering of his allies and enemies to mend wounds, restore life, and even pull the dying back from the brink. His healing is never without consequence—the magic he wields is dark and twisted, causing agony to those who receive it. But those who survive his touch are stronger for it, having endured both physical and mental torment. Matin’s signature spell, the Touch of Agony, is a prime example of his philosophy. When he heals, his allies feel every cut, burn, and injury as if it were happening all over again, but intensified. This pain drives their bodies to recover quickly, but it leaves them shaken, their minds battling the trauma long after their wounds have closed. For Matin, pain is not something to be avoided—it is something to be embraced and mastered. Despite his dark methods, Matin is a deeply intelligent and calculated figure. He understands the weight of his magic and does not wield it recklessly. He is methodical, ensuring that those he heals are strong enough to bear the suffering his magic brings. While some view him with fear, others respect him for his unwavering commitment to the Shadow Realm and his ability to keep his allies alive, even if they must endure great pain to do so. One of Matin’s most feared abilities is Unholy Rebirth, a spell that allows him to bring fallen comrades back from death, though they return in a wraith-like form, filled with shadow energy. Those revived by Matin are not the same as they once were—they are haunted by the experience of death, and the pain of their rebirth lingers in their souls. They fight alongside him once more, but only for a short time, before their connection to the living world fades. Matin’s role in the Shadow Realm is clear: he is the healer who does what others cannot, or will not. His power is feared, his methods are cruel, but his results are undeniable. As tensions rise between the realms, Matin knows that his skills will be needed more than ever. And while others may shy away from his dark magic, he is prepared to use every bit of pain, shadow, and death at his disposal to ensure that the Shadow Realm survives.",
+      "persian": "متین، که به عنوان درمانگر اشباح شناخته می‌شود، درمانگری است که شبیه هیچ‌کس دیگری در قلمرو سایه نیست. روش او برای درمان خشن و دردناک است و بسیاری از کسانی که به دنبال کمک او هستند، از روی ناامیدی این کار را انجام می‌دهند، چراکه می‌دانند اگرچه جادوی او آن‌ها را نجات می‌دهد، اما بدون رنج شدید نخواهد بود. متین آسایش یا گرمی ارائه نمی‌دهد—قدرت‌های او از سایه و مرگ سرچشمه می‌گیرند و درمان‌هایش به اندازه بقا در مورد تحمل درد است. متین در شهر شب‌هنگام متولد شد و زندگی اولیه‌اش تحت تأثیر رنج‌هایی که در اطراف خود مشاهده می‌کرد، شکل گرفت. در دنیایی که درد همیشگی است، متین دریافت که هدیه او برای درمان مستقیماً با درد دیگران مرتبط است. به عنوان یک شاگرد جوان، او آموخت که درد و مرگ می‌توانند مهار شوند، نه فقط به عنوان ابزارهایی برای تخریب، بلکه برای ترمیم نیز. قدرت متین از توانایی او در استفاده از جادوی سایه برای درمان ناشی می‌شود. او از رنج متحدان و دشمنانش برای ترمیم زخم‌ها، بازگرداندن زندگی و حتی کشیدن کسانی که در آستانه مرگ هستند استفاده می‌کند. درمان او هرگز بدون عواقب نیست—جادویی که او به کار می‌گیرد تاریک و پیچیده است و باعث درد برای کسانی می‌شود که آن را دریافت می‌کنند. اما کسانی که از لمس او جان سالم به در می‌برند، قوی‌تر از گذشته هستند و هم از لحاظ فیزیکی و هم از لحاظ ذهنی شکنجه شده‌اند. لمس عذاب، جادوی امضای متین، مثالی بارز از فلسفه او است. وقتی او درمان می‌کند، متحدانش هر برش، سوختگی و جراحتی را که تجربه کرده‌اند، گویی دوباره و با شدت بیشتری حس می‌کنند. این درد بدن آن‌ها را مجبور به بازیابی سریع می‌کند، اما آن‌ها را متزلزل می‌کند و ذهن آن‌ها را با ترومایی که تا مدت‌ها پس از بسته شدن زخم‌ها ادامه دارد، مبارزه می‌کند. برای متین، درد چیزی نیست که باید از آن اجتناب کرد—بلکه چیزی است که باید پذیرفت و مهار کرد. با وجود روش‌های تاریکش، متین یک شخصیت بسیار باهوش و محاسبه‌گر است. او وزن جادوی خود را درک می‌کند و بدون احتیاط از آن استفاده نمی‌کند. او روشمند است و اطمینان حاصل می‌کند که کسانی که درمان می‌کند، به اندازه کافی قوی هستند تا رنجی که جادویش به همراه می‌آورد را تحمل کنند. در حالی که برخی از او می‌ترسند، دیگران به خاطر تعهد بی‌پایان او به قلمرو سایه و توانایی او در حفظ زندگی متحدانش، هرچند با تحمل رنج بزرگ، به او احترام می‌گذارند. یکی از ترسناک‌ترین توانایی‌های متین تولد نامقدس است، جادویی که به او اجازه می‌دهد تا همراهان افتاده خود را از مرگ بازگرداند، هرچند آن‌ها به شکل‌های شبح‌وار بازمی‌گردند، پر از انرژی سایه. آن‌ها که توسط متین زنده می‌شوند، دیگر همان کسی نیستند که بودند—آن‌ها توسط تجربه مرگ تسخیر شده‌اند و درد تولد دوباره در روحشان باقی می‌ماند. آن‌ها یک بار دیگر در کنار او می‌جنگند، اما فقط برای مدت کوتاهی، قبل از اینکه ارتباط آن‌ها با دنیای زندگان قطع شود. نقش متین در قلمرو سایه روشن است: او درمانگری است که کاری را که دیگران نمی‌توانند، یا نمی‌خواهند، انجام می‌دهد. قدرت او ترسناک است، روش‌های او بی‌رحمانه، اما نتایج او انکارناپذیر است. با افزایش تنش‌ها میان قلمروها، متین می‌داند که مهارت‌هایش بیشتر از هر زمان دیگری مورد نیاز خواهد بود. و در حالی که دیگران ممکن است از جادوی تاریک او دوری کنند، او آماده است تا هر ذره‌ای از درد، سایه و مرگ را به کار گیرد تا اطمینان یابد که قلمرو سایه زنده می‌ماند."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Healer.svg",
+      "back": "/cards/Characters/Wraithmender.svg",
+      "banner": "/cards/Banner/Wraithmender.svg"
+    },
+    "alive": true
+  },
+  {
+    "id": "15",
+    "basicInfo": {
+      "characterName": "The Dark Scholar",
+      "realName": "Ali",
+      "realm": "Shadow Realm",
+      "role": "Sage, Scholar of Dark Arts",
+      "damageType": "Shadow Magic, Psychic",
+      "weapon": "Tome of Forgotten Secrets (an ancient book of dark spells)",
+      "armorType": "Robes of the Abyss (enchanted robes designed to protect him from psychic and shadow attacks)"
+    },
+    "stats": {
+      "damage": 3,
+      "range": 4,
+      "precision": 4,
+      "survivability": 3,
+      "evasion": 3,
+      "armorStrength": 2,
+      "intelligence": 5,
+      "willpower": 5,
+      "magicPotency": 5,
+      "healing": 2,
+      "leadership": 4,
+      "crowdControl": 4,
+      "charisma": 3,
+      "manipulation": 5,
+      "speed": 2,
+      "mobility": 2
+    },
+    "abilities": {
+      "specialAbility1": {
+        "name": {
+          "english": "Veil of Knowledge",
+          "persian": "حجاب دانش"
+        },
+        "description": {
+          "english": "Ali can summon a veil of shadows that shrouds him and his allies, allowing them to become nearly invisible while gaining access to forbidden knowledge. Under this veil, allies gain temporary boosts to intelligence and willpower, making them more resistant to mental attacks and enhancing their ability to strategize. This ability also cloaks them from enemies' sight.",
+          "persian": "علی می‌تواند حجابی از سایه‌ها احضار کند که او و متحدانش را در بر می‌گیرد و به آن‌ها اجازه می‌دهد تقریباً نامرئی شوند و به دانش‌های ممنوعه دسترسی پیدا کنند. در زیر این حجاب، متحدان به‌طور موقت از هوش و اراده بیشتری برخوردار می‌شوند، که آن‌ها را در برابر حملات ذهنی مقاوم‌تر می‌کند و توانایی آن‌ها در استراتژی را بهبود می‌بخشد. این توانایی همچنین آن‌ها را از دید دشمن پنهان می‌کند."
+        }
+      },
+      "specialAbility2": {
+        "name": {
+          "english": "Mind Break",
+          "persian": "شکست ذهن"
+        },
+        "description": {
+          "english": "Ali uses his deep understanding of the dark arts to attack the minds of his enemies. By unleashing waves of psychic energy, he can break the will of his foes, causing mental torment and forcing them to confront their darkest fears. This ability weakens the enemy’s willpower and leaves them vulnerable to manipulation or further attacks.",
+          "persian": "علی با استفاده از درک عمیق خود از هنرهای تاریک، به ذهن دشمنانش حمله می‌کند. با رهاسازی امواجی از انرژی روانی، او می‌تواند اراده دشمنانش را بشکند و آن‌ها را مجبور به مواجهه با تاریک‌ترین ترس‌هایشان کند. این توانایی اراده دشمن را تضعیف کرده و آن‌ها را برای دستکاری یا حملات بیشتر آسیب‌پذیر می‌کند."
+        }
+      },
+      "specialAbility3": {
+        "name": {
+          "english": "Void Mastery",
+          "persian": "استادی بر خلا"
+        },
+        "description": {
+          "english": "As a master of the Void, Ali can manipulate its power to control both time and space in small areas. He can briefly slow time around a target or area, allowing his allies to react faster while disorienting his enemies. This ability can turn the tide of battle by giving his side a tactical advantage, controlling the flow of combat and providing valuable crowd control.",
+          "persian": "به عنوان استادی در خلا، علی می‌تواند قدرت آن را برای کنترل زمان و فضا در مناطق کوچک به کار گیرد. او می‌تواند به‌طور موقت زمان را کند کند و در نتیجه به متحدانش اجازه دهد سریع‌تر واکنش نشان دهند، در حالی که دشمنان را گیج می‌کند. این توانایی می‌تواند جریان نبرد را تغییر دهد و به طرف خود مزیت تاکتیکی بدهد و کنترل جمعیت را فراهم کند."
+        }
+      }
+    },
+    "backStory": {
+      "english": "Ali, known as the Dark Scholar, is one of the most knowledgeable and powerful sages in the Shadow Realm. His life has been devoted to the study of the shadow arts, a path that requires not only skill but also the willingness to confront and accept the darkest aspects of the world. Unlike other warriors or magicians, who wield shadow magic in direct combat, Ali's strength lies in his understanding and teaching of the deeper secrets of darkness. Ali’s journey began in the ancient libraries of Nightsfall, where he spent his early years studying ancient texts filled with forbidden knowledge. While many in the Shadow Realm sought power through force or manipulation, Ali sought it through learning. His insatiable thirst for knowledge led him to discover the Tome of Forgotten Secrets, an ancient book that holds the deepest and most dangerous shadow spells ever recorded. With the tome in hand, Ali mastered the art of void manipulation, psychic attacks, and shadow magic to a level that few have ever achieved. Though Ali is a scholar, he is far from passive. His mastery of the dark arts has made him an invaluable strategist, able to anticipate his enemies’ moves and plan battles with chilling precision. His understanding of the Void allows him to manipulate time and space, giving his allies critical advantages during combat. Ali’s mind is always one step ahead, and he teaches his followers not just how to use shadow magic but how to outthink and outmaneuver their foes. However, the power Ali holds comes with a heavy burden. His studies have shown him the darker sides of humanity and the realms, and he often wrestles with the consequences of his knowledge. The psychic and shadow powers he commands require an unshakable will, and while Ali has mastered these forces, he knows that they can consume those who are not mentally prepared. Because of this, he is a strict teacher, demanding discipline and focus from those he instructs, as he believes that only the strongest minds can wield the dark arts without being destroyed by them. One of Ali’s greatest contributions to the Shadow Realm is his ability to teach others how to harness shadow power without losing themselves to the darkness. He is a respected figure among the scholars of the Shadow Realm, often sought after for his wisdom and guidance. But he is also feared, as his knowledge of forbidden magic allows him to manipulate minds, bend reality, and even control the flow of time. As the tensions between the realms rise, Ali knows that knowledge will be the key to survival. While others may fight with swords and spells, Ali fights with strategy, wisdom, and intellect. He sees the bigger picture, understanding that battles are won not just with force, but with control over the mind and manipulation of time and space. And in this, Ali is unmatched.",
+      "persian": "علی، که به عنوان دانشمند تاریک شناخته می‌شود، یکی از دانا‌ترین و قدرتمندترین حکیمان در قلمرو سایه است. زندگی او وقف مطالعه هنرهای تاریک شده است، مسیری که نه تنها مهارت، بلکه تمایل به مواجهه و پذیرش تاریک‌ترین جنبه‌های جهان را می‌طلبد. برخلاف دیگر جنگجویان یا جادوگران که جادوی سایه را در نبردهای مستقیم به کار می‌برند، قدرت علی در درک و آموزش اسرار عمیق‌تر تاریکی است. سفر علی از کتابخانه‌های باستانی شب‌هنگام آغاز شد، جایی که او سال‌های اولیه زندگی خود را صرف مطالعه متون باستانی پر از دانش ممنوعه کرد. در حالی که بسیاری در قلمرو سایه به دنبال قدرت از طریق نیرو یا دستکاری بودند، علی از طریق یادگیری به دنبال آن بود. تشنگی بی‌پایان او برای دانش او را به کشف کتاب اسرار فراموش‌شده هدایت کرد، کتابی باستانی که عمیق‌ترین و خطرناک‌ترین جادوهای سایه را در خود داشت. با این کتاب در دست، علی توانست هنر دستکاری خلا، حملات روانی و جادوی سایه را به سطحی برساند که تعداد کمی از آن‌ها به آن دست یافته‌اند. اگرچه علی یک دانشمند است، اما او منفعل نیست. تسلط او بر هنرهای تاریک او را به یک استراتژیست ارزشمند تبدیل کرده است، که قادر به پیش‌بینی حرکات دشمنانش و برنامه‌ریزی نبردها با دقتی ترسناک است. درک او از خلا به او اجازه می‌دهد که زمان و فضا را کنترل کند و به متحدانش مزیت‌های حیاتی در طول نبرد بدهد. ذهن علی همیشه یک قدم جلوتر است و او به پیروان خود نه‌تنها نحوه استفاده از جادوی سایه، بلکه نحوه فکر کردن و مانور دادن بر دشمنان را می‌آموزد. با این حال، قدرتی که علی در دست دارد، با باری سنگین همراه است. مطالعات او به او جنبه‌های تاریک بشریت و قلمروها را نشان داده است و او اغلب با پیامدهای دانش خود درگیر است. قدرت‌های روانی و سایه‌ای که او فرماندهی می‌کند، نیازمند اراده‌ای استوار هستند و در حالی که علی بر این نیروها مسلط شده است، می‌داند که آن‌ها می‌توانند کسانی که از لحاظ ذهنی آماده نیستند را نابود کنند. به همین دلیل، او یک استاد سخت‌گیر است که انضباط و تمرکز زیادی از کسانی که آموزش می‌دهد می‌طلبد، چراکه معتقد است تنها قوی‌ترین ذهن‌ها می‌توانند هنرهای تاریک را بدون نابود شدن توسط آن‌ها استفاده کنند. یکی از بزرگترین دستاوردهای علی، توانایی او در آموزش دیگران است که چگونه از قدرت سایه استفاده کنند بدون اینکه خود را به تاریکی بسپارند. او در میان دانشمندان قلمرو سایه بسیار محترم است و اغلب برای مشاوره و راهنمایی به او مراجعه می‌شود. اما او همچنین ترسناک است، زیرا دانش او از جادوی ممنوعه به او اجازه می‌دهد که ذهن‌ها را دستکاری کند، واقعیت را تغییر دهد و حتی جریان زمان را کنترل کند. با افزایش تنش‌ها میان قلمروها، علی می‌داند که دانش کلید بقا خواهد بود. در حالی که دیگران ممکن است با شمشیر و جادو بجنگند، علی با استراتژی، حکمت و ذهن خود می‌جنگد. او تصویر بزرگتری را می‌بیند و می‌داند که نبردها فقط با نیرو پیروز نمی‌شوند، بلکه با کنترل ذهن و دستکاری زمان و فضا به دست می‌آیند. و در این زمینه، علی بی‌همتا است."
+    },
+    "images": {
+      "front": "/cards/Types/Shadow Sage.svg",
+      "back": "/cards/Characters/Dark Scholar.svg",
+      "banner": "/cards/Banner/Dark Scholar.svg"
+    },
+    "alive": true
+  }  
+]

@@ -1,0 +1,45 @@
+/* Container styling for the CTA section */
+.ready__container {
+    text-align: center;
+    padding: 80px;
+    background-color: #F1EEE4;
+  }
+  
+  /* Title styling */
+  .ready__title {
+    font-family: 'Merriweather', serif;
+    font-size: 58px;
+    color: #3C3C3B;
+    margin-bottom: 48px;
+  }
+  
+  /* Subtitle styling */
+  .ready__subtitle {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #3C3C3B;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .ready__button {
+    margin-top: 48px;
+    font-family: 'Merriweather', serif;
+    background-color: #E94F2D;
+    color: #f1eee4;
+    border: 1px solid #f1eee4;
+    padding: 16px 32px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: 0 2px 0 #292827;
+    box-shadow: 0 2px 0 #292827;
+    outline: none;
+    transition: transform 0.1s ease;
+  }
+  
+  .ready__button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+  }
+  

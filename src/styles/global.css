@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-bolditalic.otf") format("opentype");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-extrabold.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-extrabolditalic.otf")
+    format("opentype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-italic.otf") format("opentype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-lightitalic.otf") format("opentype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-semibold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Capitolina";
+  src: url("/fonts/fonnts.com-capitolina-semibolditalic.otf") format("opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Merriweather", "Capitolina", sans-serif;
+  background-color: #f1eee4;
+  color: #333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.figure-overlay {
+    position: fixed; /* Fix the overlay to the viewport, so it scrolls with the page */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    z-index: 999; /* Ensure it stays on top of all content */
+    pointer-events: none; /* Allow interaction with content underneath */
+    background-image: url('../../public/decoration/Figure.svg'); /* Path to the SVG */
+    background-repeat: repeat-y; /* Repeat the image vertically */
+    background-size: 100% 1080px; /* Make sure the image is 1080px tall */
+    background-position: top; /* Start the image at the top */
+    overflow: hidden; /* Prevent content overflow */
+}
