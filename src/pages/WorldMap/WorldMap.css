@@ -4,7 +4,7 @@
     position: fixed; /* Ensure it's fixed at the top */
     top: 0;
     left: 0;
-    width: 100%;
+    width: calc(100% - 8px);
     z-index: 10; /* Ensure it's above the map */
     background: rgba(255, 255, 255, 0.5); /* Transparent background */
 }

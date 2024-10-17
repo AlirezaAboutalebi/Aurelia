@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './ChampionCardsContainer.css';
-import data from '../../../data/DATA.json';
-import ChampionCard from '../../../components/ChampionCard/ChampionCard';
+import data from '../../../../data/DATA.json';
+import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
 
 const ChampionCardsContainer = () => {
   // State to track flipped cards

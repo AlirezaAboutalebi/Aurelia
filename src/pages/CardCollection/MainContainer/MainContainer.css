@@ -1,0 +1,21 @@
+/* Parent wrapper for the images, setting the positioning context */
+.main-container__side-image-container {
+    position: relative; /* Container that allows absolute positioning within */
+    width: 1388px;
+    height: 980px;
+}
+
+/* CollectionSide.svg image */
+.container_image {
+    width: 100%; /* Take full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* ContainderDeco.webp decoration, now positioned relative to .container_image */
+.container_deco {
+    position: absolute; /* Positioned relative to .main-container__side-image-container */
+    height: 1140px;
+    left: -206px;
+    top: -72px;
+    z-index: 10;
+}
