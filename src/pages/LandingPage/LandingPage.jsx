@@ -1,3 +1,5 @@
+
+import ChampionCards from '../../components/ChampionCards/ChampionCards.jsx';
 import Navigation from '../../components/Navigation/Navigation';
 import CookieNotice from './Cookie/CookieNotice.jsx';
 import HeroSection from './HeroSection/HeroSection'; // Import HeroSection
@@ -12,6 +14,7 @@ const LandingPage = () => {
       <HeroSection />
       <Rules/>
       <Ready/>
+      <ChampionCards/>
       <CookieNotice/>
     </>
   );
