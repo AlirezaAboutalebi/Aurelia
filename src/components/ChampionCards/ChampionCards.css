@@ -5,12 +5,13 @@
     margin: 0 auto; /* Center the container horizontally */
   }
   
-  /* Grid styling for the cards */
+  /* Flexbox for the cards */
   .cards-grid {
-    display: grid; /* Use grid layout for better control */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ensure cards fit nicely within the container */
-    gap: 16px; /* Gap of 16px between each card */
-    justify-content: center; /* Center the cards within the container */
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow the cards to wrap onto the next line */
+    gap: 16px; /* Maintain a 16px gap between each card */
+    justify-content: flex-start; /* Align the cards to the left */
+    align-items: flex-start; /* Align items at the top */
   }
   
   /* Flip card */
@@ -18,7 +19,7 @@
     width: 200px;
     height: 300px;
     perspective: 1000px;
-    margin: 0 auto; /* Center each card within its grid cell */
+    margin: 0; /* Remove unnecessary margins */
   }
   
   .flip-card-inner {
@@ -74,6 +75,27 @@
   }
   
   .reset-button:hover {
+    background-color: #cc3f24;
+  }
+  
+  /* Pack Buttons */
+  .pack-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .pack-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #E94F2D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pack-button:hover {
     background-color: #cc3f24;
   }
   
