@@ -1,11 +1,11 @@
-import ChampionCards from "../../components/ChampionCards/ChampionCards";
 import Navigation from "../../components/Navigation/Navigation";
+import ChampionCardsContainer from "./ChampionCardsContainer/ChampionCardsContainer";
 
 const CardCollection = () => {
   return (
     <>
       <Navigation/>
-      <ChampionCards/>
+      <ChampionCardsContainer/>
     </>
   );
 };

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import './ChampionCards.css';
-import data from '../../data/DATA.json';
+import './ChampionCardsContainer.css';
+import data from '../../../data/DATA.json';
+import ChampionCard from '../../../components/ChampionCard/ChampionCard';
 
-const ChampionCards = () => {
+const ChampionCardsContainer = () => {
   // State to track flipped cards
   const [flippedCards, setFlippedCards] = useState([]);
   
@@ -54,20 +55,12 @@ const ChampionCards = () => {
       {/* Cards grid to display visible cards */}
       <div className="cards-grid">
         {visibleCards.map((champion) => (
-          <div
+          <ChampionCard
             key={champion.id}
-            className={`flip-card ${flippedCards.includes(champion.id) ? 'flipped' : ''}`}
-            onMouseEnter={() => handleFlip(champion.id)}
-          >
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={champion.images.front} alt={`${champion.basicInfo.characterName} front`} />
-              </div>
-              <div className="flip-card-back">
-                <img src={champion.images.back} alt={`${champion.basicInfo.characterName} back`} />
-              </div>
-            </div>
-          </div>
+            champion={champion}
+            flipped={flippedCards.includes(champion.id)}
+            onFlip={handleFlip}
+          />
         ))}
       </div>
 
@@ -77,4 +70,4 @@ const ChampionCards = () => {
   );
 };
 
-export default ChampionCards;
+export default ChampionCardsContainer;
