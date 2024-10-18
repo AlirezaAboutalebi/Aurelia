@@ -3,6 +3,7 @@ import Navigation from "../../components/Navigation/Navigation";
 import ChampionCardsContainer from "./MainContainer/ChampionCardsContainer/ChampionCardsContainer";
 import MainContainer from "./MainContainer/MainContainer";
 import Tabs from './Tabs/Tabs'; // Importing the Tabs component
+import PacksContainer from './MainContainer/PacksContainer/PacksContainer';
 
 const CardCollection = () => {
   const [activeTab, setActiveTab] = useState('mycards'); // Default active tab
@@ -15,7 +16,7 @@ const CardCollection = () => {
       
       <MainContainer>
         {/* Conditionally render content based on active tab */}
-        {activeTab === 'packs' && <div>Packs Content</div>} {/* Placeholder for Packs */}
+        {activeTab === 'packs' && <div><PacksContainer/></div>} {/* Placeholder for Packs */}
         {activeTab === 'catalogue' && <div>Catalogue Content</div>} {/* Placeholder for Catalogue */}
         {activeTab === 'mycards' && <ChampionCardsContainer />} {/* Display the Champion Cards */}
         {activeTab === 'lostcards' && <div>Lost Cards Content</div>} {/* Placeholder for Lost Cards */}

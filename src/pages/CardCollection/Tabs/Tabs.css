@@ -2,8 +2,7 @@
 .tabs-container {
     display: flex;
     justify-content: flex-start;
-    gap: 16px;
-    padding: 20px 0;
+    padding: 2px 60px;
   }
   
   /* Styles for each tab button */
@@ -28,22 +27,12 @@
   
   .tab-button .tab-text {
     position: absolute;
-    font-family: 'Merriweather', serif;
-    font-size: 14px;
+    font-family: 'Nanum Gothic Coding', 'Merriweather';
+    font-size: 18px;
+    letter-spacing: 1px;
     font-weight: 600;
-    color: #fff;
+    color: #F1EEE4;
     z-index: 1; /* To place the text above the button background */
   }
   
-  .tab-button.active .tab-text {
-    color: #fff; /* Adjust text color for active tab */
-  }
-  
-  .tab-button:hover {
-    transform: scale(1.05); /* Slightly enlarge the button on hover */
-  }
-  
-  .tab-button:active {
-    transform: scale(0.98); /* Slightly shrink the button on click */
-  }
   
