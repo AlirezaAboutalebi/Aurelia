@@ -1,7 +1,7 @@
 import React from 'react';
 import './Tabs.css'; // Import the CSS for styling
 
-const Tabs = ({ activeTab, onTabChange }) => {
+const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
   return (
     <div className="tabs-container">
       <button 
@@ -50,6 +50,14 @@ const Tabs = ({ activeTab, onTabChange }) => {
           className="tab-image" 
         />
         <span className="tab-text">LOST CARDS</span>
+      </button>
+
+      {/* Hide All Cards Button */}
+      <button 
+        className="hide-all-button" 
+        onClick={onHideAllCards}
+      >
+        Hide All Cards
       </button>
     </div>
   );
