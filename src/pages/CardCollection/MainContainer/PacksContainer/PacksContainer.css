@@ -1,55 +1,67 @@
+/* Packs container */
 .packs-container {
     padding: 20px;
     position: relative;
-    z-index: 3; /* Ensure it's above the background */
+    z-index: 3;
     text-align: center;
-  }
-  
-  .packs-title {
-    font-size: 28px;
-    color: #292827;
-    margin-bottom: 24px;
-  }
-  
-  .packs-grid {
+}
+
+/* Packs grid layout */
+.packs-grid {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Gap between pack cards */
-  }
-  
-  .pack-card {
-    background-color: #f1eee4;
-    border: 1px solid #474442;
-    border-radius: 10px;
-    padding: 16px;
-    width: 240px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .pack-card h3 {
+    gap: 24px;
+}
+
+/* Pack images */
+.pack-image {
+    width: 90%; /* Make the image slightly smaller initially */
+    border-radius: 8px;
+    margin-bottom: 16px;
+    transition: transform 0.3s ease; /* Add smooth transition for scaling */
+}
+
+/* Hover effect to enlarge the image */
+.pack-image:hover {
+    transform: scale(1.05); /* Enlarge image slightly on hover */
+}
+
+/* Pack heading */
+.pack-card h3 {
     font-size: 20px;
     margin-bottom: 12px;
     color: #E94F2D;
-  }
-  
-  .pack-card p {
+}
+
+/* Pack description */
+.pack-card p {
     font-size: 14px;
     margin-bottom: 16px;
     color: #474442;
-  }
-  
-  .open-pack-button {
+}
+
+/* Button for opening packs */
+.packs-button {
+    font-family: 'Merriweather', serif;
     background-color: #E94F2D;
     color: #f1eee4;
-    border: none;
-    padding: 10px 16px;
-    font-size: 14px;
+    border: 1px solid #f1eee4;
+    padding: 16px 32px;
+    font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .open-pack-button:hover {
-    background-color: #cc3f24;
-  }
-  
+    text-shadow: 0 2px 0 #292827;
+    box-shadow: 0 2px 0 #292827;
+    outline: none;
+    transition: transform 0.1s ease;
+}
+
+/* Button hover and active effects */
+.packs-button:hover {
+    background-color: #d8431e; /* Slightly darker on hover */
+}
+
+.packs-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+}

@@ -34,5 +34,22 @@
     color: #F1EEE4;
     z-index: 1; /* To place the text above the button background */
   }
+  .rightSideTabs{
+    position: relative;
+    margin-left: 200px;
+  }
+  .hide-all-button{
+    position: relative;
+    right: 0;
+    width: 180px;
+    height: 40px;
+    font-family: 'Nanum Gothic Coding', 'Merriweather';
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #F1EEE4;
+    background-color: #474442;
+    border-radius: 6px;
+  }
   
   
