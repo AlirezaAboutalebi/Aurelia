@@ -1,0 +1,54 @@
+/* Flip card container */
+.champion-cards-container {
+    text-align: center;
+    max-width: 1280px; /* Set container max width */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  /* Flexbox for the cards */
+  .cards-grid {
+    display: flex; /* Use flexbox for alignment */
+    flex-wrap: wrap; /* Allow the cards to wrap onto the next line */
+    gap: 16px; /* Maintain a 16px gap between each card */
+    justify-content: flex-start; /* Align the cards to the left */
+    align-items: flex-start; /* Align items at the top */
+  }
+  
+  /* Reset button */
+  .reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #E94F2D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reset-button:hover {
+    background-color: #cc3f24;
+  }
+  
+  /* Pack Buttons */
+  .pack-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .pack-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #E94F2D;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pack-button:hover {
+    background-color: #cc3f24;
+  }
+  

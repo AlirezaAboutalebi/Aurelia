@@ -1,0 +1,55 @@
+.packs-container {
+    padding: 20px;
+    position: relative;
+    z-index: 3; /* Ensure it's above the background */
+    text-align: center;
+  }
+  
+  .packs-title {
+    font-size: 28px;
+    color: #292827;
+    margin-bottom: 24px;
+  }
+  
+  .packs-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Gap between pack cards */
+  }
+  
+  .pack-card {
+    background-color: #f1eee4;
+    border: 1px solid #474442;
+    border-radius: 10px;
+    padding: 16px;
+    width: 240px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .pack-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #E94F2D;
+  }
+  
+  .pack-card p {
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #474442;
+  }
+  
+  .open-pack-button {
+    background-color: #E94F2D;
+    color: #f1eee4;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .open-pack-button:hover {
+    background-color: #cc3f24;
+  }
+  
