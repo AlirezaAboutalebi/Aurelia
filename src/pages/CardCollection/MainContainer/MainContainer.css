@@ -27,7 +27,7 @@
     position: relative;
     z-index: 20; /* Ensures content is on top of the decoration */
     width: 100%;
-    padding-left: 72px;
+    padding-left: 40px;
    
 }
 

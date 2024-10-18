@@ -1,29 +1,39 @@
-import React from 'react';
-import './PacksContainer.css';
+import React from "react";
+import "./PacksContainer.css";
 
 const PacksContainer = ({ onOpenPack }) => {
+  // Array representing the available packs
+  const packs = [
+    { id: "kingdom", name: "Kingdom Pack", image: "/images/Packs/KingdomPack.webp" },
+    { id: "light", name: "Light Pack", image: "/images/Packs/LightPack.webp" },
+    { id: "shadow", name: "Shadow Pack", image: "/images/Packs/ShadowPack.webp" }
+  ];
+
+  // Total slots we want to display (8 in total)
+  const totalSlots = 8;
+
   return (
     <div className="packs-container">
-      <h2 className="packs-title">Select a Pack</h2>
       <div className="packs-grid">
-        <div className="pack-card">
-          <img src="/images/Packs/KingdomPack.webp" alt="Kingdom Pack" className="pack-image" />
-          <button className="packs-button" onClick={() => onOpenPack('kingdom')}>
-            Open Kingdom Pack
-          </button>
-        </div>
-        <div className="pack-card">
-          <img src="/images/Packs/LightPack.webp" alt="Light Pack" className="pack-image" />
-          <button className="packs-button" onClick={() => onOpenPack('light')}>
-            Open Light Pack
-          </button>
-        </div>
-        <div className="pack-card">
-          <img src="/images/Packs/ShadowPack.webp" alt="Shadow Pack" className="pack-image" />
-          <button className="packs-button" onClick={() => onOpenPack('shadow')}>
-            Open Shadow Pack
-          </button>
-        </div>
+        {Array.from({ length: totalSlots }).map((_, index) => {
+          const pack = packs[index]; // Get the pack if available
+
+          return pack ? (
+            <div key={pack.id} className="pack-slot filled">
+              <img
+                src={pack.image}
+                alt={pack.name}
+                className="pack-image"
+                onClick={() => onOpenPack(pack.id)} // Clicking on the image opens the pack
+              />
+       
+            </div>
+          ) : (
+            <div key={index} className="pack-slot empty">
+              <span className="empty-message">Empty Slot</span>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
