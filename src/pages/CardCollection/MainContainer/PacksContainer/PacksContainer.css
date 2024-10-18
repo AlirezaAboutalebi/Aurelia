@@ -1,4 +1,3 @@
-/* Packs container */
 .packs-container {
     padding: 20px;
     position: relative;
@@ -6,41 +5,36 @@
     text-align: center;
 }
 
-/* Packs grid layout */
+.packs-title {
+    font-size: 28px;
+    color: #292827;
+    margin-bottom: 24px;
+}
+
 .packs-grid {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-/* Pack images */
+.pack-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .pack-image {
-    width: 90%; /* Make the image slightly smaller initially */
+    width: 100%;
     border-radius: 8px;
     margin-bottom: 16px;
     transition: transform 0.3s ease; /* Add smooth transition for scaling */
 }
 
-/* Hover effect to enlarge the image */
 .pack-image:hover {
     transform: scale(1.05); /* Enlarge image slightly on hover */
 }
 
-/* Pack heading */
-.pack-card h3 {
-    font-size: 20px;
-    margin-bottom: 12px;
-    color: #E94F2D;
-}
-
-/* Pack description */
-.pack-card p {
-    font-size: 14px;
-    margin-bottom: 16px;
-    color: #474442;
-}
-
-/* Button for opening packs */
 .packs-button {
     font-family: 'Merriweather', serif;
     background-color: #E94F2D;
@@ -56,9 +50,8 @@
     transition: transform 0.1s ease;
 }
 
-/* Button hover and active effects */
 .packs-button:hover {
-    background-color: #d8431e; /* Slightly darker on hover */
+    background-color: #d8431e;
 }
 
 .packs-button:active {

@@ -1,25 +1,32 @@
-import React, { useState } from 'react';
-import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
+import React from 'react';
 import './ChampionCardsContainer.css';
-import data from '../../../../data/DATA.json';
+import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
 
-const ChampionCardsContainer = ({ openedPacks, flippedCards, onFlip }) => {
-  const visibleCards = [];
-
-  if (openedPacks.includes('kingdom')) visibleCards.push(...data.slice(0, 3));
-  if (openedPacks.includes('light')) visibleCards.push(...data.slice(3, 9));
-  if (openedPacks.includes('shadow')) visibleCards.push(...data.slice(9, 15));
+const ChampionCardsContainer = ({ visibleCards = [], flippedCards = [], handleFlip }) => {
+  // Total slots to display
+  const totalSlots = 18;
 
   return (
-    <div className="cards-grid">
-      {visibleCards.map((champion) => (
-        <ChampionCard
-          key={champion.id}
-          champion={champion}
-          flipped={flippedCards.includes(champion.id)}
-          onFlip={onFlip}
-        />
-      ))}
+    <div className="champion-cards-container">
+      <div className="cards-grid">
+        {/* Render card slots */}
+        {Array.from({ length: totalSlots }).map((_, index) => {
+          const champion = visibleCards[index]; // Check if there's a card to render in the current slot
+
+          return champion ? (
+            <ChampionCard
+              key={champion.id}
+              champion={champion}
+              flipped={flippedCards.includes(champion.id)}
+              onFlip={handleFlip}
+            />
+          ) : (
+            <div key={index} className="empty-card-slot">
+              <span className="empty-message">No Card To Display</span>
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
