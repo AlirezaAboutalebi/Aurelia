@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom"; // For navigation after claiming cards
 import "./FreePack.css";
 import Navigation from "../../components/Navigation/Navigation";
