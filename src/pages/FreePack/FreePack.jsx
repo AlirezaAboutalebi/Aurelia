@@ -27,7 +27,7 @@ const FreePack = () => {
         Purchase For <span className="discount">$3.99</span>
         </p>
         <button className="claim-button" onClick={handleClaimCards}>
-          Claim Free
+        Claim Free
         </button>
       </div>
       <img src="/decoration/dice1.webp" alt="Dice 1" className="FreePack__dice FreePack__dice--1" />
