@@ -8,13 +8,13 @@ const Rules = () => {
       <img src="/decoration/dice1.webp" alt="Dice 1" className="rules-of-play__dice rules-of-play__dice--1" />
       <img src="/decoration/dice2.webp" alt="Dice 2" className="rules-of-play__dice rules-of-play__dice--2" />
       <img src="/decoration/dice3.webp" alt="Dice 3" className="rules-of-play__dice rules-of-play__dice--3" />
-
+      
       {/* Decorative Cards */}
-      <img src="/decoration/cd3.webp" alt="cd3" className="rules-of-play__card rules-of-play__card--cd3" />
-      <img src="/decoration/cd2.webp" alt="cd2" className="rules-of-play__card rules-of-play__card--cd2" />
-      <img src="/decoration/cd1.webp" alt="cd1" className="rules-of-play__card rules-of-play__card--cd1" />
-      <img src="/decoration/pd1.webp" alt="pd1" className="rules-of-play__card rules-of-play__card--pd1" />
-      <img src="/decoration/pd1.webp" alt="pd2" className="rules-of-play__card rules-of-play__card--pd2" />
+      <img src="/images/Types/Light/Warrior.webp" alt="cd3" className="rules-of-play__card rules-of-play__card--cd3" />
+      <img src="/images/Characters/TheShieldOfDawn/Card.webp" alt="cd2" className="rules-of-play__card rules-of-play__card--cd2" />
+      <img src="/images/Characters/IronShield/Card.webp" alt="cd1" className="rules-of-play__card rules-of-play__card--cd1" />
+      <img src="/images/Packs/LightPack.webp" alt="pd1" className="rules-of-play__card rules-of-play__card--pd1" />
+      <img src="/images/Packs/ShadowPack.webp" alt="pd2" className="rules-of-play__card rules-of-play__card--pd2" />
 
       {/* Title Section */}
       <div className="rules-of-play__title-container">

@@ -10,8 +10,7 @@
     background-repeat: no-repeat; /* Ensure no repeat for the background image */
     display: flex; /* Use flexbox to manage the layout */
     flex-direction: column; /* Ensure children stack vertically */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
+   padding-top: 24px;
 }
 
 /* Decoration image (ContainderDeco.webp), now positioned relative to the main container */
@@ -28,7 +27,7 @@
     position: relative;
     z-index: 20; /* Ensures content is on top of the decoration */
     width: 100%;
-    padding-left: 72px;
+    padding-left: 40px;
    
 }
 

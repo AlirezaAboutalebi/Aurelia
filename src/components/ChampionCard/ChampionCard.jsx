@@ -1,11 +1,12 @@
 import React from 'react';
 import './ChampionCard.css';
 
-const ChampionCard = ({ champion, flipped, onFlip }) => {
+const ChampionCard = ({ champion, flipped, onFlip, onClick }) => {
   return (
     <div
       className={`flip-card ${flipped ? 'flipped' : ''}`}
-      onMouseEnter={() => onFlip(champion.id)}
+      onMouseEnter={() => onFlip(champion.id)} // Trigger flip on hover
+      onClick={onClick} // Trigger the card navigation on click
     >
       <div className="flip-card-inner">
         <div className="flip-card-front">

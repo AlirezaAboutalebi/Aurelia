@@ -1,0 +1,116 @@
+/* Free Pack container */
+.free-pack-container {
+    height: calc(100vh - 72px); /* Adjusting for header/navigation */
+    background-color: #f1eee4; /* Matches the background */
+  }
+  
+  /* Text and button content */
+  .free-pack-content {
+    max-width: 800px;
+    position: relative;
+    left: 280px;
+    top: 180px;
+  }
+  
+  .free-pack-title {
+    font-family: 'Capitolina', serif;
+    font-size: 140px;
+    color: #E94F2D;
+    -webkit-text-stroke: 1.25px #F1EEE4;
+    font-weight: 600;
+    text-shadow: 3.75px 3.75px 0.55px #292827;
+    margin: 0;
+    line-height: 160px;
+  }
+  
+  .free-pack-title span {
+    font-family: 'Capitolina', serif;
+    font-size: 180px;
+    color: #E94F2D;
+    -webkit-text-stroke: 1.25px #F1EEE4;
+    font-weight: 700;
+    text-shadow: 3.75px 3.75px 0.55px #292827;
+  }
+  
+  .free-pack-description {
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #474442;
+    margin: 40px 0;
+    line-height: 36px;
+  }
+  .free-pack-value{
+    font-family: 'Merriweather', serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #474442;
+    line-height: 36px;
+    margin-top: 80px;
+  }
+  .discount{
+    text-decoration: line-through;
+  }
+  
+  /* Claim button */
+  .claim-button {
+    font-family: 'Capitolina', serif;
+    background-color: #E94F2D;
+    color: #f1eee4;
+    border: 1px solid #f1eee4;
+    padding: 16px 40px;
+    font-size: 28px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 #292827;
+    transition: background-color 0.3s ease;
+    outline: none;
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .claim-button:hover {
+    background-color: #cc3f24;
+  }
+  
+  .claim-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+  }
+  
+  /* Free Pack image */
+  .free-pack-image {
+    position: absolute;
+    top: 150px;
+    right: 140px;
+    height: 800px;
+    transform: rotate(7deg);
+  }
+  
+  .FreePack__dice {
+    position: absolute;
+    z-index: 2; /* Place above the background, but behind the text */
+    width: 60px; /* Adjust the size of the dice */
+}
+
+/* Positioning each dice */
+.FreePack__dice--1 {
+    width: 80px;
+    top: 76%;
+    right: 6%;
+    transform: rotate(12deg);
+}
+
+.FreePack__dice--2 {
+    width: 100px;
+    top: 18%;
+    right: 30%;
+    transform: rotate(-10deg);
+}
+
+.FreePack__dice--3 {
+    width: 82px;
+    top: 84%;
+    right: 12%;
+    transform: rotate(8deg);
+}

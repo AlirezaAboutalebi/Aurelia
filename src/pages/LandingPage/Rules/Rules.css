@@ -49,9 +49,9 @@
 }
 
 .rules-of-play__card--pd2 {
-    top: 20%;
+    top: 16%;
     right: 0%;
-    transform: rotate(-10deg);
+    transform: rotate(-6deg);
     box-shadow: none;
     width: 300px;
     z-index: 1;

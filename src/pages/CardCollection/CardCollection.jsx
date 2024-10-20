@@ -1,47 +1,47 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import Navigation from "../../components/Navigation/Navigation";
 import ChampionCardsContainer from "./MainContainer/ChampionCardsContainer/ChampionCardsContainer";
 import PacksContainer from "./MainContainer/PacksContainer/PacksContainer";
-import Tabs from "./Tabs/Tabs";
 import MainContainer from "./MainContainer/MainContainer";
+import Tabs from "./Tabs/Tabs";
 
 const CardCollection = () => {
-  const [activeTab, setActiveTab] = useState('mycards'); // Default to "mycards"
-  const [openedPacks, setOpenedPacks] = useState([]);
-  const [flippedCards, setFlippedCards] = useState([]); // State to track flipped cards
+  const [activeTab, setActiveTab] = useState("packs");
+  const [flippedCards, setFlippedCards] = useState([]); // Track flipped cards
 
+  // Handle tab change
   const handleTabChange = (tab) => {
     setActiveTab(tab);
   };
 
-  const handleOpenPack = (pack) => {
-    if (!openedPacks.includes(pack)) {
-      setOpenedPacks([...openedPacks, pack]);
-    }
-  };
-
-  const handleHideAllCards = () => {
-    setFlippedCards([]); // Resets all flipped cards
-  };
-
+  // Handle flip of an individual card
   const handleFlip = (id) => {
     if (!flippedCards.includes(id)) {
       setFlippedCards([...flippedCards, id]);
     }
   };
 
+  // Reset all flipped cards
+  const handleHideAllCards = () => {
+    setFlippedCards([]); // Reset flipped cards to an empty array
+  };
+
   return (
     <>
       <div className="figure-overlay"></div>
       <Navigation />
-      <Tabs activeTab={activeTab} onTabChange={handleTabChange} onHideAllCards={handleHideAllCards} />
+      <Tabs
+        activeTab={activeTab}
+        onTabChange={handleTabChange}
+        onHideAllCards={handleHideAllCards} // Pass the hide all cards function
+      />
       <MainContainer>
-        {activeTab === 'packs' && <PacksContainer onOpenPack={handleOpenPack} />}
-        {activeTab === 'mycards' && (
+        {activeTab === "packs" && <PacksContainer />}
+        {activeTab === "mycards" && (
           <ChampionCardsContainer
-            openedPacks={openedPacks}
-            flippedCards={flippedCards}
-            onFlip={handleFlip}
+            flippedCards={flippedCards} // Pass the flipped cards array
+            setFlippedCards={setFlippedCards} // Pass the function to update flipped cards
+            handleFlip={handleFlip} // Pass the flip function
           />
         )}
       </MainContainer>

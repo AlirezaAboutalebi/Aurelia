@@ -1,0 +1,106 @@
+/* Single Pack container */
+.single-pack-container {
+  height: calc(100vh - 72px); /* Adjusting for header/navigation */
+  background-color: #f1eee4; /* Matches the background */
+  position: relative;
+}
+
+/* Pack content (text and button) */
+.single-pack-content {
+  max-width: 800px;
+  position: relative;
+  left: 800px;
+  top: 80px;
+}
+
+.pack-realm {
+  font-family: "Capitolina", serif;
+  font-size: 100px;
+  color: #e94f2d;
+  -webkit-text-stroke: 1.25px #f1eee4;
+  font-weight: 600;
+  text-shadow: 3.75px 3.75px 0.55px #292827;
+  margin-bottom: 60px;
+  line-height: 120px;
+}
+
+.pack-title {
+  font-family: "Merriweather", serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #474442;
+  margin-bottom: 16px;
+}
+
+.pack-description {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #474442;
+  margin: 20px 0;
+  line-height: 32px;
+}
+
+/* Open pack button */
+.open-pack-button {
+  position: absolute;
+  bottom: -200px;
+  font-family: "Capitolina", serif;
+  background-color: #e94f2d;
+  color: #f1eee4;
+  border: 1px solid #f1eee4;
+  padding: 16px 40px;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 #292827;
+  transition: background-color 0.3s ease;
+  outline: none;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+}
+
+.open-pack-button:hover {
+  background-color: #cc3f24;
+}
+
+.open-pack-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #292827;
+}
+
+/* Pack image */
+.single-pack-image {
+  position: absolute;
+  top: 8%;
+  left: 8%;
+  height: 800px;
+}
+
+/* Dice positioning */
+.SinglePack__dice {
+  position: absolute;
+  z-index: 2; /* Above the background, behind text */
+  width: 60px; /* Adjust size */
+}
+
+.SinglePack__dice--1 {
+  width: 80px;
+  top: 76%;
+  left: 5%;
+  transform: rotate(24deg);
+}
+
+.SinglePack__dice--2 {
+  width: 100px;
+  top: 16%;
+  left: 3%;
+  transform: rotate(-32deg);
+}
+
+.SinglePack__dice--3 {
+  width: 82px;
+  top: 84%;
+  left: 12%;
+  transform: rotate(-44deg);
+}
