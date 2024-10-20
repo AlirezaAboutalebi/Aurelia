@@ -16,8 +16,7 @@ if (typeof window !== "undefined") {
   window.clearOpenedCards = clearOpenedCards;
 }
 
-const ChampionCardsContainer = () => {
-  const [flippedCards, setFlippedCards] = useState([]);
+const ChampionCardsContainer = ({ flippedCards, setFlippedCards }) => {
   const [visibleCards, setVisibleCards] = useState([]);
   const navigate = useNavigate();
   const totalSlots = 18; // Total number of slots including empty slots

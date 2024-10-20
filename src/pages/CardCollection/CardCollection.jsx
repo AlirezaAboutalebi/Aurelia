@@ -39,7 +39,8 @@ const CardCollection = () => {
         {activeTab === "packs" && <PacksContainer />}
         {activeTab === "mycards" && (
           <ChampionCardsContainer
-            flippedCards={flippedCards}
+            flippedCards={flippedCards} // Pass the flipped cards array
+            setFlippedCards={setFlippedCards} // Pass the function to update flipped cards
             handleFlip={handleFlip} // Pass the flip function
           />
         )}
