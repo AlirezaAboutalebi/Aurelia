@@ -1,4 +1,3 @@
-import React from 'react';
 import './ChampionCardsContainer.css';
 import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
 
