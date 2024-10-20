@@ -13,8 +13,8 @@ const Rules = () => {
       <img src="/images/Types/Light/Warrior.webp" alt="cd3" className="rules-of-play__card rules-of-play__card--cd3" />
       <img src="/images/Characters/TheShieldOfDawn/Card.webp" alt="cd2" className="rules-of-play__card rules-of-play__card--cd2" />
       <img src="/images/Characters/IronShield/Card.webp" alt="cd1" className="rules-of-play__card rules-of-play__card--cd1" />
-      <img src="/images/Packs/LightPack.webp" alt="pd1" className="rules-of-play__card rules-of-play__card--pd1" />
-      <img src="/images/Packs/ShadowPack.webp" alt="pd2" className="rules-of-play__card rules-of-play__card--pd2" />
+      <img src="/images/Packs/Heroes of the Arcane Light.webp" alt="pd1" className="rules-of-play__card rules-of-play__card--pd1" />
+      <img src="/images/Packs/Masters of Shadow’s Secrets.webp" alt="pd2" className="rules-of-play__card rules-of-play__card--pd2" />
 
       {/* Title Section */}
       <div className="rules-of-play__title-container">
