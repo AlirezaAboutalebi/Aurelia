@@ -9,7 +9,8 @@
         "packDescription3": "Each pack contains a unique combination of powerful warriors, brilliant tacticians, or hidden manipulators, ready to defend the Kingdom—or rule it.",
         "image": "/images/Packs/KingdomPack.webp",
         "isOpen": false,
-        "isLocked": false
+        "isLocked": false,
+        "cards": [1, 2, 3]
       },
       {
         "id": 2,
@@ -20,7 +21,8 @@
         "packDescription3": "From the halls of the Luminary Academy, this pack contains a unique combination of brilliant mages and seers, each with the potential to change the tide of battle.",
         "image": "/images/Packs/KingdomPack.webp",
         "isOpen": false,
-        "isLocked": true
+        "isLocked": true,
+        "cards": [4, 5, 9]
       },
       {
         "id": 3,
@@ -31,7 +33,8 @@
         "packDescription3": "Each pack contains a mix of powerful warriors and healers, those who fight for the Light Realm’s ideals and are ready to protect the realm at any cost.",
         "image": "/images/Packs/KingdomPack.webp",
         "isOpen": false,
-        "isLocked": true
+        "isLocked": true,
+        "cards": [6, 7, 8]
       },
       {
         "id": 4,
@@ -42,7 +45,8 @@
         "packDescription3": "From the shadowed depths of the Abyss, this pack holds those who balance mastery of dark magic with subtle manipulation.",
         "image": "/images/Packs/KingdomPack.webp",
         "isOpen": false,
-        "isLocked": true
+        "isLocked": true,
+        "cards": [10, 14, 15]
       },
       {
         "id": 5,
@@ -53,7 +57,8 @@
         "packDescription3": "This pack contains a combination of battle-hardened warriors, deadly in both physical and psychic combat, who will stop at nothing to protect the Shadow Realm.",
         "image": "/images/Packs/KingdomPack.webp",
         "isOpen": false,
-        "isLocked": true
+        "isLocked": true,
+        "cards": [11, 12, 13]
       }
     ]
   }
