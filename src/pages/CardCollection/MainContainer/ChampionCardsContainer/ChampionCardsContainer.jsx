@@ -9,6 +9,7 @@ import {
   clearOpenedCards,
 } from "../../../../utils/cardStorage";
 
+// clear with window.clearOpenedCards();
 // Expose the storage functions to the window object for testing
 if (typeof window !== "undefined") {
   window.getOpenedCards = getOpenedCards;
