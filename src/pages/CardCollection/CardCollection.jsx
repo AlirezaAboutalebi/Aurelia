@@ -6,22 +6,43 @@ import MainContainer from "./MainContainer/MainContainer";
 import Tabs from "./Tabs/Tabs";
 
 const CardCollection = () => {
-  const [activeTab, setActiveTab] = useState('packs'); // Track the active tab
+  const [activeTab, setActiveTab] = useState("packs");
+  const [flippedCards, setFlippedCards] = useState([]); // Track flipped cards
 
-  // Handler to switch tabs
+  // Handle tab change
   const handleTabChange = (tab) => {
     setActiveTab(tab);
+  };
+
+  // Handle flip of an individual card
+  const handleFlip = (id) => {
+    if (!flippedCards.includes(id)) {
+      setFlippedCards([...flippedCards, id]);
+    }
+  };
+
+  // Reset all flipped cards
+  const handleHideAllCards = () => {
+    setFlippedCards([]); // Reset flipped cards to an empty array
   };
 
   return (
     <>
       <div className="figure-overlay"></div>
       <Navigation />
-      <Tabs activeTab={activeTab} onTabChange={handleTabChange} />
+      <Tabs
+        activeTab={activeTab}
+        onTabChange={handleTabChange}
+        onHideAllCards={handleHideAllCards} // Pass the hide all cards function
+      />
       <MainContainer>
-        {activeTab === 'packs' && <PacksContainer />}
-        {activeTab === 'mycards' && <ChampionCardsContainer />}
-        {/* Add more tab checks for other containers if needed */}
+        {activeTab === "packs" && <PacksContainer />}
+        {activeTab === "mycards" && (
+          <ChampionCardsContainer
+            flippedCards={flippedCards}
+            handleFlip={handleFlip} // Pass the flip function
+          />
+        )}
       </MainContainer>
     </>
   );

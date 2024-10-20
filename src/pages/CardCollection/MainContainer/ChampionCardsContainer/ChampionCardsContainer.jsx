@@ -1,17 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './ChampionCardsContainer.css';
 import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
-import data from '../../../../data/DATA.json'; // Adjust the path to your data
+import data from '../../../../data/DATA.json';
 
-const ChampionCardsContainer = () => {
-  const [flippedCards, setFlippedCards] = useState([]);
-
-  const handleFlip = (id) => {
-    if (!flippedCards.includes(id)) {
-      setFlippedCards([...flippedCards, id]);
-    }
-  };
-
+const ChampionCardsContainer = ({ flippedCards, handleFlip }) => {
   // Total slots to display
   const totalSlots = 18;
 
@@ -24,13 +16,13 @@ const ChampionCardsContainer = () => {
 
           return champion ? (
             <ChampionCard
-              key={champion.id}
+              key={`champion-${champion.id}`} // Use champion ID as the key for real cards
               champion={champion}
               flipped={flippedCards.includes(champion.id)}
-              onFlip={handleFlip}
+              onFlip={() => handleFlip(champion.id)} // Handle card flip
             />
           ) : (
-            <div key={index} className="empty-card-slot">
+            <div key={`empty-slot-${index}`} className="empty-card-slot"> {/* Ensure unique key for empty slots */}
               <span className="empty-message">No Card To Display</span>
             </div>
           );
