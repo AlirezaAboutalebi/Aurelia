@@ -7,7 +7,7 @@
         "packDescription1": "Unlock 3 random heroes from the legendary Kingdom of Valoria, where honor and power have shaped its history for centuries.",
         "packDescription2": "From the mighty fortress of Valoria Castle, these champions have defended the realm from shadow and light alike. Will you reveal the stalwart protectors of the Kingdom, or those who seek control from the shadows within?",
         "packDescription3": "Each pack contains a unique combination of powerful warriors, brilliant tacticians, or hidden manipulators, ready to defend the Kingdom—or rule it.",
-        "image": "/images/Packs/KingdomPack.webp",
+        "image": "/images/Packs/Heroes of Valoria Castle.webp",
         "isOpen": false,
         "isLocked": false,
         "cards": [1, 2, 3]
@@ -19,7 +19,7 @@
         "packDescription1": "Unlock 3 random heroes from the Light Realm’s Arcane Order, the keepers of wisdom and elemental magic.",
         "packDescription2": "The Arcane Luminaries are those who wield the raw forces of light and elemental power, shaping the very essence of battle with their spells. Will you reveal the seeker of forgotten truths or the protector of sacred knowledge?",
         "packDescription3": "From the halls of the Luminary Academy, this pack contains a unique combination of brilliant mages and seers, each with the potential to change the tide of battle.",
-        "image": "/images/Packs/KingdomPack.webp",
+        "image": "/images/Packs/Heroes of the Arcane Light.webp",
         "isOpen": false,
         "isLocked": true,
         "cards": [4, 5, 9]
@@ -31,7 +31,7 @@
         "packDescription1": "Unlock 3 random heroes from the Light Realm’s elite warriors and healers, defenders of light and life.",
         "packDescription2": "The Dawnlight Vanguard is the first and last defense against the forces of darkness. As tensions rise between realms, these champions stand ready to bring justice and hope to the battlefield. Will you uncover the unyielding blade of light or the healer who embodies mercy amidst war?",
         "packDescription3": "Each pack contains a mix of powerful warriors and healers, those who fight for the Light Realm’s ideals and are ready to protect the realm at any cost.",
-        "image": "/images/Packs/KingdomPack.webp",
+        "image": "/images/Packs/Champions of the Dawnlight Vanguard.webp",
         "isOpen": false,
         "isLocked": true,
         "cards": [6, 7, 8]
@@ -43,7 +43,7 @@
         "packDescription1": "Unlock 3 random heroes from the Shadow Realm’s hidden order, those who draw power from the depths of darkness.",
         "packDescription2": "The Veils of the Void hide ancient and forbidden knowledge. These shadow magicians and healers embrace the chaos and pain of their realm, wielding magic that disrupts the mind and twists reality. Will you uncover the dark sorceress or the healer who bends death to his will?",
         "packDescription3": "From the shadowed depths of the Abyss, this pack holds those who balance mastery of dark magic with subtle manipulation.",
-        "image": "/images/Packs/KingdomPack.webp",
+        "image": "/images/Packs/Masters of Shadow’s Secrets.webp",
         "isOpen": false,
         "isLocked": true,
         "cards": [10, 14, 15]
@@ -55,7 +55,7 @@
         "packDescription1": "Unlock 3 random heroes from the Shadow Realm’s most feared warriors, masters of the blade and dark combat.",
         "packDescription2": "The Lords of Nightfall are warriors forged in darkness, their strength derived from the very shadows that surround them. They are the vanguards of destruction, trained in both physical and shadow combat. Will you reveal the master duelist or the serpent who commands minds?",
         "packDescription3": "This pack contains a combination of battle-hardened warriors, deadly in both physical and psychic combat, who will stop at nothing to protect the Shadow Realm.",
-        "image": "/images/Packs/KingdomPack.webp",
+        "image": "/images/Packs/Warriors of the Shadow Citadel.webp",
         "isOpen": false,
         "isLocked": true,
         "cards": [11, 12, 13]
