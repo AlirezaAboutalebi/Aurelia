@@ -3,12 +3,17 @@ import { useNavigate } from "react-router-dom";
 import "./ChampionCardsContainer.css";
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
 import data from "../../../../data/DATA.json"; // Character data
-import { getOpenedCards, saveOpenedCards } from "../../../../utils/cardStorage";
+import {
+  getOpenedCards,
+  saveOpenedCards,
+  clearOpenedCards,
+} from "../../../../utils/cardStorage";
 
 // Expose the storage functions to the window object for testing
 if (typeof window !== "undefined") {
   window.getOpenedCards = getOpenedCards;
   window.saveOpenedCards = saveOpenedCards;
+  window.clearOpenedCards = clearOpenedCards;
 }
 
 const ChampionCardsContainer = () => {
@@ -58,7 +63,9 @@ const ChampionCardsContainer = () => {
               onClick={() => handleCardClick(champion.id)} // Handle click to go to SingleCardPage
             />
           ) : (
-            <div key={`empty-${index}`} className="empty-card-slot"> {/* Use a unique key prefix for empty slots */}
+            <div key={`empty-${index}`} className="empty-card-slot">
+              {" "}
+              {/* Use a unique key prefix for empty slots */}
               <span className="empty-message">No Card To Display</span>
             </div>
           );
