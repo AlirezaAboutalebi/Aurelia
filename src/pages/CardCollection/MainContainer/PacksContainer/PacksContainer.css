@@ -44,7 +44,9 @@
   border-radius: 8px;
   transition: transform 0.2s ease;
 }
-
+.pack-image:hover{
+  transform: scale(1.05);
+}
 /* Pack name */
 .pack-name {
   font-size: 16px;
