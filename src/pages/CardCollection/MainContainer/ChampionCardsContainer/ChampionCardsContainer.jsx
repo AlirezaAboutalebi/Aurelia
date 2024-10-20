@@ -1,7 +1,17 @@
+import React, { useState } from 'react';
 import './ChampionCardsContainer.css';
 import ChampionCard from '../../../../components/ChampionCard/ChampionCard';
+import data from '../../../../data/DATA.json'; // Adjust the path to your data
 
-const ChampionCardsContainer = ({ visibleCards = [], flippedCards = [], handleFlip }) => {
+const ChampionCardsContainer = () => {
+  const [flippedCards, setFlippedCards] = useState([]);
+
+  const handleFlip = (id) => {
+    if (!flippedCards.includes(id)) {
+      setFlippedCards([...flippedCards, id]);
+    }
+  };
+
   // Total slots to display
   const totalSlots = 18;
 
@@ -10,7 +20,7 @@ const ChampionCardsContainer = ({ visibleCards = [], flippedCards = [], handleFl
       <div className="cards-grid">
         {/* Render card slots */}
         {Array.from({ length: totalSlots }).map((_, index) => {
-          const champion = visibleCards[index]; // Check if there's a card to render in the current slot
+          const champion = data[index]; // Render a card if data is available
 
           return champion ? (
             <ChampionCard

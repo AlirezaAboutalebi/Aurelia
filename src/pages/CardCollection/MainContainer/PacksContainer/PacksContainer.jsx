@@ -1,39 +1,26 @@
-import React from "react";
-import "./PacksContainer.css";
+import React from 'react';
+import './PacksContainer.css';
+import packsData from '../../../../DATA/PacksDATA.json';
 
-const PacksContainer = ({ onOpenPack }) => {
-  // Array representing the available packs
-  const packs = [
-    { id: "kingdom", name: "Kingdom Pack", image: "/images/Packs/KingdomPack.webp" },
-    { id: "light", name: "Light Pack", image: "/images/Packs/LightPack.webp" },
-    { id: "shadow", name: "Shadow Pack", image: "/images/Packs/ShadowPack.webp" }
-  ];
-
-  // Total slots we want to display (8 in total)
+const PacksContainer = () => {
+  // Define a fixed number of slots (8 in this case)
   const totalSlots = 8;
 
   return (
     <div className="packs-container">
       <div className="packs-grid">
-        {Array.from({ length: totalSlots }).map((_, index) => {
-          const pack = packs[index]; // Get the pack if available
+        {packsData.packs.map((pack, index) => (
+          <div key={pack.id} className="pack-slot">
+            <img src={pack.image} alt={pack.packTitle} className="pack-image" />
+          </div>
+        ))}
 
-          return pack ? (
-            <div key={pack.id} className="pack-slot filled">
-              <img
-                src={pack.image}
-                alt={pack.name}
-                className="pack-image"
-                onClick={() => onOpenPack(pack.id)} // Clicking on the image opens the pack
-              />
-       
-            </div>
-          ) : (
-            <div key={index} className="pack-slot empty">
-              <span className="empty-message">Empty Slot</span>
-            </div>
-          );
-        })}
+        {/* Render empty slots for the remaining spaces */}
+        {Array.from({ length: totalSlots - packsData.packs.length }).map((_, index) => (
+          <div key={index} className="pack-slot empty">
+            <span className="empty-message">No Pack</span>
+          </div>
+        ))}
       </div>
     </div>
   );

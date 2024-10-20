@@ -51,6 +51,7 @@ const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
                 />
                 <span className="tab-text">LOST CARDS</span>
             </button>
+
             <div className='rightSideTabs'>
                 {/* Hide All Cards Button */}
                 <button
@@ -61,7 +62,6 @@ const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
                 </button>
             </div>
         </div>
-
     );
 };
 
