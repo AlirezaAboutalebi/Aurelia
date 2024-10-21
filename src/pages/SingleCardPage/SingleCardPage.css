@@ -1,0 +1,101 @@
+/* Main container for the single card page */
+.single-card-page {
+    display: flex;
+    justify-content: space-between;
+    height: calc(100vh - 72px);
+    /* Adjust for navigation bar */
+    box-sizing: border-box;
+}
+
+/* Left content styling */
+.left-content {
+    
+    /* Adjust to give more space for the left content */
+    height: 100%;
+    margin-left: 4px;
+    
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+}
+
+.card-banner {
+    width: 1400px;
+    height: auto;
+  
+}
+
+.card-info {
+    padding: 16px;
+    background-color: #f1eee4;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.card-title {
+    font-family: 'Capitolina', serif;
+    font-size: 48px;
+    color: #E94F2D;
+    margin-bottom: 16px;
+}
+
+.card-details {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+.card-details li {
+    margin-bottom: 8px;
+}
+
+h2 {
+    font-family: 'Capitolina', serif;
+    font-size: 28px;
+    color: #E94F2D;
+    margin-top: 24px;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #474442;
+    line-height: 24px;
+}
+
+/* Right content styling */
+.right-content {
+    width: 488;
+    margin-right: 4px;
+    padding-bottom: 4px;
+    height: 100%;
+    overflow-y: auto;
+    /* Allow vertical scrolling */
+}
+
+.stats-box {
+    width: 488;
+    height: auto;
+}
+
+/* Hide scrollbars but still allow scrolling */
+.left-content::-webkit-scrollbar,
+.right-content::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar in WebKit browsers like Chrome and Safari */
+}
+
+.left-content,
+.right-content {
+    -ms-overflow-style: none;
+    /* Hide scrollbar in IE and Edge */
+    scrollbar-width: none;
+    /* Hide scrollbar in Firefox */
+}
