@@ -74,7 +74,7 @@
   position: absolute;
   top: 8%;
   left: 8%;
-  height: 740px;
+  height: 760px;
 }
 
 /* Dice positioning */
@@ -87,7 +87,7 @@
 .SinglePack__dice--1 {
   width: 80px;
   top: 76%;
-  left: 5%;
+  left: 3%;
   transform: rotate(24deg);
 }
 
@@ -100,7 +100,7 @@
 
 .SinglePack__dice--3 {
   width: 82px;
-  top: 88%;
+  top: 84%;
   left: 12%;
   transform: rotate(-44deg);
 }
