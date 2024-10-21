@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav className="navbar">
 
       <div className="navbar__logo">
-        <img src='./icons/Logo.svg' className='navbar__logo-img' alt="Logo"/>
+        <img src='/icons/Logo.svg' className='navbar__logo-img' alt="Logo"/>
       </div>
 
       <div className="navbar__links">
@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="navbar__right">
         <Link to="/sign-in" className="navbar__link navbar__link--signin">
           Sign In 
-          <img src='./icons/Knight.svg' className='navbar__icon' alt="Knight Icon"/>
+          <img src='/icons/Knight.svg' className='navbar__icon' alt="Knight Icon"/>
         </Link>
         <button className="navbar__play-button">Play Game</button>
       </div>

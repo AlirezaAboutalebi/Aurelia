@@ -1,56 +1,71 @@
 /* Container for the tabs */
 .tabs-container {
-    display: flex;
-    justify-content: flex-start;
-    padding: 2px 60px;
-    margin-top: 40px;
-  }
+  display: flex;
+  justify-content: flex-start;
+  padding: 2px 60px;
+  margin-top: 40px;
+}
+
+/* Styles for each tab button */
+.tab-button {
+  position: relative;
+  width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.tab-button .tab-image {
+  width: 100%;
+  height: 100%;
+}
+
+.tab-button .tab-text {
+  position: absolute;
+  font-family: 'Nanum Gothic Coding', 'Merriweather';
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #F1EEE4;
+  z-index: 1;
+  /* To place the text above the button background */
+}
+
+.rightSideTabs {
+  position: relative;
+  left: 660px;
+}
+
+.hide-all-button {
+  position: absolute;
+  width: 180px;
+  height: 40px;
+  font-family: 'Nanum Gothic Coding', 'Merriweather';
+  background-color: #e94f2d;
+  border: 1px solid #f1eee4;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #F1EEE4;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 #292827;
+  outline: none;
+  letter-spacing: 0.5px;
   
-  /* Styles for each tab button */
-  .tab-button {
-    position: relative;
-    width: 150px;
-    height: 40px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    transition: transform 0.3s ease;
-  }
-  
-  .tab-button .tab-image {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .tab-button .tab-text {
-    position: absolute;
-    font-family: 'Nanum Gothic Coding', 'Merriweather';
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    color: #F1EEE4;
-    z-index: 1; /* To place the text above the button background */
-  }
-  .rightSideTabs{
-    position: relative;
-    margin-left: 200px;
-  }
-  .hide-all-button{
-    position: relative;
-    right: 0;
-    width: 180px;
-    height: 40px;
-    font-family: 'Nanum Gothic Coding', 'Merriweather';
-    font-size: 18px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    color: #F1EEE4;
-    background-color: #474442;
-    border-radius: 6px;
-  }
-  
-  
+ 
+}
+.hide-all-button:hover {
+  background-color: #cc3f24;
+}
+
+.hide-all-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #292827;
+}
