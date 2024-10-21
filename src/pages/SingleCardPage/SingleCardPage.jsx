@@ -16,6 +16,7 @@ const SingleCardPage = () => {
     <div className="single-card-page">
       <h1>{card.basicInfo.characterName}</h1>
       <img src={card.images.front} alt={card.basicInfo.characterName} />
+      <img src={card.images.banner} alt={card.basicInfo.characterName} />
       <p>{card.basicInfo.description}</p>
     </div>
   );

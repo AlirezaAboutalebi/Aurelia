@@ -66,7 +66,7 @@ const ChampionCardsContainer = ({ flippedCards, setFlippedCards }) => {
             <div key={`empty-${index}`} className="empty-card-slot">
               {" "}
               {/* Use a unique key prefix for empty slots */}
-              <span className="empty-message">No Card To Display</span>
+              <span className="empty--message">No Card To Display</span>
             </div>
           );
         })}

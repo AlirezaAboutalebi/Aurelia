@@ -1,0 +1,85 @@
+.claim-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E94F2D; /* Orange background color */
+    padding: 50px 40px;
+    border-radius: 20px;
+    margin: 32px 40px 0 40px;
+    overflow: hidden; /* Ensure elements overflowing the banner are hidden */
+    position: relative; /* Make this container the reference for absolute positioning */
+}
+
+.cards-container {
+    position: absolute; /* This container allows absolute positioning of cards */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none; /* Ensure the cards do not block interaction with the button */
+}
+
+.card-image {
+    position: absolute;
+    bottom: -20px; /* Position the cards so they appear partially out of the banner */
+    width: 100px;
+    transform-origin: center bottom; /* Set the rotation origin */
+}
+
+.card-image1 {
+    width: 120px;
+    left: 10%;
+    top: 16px;
+    transform: rotate(-30deg);
+}
+
+.card-image2 {
+    width: 120px;
+    left: 12%;
+    top: 8px;
+    transform: rotate(0deg);
+}
+
+.card-image3 {
+    width: 120px;
+    left: 14%;
+    top: 16px;
+    transform: rotate(30deg);
+}
+
+.claim-message {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    z-index: 1; /* Ensure this content is above the cards */
+    margin-left: 200px;
+}
+
+.claim-message p {
+    color: #f1eee4;
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    font-weight: 900;
+   
+}
+
+.claim--button {
+    font-family: 'Merriweather', serif;
+    background-color: #f1eee4;
+    color: #E94F2D;
+    border: 1px solid #E94F2D;
+    padding: 16px 32px;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    text-shadow: 0 2px 0 #292827;
+    box-shadow: 0 2px 0 #292827;
+    outline: none;
+    transition: transform 0.1s ease;
+}
+
+.claim--button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+}
