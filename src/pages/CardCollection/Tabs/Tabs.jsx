@@ -16,17 +16,6 @@ const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
                 <span className="tab-text">PACKS</span>
             </button>
 
-            <button
-                className={`tab-button ${activeTab === 'catalogue' ? 'active' : ''}`}
-                onClick={() => onTabChange('catalogue')}
-            >
-                <img
-                    src={activeTab === 'catalogue' ? '/icons/HeadingActive.webp' : '/icons/HeadingDeactive.webp'}
-                    alt="Catalogue Tab"
-                    className="tab-image"
-                />
-                <span className="tab-text">CATALOGUE</span>
-            </button>
 
             <button
                 className={`tab-button ${activeTab === 'mycards' ? 'active' : ''}`}
