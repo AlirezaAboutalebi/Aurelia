@@ -68,6 +68,11 @@
   transform: translateY(2px);
   box-shadow: 0 2px 0 #292827;
 }
+/* Disabled button style */
+.open-pack-button.disabled {
+  background-color: #474442;
+  cursor: not-allowed;
+}
 
 /* Pack image */
 .single-pack-image {
@@ -146,7 +151,7 @@
     transform: rotate(-40deg);
   }
   100% {
-    top: -32px;
+    top: 16px;
     left: 574px;
     transform: rotate(0deg);
   }
@@ -159,7 +164,7 @@
     transform: rotate(40deg);
   }
   100% {
-    top: -32px;
+    top: 16px;
     left: 798px;
     transform: rotate(0deg);
   }
@@ -172,7 +177,7 @@
     transform: rotate(80deg);
   }
   100% {
-    top: -32px;
+    top: 16px;
     left: 1022px;
     transform: rotate(0deg);
   }
