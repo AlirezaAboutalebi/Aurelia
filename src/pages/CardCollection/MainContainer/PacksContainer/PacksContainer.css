@@ -33,8 +33,7 @@
 
 /* Empty slot */
 .pack-slot.empty {
-  border: 2px dashed #474442;
-  opacity: 0.5;
+  border: 2px dashed #bdbcbc;
 }
 
 /* Pack image */
@@ -47,15 +46,9 @@
 .pack-image:hover{
   transform: scale(1.05);
 }
-/* Pack name */
-.pack-name {
-  font-size: 16px;
-  color: #474442;
-  margin-top: 8px;
-}
 
 /* Empty slot message */
 .empty-message {
   font-size: 14px;
-  color: #999;
+  color: #bdbcbc;
 }
