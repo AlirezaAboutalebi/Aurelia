@@ -52,7 +52,7 @@ const SinglePackPage = () => {
       <div className="single-pack-container">
         <div className="single-pack-content">
           <h1 className="pack-realm">{pack.realmName}</h1>
-          <h2 className="pack-title">{pack.packTitle}</h2>
+          <h2 className={`pack-title ${fadeDescriptions ? "fade-out" : ""}`}>{pack.packTitle}</h2>
 
           <p className={`pack-description ${fadeDescriptions ? "fade-out" : ""}`}>{pack.packDescription1}</p>
           <p className={`pack-description ${fadeDescriptions ? "fade-out" : ""}`}>{pack.packDescription2}</p>
