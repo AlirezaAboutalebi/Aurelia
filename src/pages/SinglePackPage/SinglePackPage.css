@@ -79,7 +79,7 @@
   position: absolute;
   top: 8%;
   left: 8%;
-  height: 760px;
+  height: 700px;
   z-index: 10;
 }
 
@@ -151,7 +151,7 @@
     transform: rotate(-40deg);
   }
   100% {
-    top: 16px;
+    top: 24px;
     left: 574px;
     transform: rotate(0deg);
   }
@@ -164,7 +164,7 @@
     transform: rotate(40deg);
   }
   100% {
-    top: 16px;
+    top: 24px;
     left: 798px;
     transform: rotate(0deg);
   }
@@ -177,7 +177,7 @@
     transform: rotate(80deg);
   }
   100% {
-    top: 16px;
+    top: 24px;
     left: 1022px;
     transform: rotate(0deg);
   }
