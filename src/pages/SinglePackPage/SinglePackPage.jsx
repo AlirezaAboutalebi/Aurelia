@@ -81,7 +81,7 @@ const SinglePackPage = () => {
           alt="dice3"
           className="SinglePack__dice SinglePack__dice--3"
         />
-
+  
         {/* Render opened cards with individual class names */}
         {showCards && (
           <div className="opened-cards-container">
