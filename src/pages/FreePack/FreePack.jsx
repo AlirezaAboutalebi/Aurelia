@@ -33,7 +33,7 @@ const FreePack = () => {
       <img src="/decoration/dice1.webp" alt="Dice 1" className="FreePack__dice FreePack__dice--1" />
       <img src="/decoration/dice2.webp" alt="Dice 2" className="FreePack__dice FreePack__dice--2" />
       <img src="/decoration/dice3.webp" alt="Dice 3" className="FreePack__dice FreePack__dice--3" />
-      <img src="/images/Packs/KingdomPack.webp" alt="Free Pack" className="free-pack-image" />
+      <img src="/images/Packs/Heroes of Valoria Castle.webp" alt="Free Pack" className="free-pack-image" />
     </div>
     </>
   );
