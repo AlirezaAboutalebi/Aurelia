@@ -1,4 +1,5 @@
 import Navigation from '../../components/Navigation/Navigation';
+import StatBox from '../../components/StatBox/Statbox.jsx';
 import CookieNotice from './Cookie/CookieNotice.jsx';
 import HeroSection from './HeroSection/HeroSection'; // Import HeroSection
 import Ready from './Ready/Ready';
@@ -9,6 +10,7 @@ const LandingPage = () => {
     <>
      <div className="figure-overlay"></div>
       <Navigation />
+      <StatBox id="1" />
       <HeroSection />
       <Rules/>
       <Ready/>
