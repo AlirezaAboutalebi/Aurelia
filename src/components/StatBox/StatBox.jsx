@@ -1,6 +1,6 @@
 import React from 'react';
 import DATA from '../../data/DATA.json';
-import './StatBox.css'; // Make sure we use the non-modular CSS
+import './StatBox.css';
 
 const StatBox = ({ id }) => {
   // Ensure the ID is parsed as a string
@@ -44,7 +44,8 @@ const StatBox = ({ id }) => {
       {/* OFFENSIVE Section */}
       <section className="row">
         <div className="title">
-          <span>⚔ OFFENSIVE</span>
+          <img src="/icons/OFFENSIVE.svg" alt="Offensive Icon" className="stat-icon" />
+          <span>OFFENSIVE</span>
         </div>
         <div>
           <div className="stateAtt">
@@ -65,7 +66,8 @@ const StatBox = ({ id }) => {
       {/* DEFENSIVE Section */}
       <section className="row">
         <div className="title">
-          <span>🛡 DEFENSIVE</span>
+          <img src="/icons/DEFENSIVE.svg" alt="Defensive Icon" className="stat-icon" />
+          <span>DEFENSIVE</span>
         </div>
         <div>
           <div className="stateAtt">
@@ -86,7 +88,8 @@ const StatBox = ({ id }) => {
       {/* MAGICAL AND MENTAL Section */}
       <section className="row">
         <div className="title">
-          <span>🔮 MAGICAL AND MENTAL</span>
+          <img src="/icons/MAGICAL.svg" alt="Magical Icon" className="stat-icon" />
+          <span>MAGICAL AND MENTAL</span>
         </div>
         <div>
           <div className="stateAtt">
@@ -111,7 +114,8 @@ const StatBox = ({ id }) => {
       {/* TEAM PLAY Section */}
       <section className="row">
         <div className="title">
-          <span>🧠 TEAM PLAY</span>
+          <img src="/icons/TEAM.svg" alt="Team Play Icon" className="stat-icon" />
+          <span>TEAM PLAY</span>
         </div>
         <div>
           <div className="stateAtt">
@@ -127,8 +131,8 @@ const StatBox = ({ id }) => {
             {renderStatRow(stats.charisma)}
           </div>
           <div className="stateAtt">
-            <span>MANIPULATION</span> {/* Ensure manipulation is displayed */}
-            {renderStatRow(stats.manipulation)} {/* Corrected key */}
+            <span>MANIPULATION</span>
+            {renderStatRow(stats.manipulation)}
           </div>
         </div>
       </section>
@@ -136,7 +140,8 @@ const StatBox = ({ id }) => {
       {/* AGILITY Section */}
       <section className="row">
         <div className="title">
-          <span>🏃 AGILITY</span>
+          <img src="/icons/AGILITY.svg" alt="Agility Icon" className="stat-icon" />
+          <span>AGILITY</span>
         </div>
         <div>
           <div className="stateAtt">
