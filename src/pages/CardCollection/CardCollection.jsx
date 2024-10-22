@@ -6,7 +6,7 @@ import MainContainer from "./MainContainer/MainContainer";
 import Tabs from "./Tabs/Tabs";
 import ClaimBanner from "../../components/ClaimBanner/ClaimBanner";
 import LostCardsContainer from "./MainContainer/LostCardsContainer/LostCardsContainer";
-import StatBox from "../../components/StatBox/Statbox";
+
 
 const CardCollection = () => {
   const [activeTab, setActiveTab] = useState("packs");
@@ -51,7 +51,6 @@ const CardCollection = () => {
         )}
         {activeTab === "lostcards" && <LostCardsContainer />}
       </MainContainer>
-      <StatBox/>
      
     </>
   );
