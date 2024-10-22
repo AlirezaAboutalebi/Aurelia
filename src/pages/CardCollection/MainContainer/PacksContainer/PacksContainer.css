@@ -22,8 +22,8 @@
 
 /* Pack slots */
 .pack-slot {
-  width: 100%; /* Use all available width in the grid slot */
-  height: 100%; /* Fill the slot vertically */
+  width: 302px; /* Use all available width in the grid slot */
+  height: 454px; /* Fill the slot vertically */
   display: flex;
   flex-direction: column;
   justify-content: center;

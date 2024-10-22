@@ -2,43 +2,22 @@ import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ChampionCardsContainer.css";
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
-import data from "../../../../data/DATA.json"; // Character data
-import {
-  getOpenedCards,
-  saveOpenedCards,
-  clearOpenedCards,
-} from "../../../../utils/cardStorage";
+import data from "../../../../data/DATA.json";
+import { getOpenedCards } from "../../../../utils/cardStorage";
 
-// clear with window.clearOpenedCards();
-// Expose the storage functions to the window object for testing
-if (typeof window !== "undefined") {
-  window.getOpenedCards = getOpenedCards;
-  window.saveOpenedCards = saveOpenedCards;
-  window.clearOpenedCards = clearOpenedCards;
-}
-
-const ChampionCardsContainer = ({ flippedCards, setFlippedCards }) => {
+const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardId }) => {
   const [visibleCards, setVisibleCards] = useState([]);
   const navigate = useNavigate();
-  const totalSlots = 18; // Total number of slots including empty slots
+  const totalSlots = 18;
 
   useEffect(() => {
-    const openedCardIds = getOpenedCards().map((id) => Number(id)); // Convert stored card IDs to numbers
-    console.log("Opened Card IDs:", openedCardIds);
-
-    // Log the data array to see if it's being imported correctly
-    console.log("Full Data:", data);
-
-    const openedCards = data.filter((card) =>
-      openedCardIds.includes(Number(card.id))
-    ); // Convert card.id to number for comparison
-
-    console.log("Opened Cards:", openedCards); // Check the opened cards in the console
-    setVisibleCards(openedCards); // Set the visible cards
+    const openedCardIds = getOpenedCards().map((id) => Number(id));
+    const openedCards = data.filter((card) => openedCardIds.includes(Number(card.id)));
+    setVisibleCards(openedCards);
   }, []);
 
   const handleCardClick = (cardId) => {
-    navigate(`/cards/${cardId}`); // Navigate to SingleCardPage based on the card ID
+    navigate(`/cards/${cardId}`);
   };
 
   const handleFlip = (id) => {
@@ -47,25 +26,32 @@ const ChampionCardsContainer = ({ flippedCards, setFlippedCards }) => {
     }
   };
 
+  const handleHover = (id) => {
+    setHoveredCardId(id); // Pass the hovered card ID to the parent
+  };
+
+  const handleLeave = () => {
+    setHoveredCardId(null); // Reset hovered card ID when mouse leaves
+  };
+
   return (
     <div className="champion-cards-container">
       <div className="cards-grid">
-        {/* Render card slots */}
         {Array.from({ length: totalSlots }).map((_, index) => {
-          const champion = visibleCards[index]; // Get the visible cards based on opened ones
+          const champion = visibleCards[index];
 
           return champion ? (
             <ChampionCard
-              key={`card-${champion.id}`} // Use a unique key prefix for cards
+              key={`card-${champion.id}`}
               champion={champion}
-              flipped={flippedCards.includes(champion.id)} // Pass the flipped state
-              onFlip={handleFlip} // Pass the flip handler
-              onClick={() => handleCardClick(champion.id)} // Handle click to go to SingleCardPage
+              flipped={flippedCards.includes(champion.id)}
+              onFlip={handleFlip}
+              onHover={handleHover}
+              onLeave={handleLeave} // Handle mouse leave
+              onClick={() => handleCardClick(champion.id)}
             />
           ) : (
             <div key={`empty-${index}`} className="empty-card-slot">
-              {" "}
-              {/* Use a unique key prefix for empty slots */}
               <span className="empty--message">No Card To Display</span>
             </div>
           );

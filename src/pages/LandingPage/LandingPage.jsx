@@ -9,6 +9,7 @@ const LandingPage = () => {
     <>
      <div className="figure-overlay"></div>
       <Navigation />
+    
       <HeroSection />
       <Rules/>
       <Ready/>
