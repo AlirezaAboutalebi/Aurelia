@@ -30,7 +30,7 @@ const SingleCardPage = () => {
   };
 
   const textDirection = showEnglish ? "ltr" : "rtl"; // Set text direction based on language
-  const persianFont = !showEnglish ? { fontFamily: 'Tahoma' } : {}; // Apply Persian font when needed
+  const persianFont = !showEnglish ? { fontFamily: "Tahoma" } : {}; // Apply Persian font when needed
 
   return (
     <>
@@ -56,28 +56,36 @@ const SingleCardPage = () => {
               <h1 className="card--title">{card.basicInfo.characterName}</h1>
               <ul className="card-details">
                 <li>
-                  <strong>Real Name:</strong> {card.basicInfo.realName}
+                  <strong className="strong-title-info">Real Name:</strong> {card.basicInfo.realName}
                 </li>
                 <li>
-                  <strong>Realm:</strong> {card.basicInfo.realm}
+                  <strong className="strong-title-info">Realm:</strong> {card.basicInfo.realm}
                 </li>
                 <li>
-                  <strong>Role:</strong> {card.basicInfo.role}
+                  <strong className="strong-title-info">Role:</strong> {card.basicInfo.role}
                 </li>
                 <li>
-                  <strong>Damage Type:</strong> {card.basicInfo.damageType}
+                  <strong className="strong-title-info">Damage Type:</strong> {card.basicInfo.damageType}
                 </li>
                 <li>
-                  <strong>Weapon:</strong> {card.basicInfo.weapon}
+                  <strong className="strong-title-info">Weapon:</strong> {card.basicInfo.weapon}
                 </li>
                 <li>
-                  <strong>Armor Type:</strong> {card.basicInfo.armorType}
+                  <strong className="strong-title-info">Armor Type:</strong> {card.basicInfo.armorType}
                 </li>
               </ul>
 
               {/* Special Abilities */}
+              <span className="heading-card">
               <h2 className="card-h2-title">Special Abilities</h2>
-              <ul className={`abilities-list ${showEnglish ? 'ltr' : 'rtl'}`} style={persianFont}>
+              <button onClick={toggleLanguage} className="toggle-language-btn">
+                {showEnglish ? "Translate To Persian" : "Translate To English"}
+              </button>
+              </span>
+              <ul
+                className={`abilities-list ${showEnglish ? "ltr" : "rtl"}`}
+                style={persianFont}
+              >
                 {Object.keys(card.abilities).map((abilityKey, index) => {
                   const ability = card.abilities[abilityKey];
                   return (
@@ -97,11 +105,19 @@ const SingleCardPage = () => {
               </ul>
 
               {/* Backstory Section with Language Toggle */}
+             
+              <span className="heading-card">
               <h2 className="card-h2-title">Backstory</h2>
               <button onClick={toggleLanguage} className="toggle-language-btn">
                 {showEnglish ? "Translate To Persian" : "Translate To English"}
               </button>
-              <ul className={`backstory-list ${textDirection}`} style={persianFont}>
+              </span>
+               
+
+              <ul
+                className={`backstory-list ${textDirection}`}
+                style={persianFont}
+              >
                 {showEnglish
                   ? card.backStory.english.map((paragraph, index) => (
                       <li key={index}>{paragraph}</li>

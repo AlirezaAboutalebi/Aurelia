@@ -71,16 +71,23 @@
     letter-spacing: -2px;
     font-style: italic;
 }
-  
+.strong-title-info{
+    font-weight: 900;
+    color: #292827;
+}
 .card-details {
     list-style-type: none;
     padding: 0;
     margin: 0;
     font-family: "Merriweather", serif;
     font-size: 18px;
+    font-weight: 700;
     color: #474442;
 }
-  
+.heading-card{
+    display: flex;
+    gap: 40px;
+}
 .card-details li {
     margin-bottom: 4px;
 }
@@ -99,19 +106,21 @@
   
 /* Toggle Button Styling */
 .toggle-language-btn {
-    margin: 10px 0;
-    padding: 10px 20px;
+    position: relative;
+    bottom: -30px;
+    height: 60px;
     font-family: 'Merriweather', serif;
-    font-size: 16px;
-    background-color: #E94F2D;
-    color: #f1eee4;
+    font-size: 20px;
+    font-weight: 900;
+    color: #474442;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: underline;
 }
   
 .toggle-language-btn:hover {
-    background-color: #cc3f24;
+    color: #292827;
 }
   
 /* Right content styling */
@@ -163,15 +172,19 @@
     text-align: right;
     direction: rtl;
     margin-right: 20px;
+    
 }
 
 .abilities-list li {
     font-size: 18px;
-    margin: 24px;
+    margin: 24px 0; /* Adds the desired margin below each list item */
     font-weight: 700;
     color: #474442;
 } 
-
+.abilities-list.rtl li{
+    font-family: 'IranianSans', sans-serif; /* Apply Persian font for RTL text */
+    letter-spacing: -1px;
+}
 .abilitis--Text {
     font-weight: 900;
     color: #292827;
@@ -195,9 +208,16 @@
     text-align: right;
     direction: rtl;
     margin-right: 20px;
+  
 }
-
+.backstory-list.rtl li {
+    font-family: 'IranianSans'; /* Apply Persian font for RTL text */
+}
 /* Add this rule to provide 24px margin at the bottom of each backstory part */
 .backstory-list li {
-    margin-bottom: 24px; /* Adds the desired margin below each list item */
+    font-size: 18px;
+    margin: 24px 0; /* Adds the desired margin below each list item */
+    font-weight: 700;
+    color: #474442;
+    letter-spacing: -1px;
 }
