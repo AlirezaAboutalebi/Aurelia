@@ -191,8 +191,19 @@ p {
     line-height: 1.5;
 }
 
+.backstory-list.ltr {
+    text-align: left;
+    direction: ltr;
+    margin-left: 20px;
+}
+
 .backstory-list.rtl {
     text-align: right;
     direction: rtl;
     margin-right: 20px;
+}
+
+/* Add this rule to provide 24px margin at the bottom of each backstory part */
+.backstory-list li {
+    margin-bottom: 24px; /* Adds the desired margin below each list item */
 }

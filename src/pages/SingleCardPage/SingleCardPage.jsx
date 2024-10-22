@@ -101,12 +101,14 @@ const SingleCardPage = () => {
               <button onClick={toggleLanguage} className="toggle-language-btn">
                 {showEnglish ? "Translate To Persian" : "Translate To English"}
               </button>
-              <ul className="backstory-list" style={persianFont} dir={textDirection}>
-                <li className="backstory">
-                  {showEnglish
-                    ? card.backStory.english
-                    : card.backStory.persian}
-                </li>
+              <ul className={`backstory-list ${textDirection}`} style={persianFont}>
+                {showEnglish
+                  ? card.backStory.english.map((paragraph, index) => (
+                      <li key={index}>{paragraph}</li>
+                    ))
+                  : card.backStory.persian.map((paragraph, index) => (
+                      <li key={index}>{paragraph}</li>
+                    ))}
               </ul>
             </div>
           </div>
