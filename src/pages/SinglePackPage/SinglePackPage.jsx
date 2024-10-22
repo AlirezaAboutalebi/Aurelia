@@ -23,6 +23,7 @@ const SinglePackPage = () => {
   }
   // window.clearOpenedPacks()
   // window.clearOpenedCards();
+ 
   if (typeof window !== "undefined") {
     window.getOpenedPacks = getOpenedPacks;
     window.saveOpenedPack = saveOpenedPack;

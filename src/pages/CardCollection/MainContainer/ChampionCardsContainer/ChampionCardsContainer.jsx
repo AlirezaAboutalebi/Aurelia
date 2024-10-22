@@ -3,7 +3,18 @@ import { useNavigate } from "react-router-dom";
 import "./ChampionCardsContainer.css";
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
 import data from "../../../../data/DATA.json";
-import { getOpenedCards } from "../../../../utils/cardStorage";
+import {
+  getOpenedCards,
+  saveOpenedCards,
+  clearOpenedCards as clearStoredOpenedCards, // We will use this function
+} from "../../../../utils/cardStorage";
+
+// Expose the card clearing function to the global window object for testing purposes
+if (typeof window !== "undefined") {
+  window.getOpenedCards = getOpenedCards;
+  window.saveOpenedCards = saveOpenedCards;
+  window.clearOpenedCards = clearStoredOpenedCards; // Restoring window.clearOpenedCards
+}
 
 const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardId }) => {
   const [visibleCards, setVisibleCards] = useState([]);
