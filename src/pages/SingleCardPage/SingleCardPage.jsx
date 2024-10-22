@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import DATA from "../../data/DATA.json";
 import Navigation from "../../components/Navigation/Navigation";
 import "./SingleCardPage.css";
+import StatBox from "../../components/StatBox/Statbox";
 
 const SingleCardPage = () => {
   const { cardId } = useParams();
@@ -77,10 +78,10 @@ const SingleCardPage = () => {
 
               {/* Special Abilities */}
               <span className="heading-card">
-              <h2 className="card-h2-title">Special Abilities</h2>
-              <button onClick={toggleLanguage} className="toggle-language-btn">
-                {showEnglish ? "Translate To Persian" : "Translate To English"}
-              </button>
+                <h2 className="card-h2-title">Special Abilities</h2>
+                <button onClick={toggleLanguage} className="toggle-language-btn">
+                  {showEnglish ? "Translate To Persian" : "Translate To English"}
+                </button>
               </span>
               <ul
                 className={`abilities-list ${showEnglish ? "ltr" : "rtl"}`}
@@ -105,14 +106,14 @@ const SingleCardPage = () => {
               </ul>
 
               {/* Backstory Section with Language Toggle */}
-             
+
               <span className="heading-card">
-              <h2 className="card-h2-title">Backstory</h2>
-              <button onClick={toggleLanguage} className="toggle-language-btn">
-                {showEnglish ? "Translate To Persian" : "Translate To English"}
-              </button>
+                <h2 className="card-h2-title">Backstory</h2>
+                <button onClick={toggleLanguage} className="toggle-language-btn">
+                  {showEnglish ? "Translate To Persian" : "Translate To English"}
+                </button>
               </span>
-               
+
 
               <ul
                 className={`backstory-list ${textDirection}`}
@@ -120,11 +121,11 @@ const SingleCardPage = () => {
               >
                 {showEnglish
                   ? card.backStory.english.map((paragraph, index) => (
-                      <li key={index}>{paragraph}</li>
-                    ))
+                    <li key={index}>{paragraph}</li>
+                  ))
                   : card.backStory.persian.map((paragraph, index) => (
-                      <li key={index}>{paragraph}</li>
-                    ))}
+                    <li key={index}>{paragraph}</li>
+                  ))}
               </ul>
             </div>
           </div>
@@ -132,7 +133,7 @@ const SingleCardPage = () => {
 
         {/* Placeholder for stats box (image for now) */}
         <div className="right-content">
-          <img className="stats-box" src="/images/Stats.png" alt="Stats Box" />
+          <StatBox id={card.id} /> {/* Pass the correct ID */}
         </div>
       </div>
     </>

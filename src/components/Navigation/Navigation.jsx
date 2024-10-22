@@ -16,7 +16,7 @@ const Navigation = () => {
         <div className="navbar__divider"></div>
         <Link to="/world-map" className="navbar__link">World Map</Link>
         <div className="navbar__divider"></div>
-        <Link to="/the-book" className="navbar__link">The Book</Link>
+        <Link to="/the-book" className="navbar__link" >The Book</Link>
       </div>
 
       <div className="navbar__right">
@@ -24,7 +24,7 @@ const Navigation = () => {
           Sign In 
           <img src='/icons/Knight.svg' className='navbar__icon' alt="Knight Icon"/>
         </Link>
-        <button className="navbar__play-button">Play Game</button>
+        <button className="navbar__play-button" >Play Game</button>
       </div>
     </nav>
   );
