@@ -76,7 +76,7 @@ const SingleCardPage = () => {
               </ul>
 
               {/* Special Abilities */}
-              <h2>Special Abilities</h2>
+              <h2 className="card-h2-title">Special Abilities</h2>
               <ul className={`abilities-list ${showEnglish ? 'ltr' : 'rtl'}`} style={persianFont}>
                 {Object.keys(card.abilities).map((abilityKey, index) => {
                   const ability = card.abilities[abilityKey];
@@ -97,7 +97,7 @@ const SingleCardPage = () => {
               </ul>
 
               {/* Backstory Section with Language Toggle */}
-              <h2>Backstory</h2>
+              <h2 className="card-h2-title">Backstory</h2>
               <button onClick={toggleLanguage} className="toggle-language-btn">
                 {showEnglish ? "Translate To Persian" : "Translate To English"}
               </button>
