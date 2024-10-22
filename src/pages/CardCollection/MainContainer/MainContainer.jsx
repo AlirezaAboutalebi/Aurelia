@@ -1,8 +1,8 @@
 import React from "react";
 import "./MainContainer.css"; // Importing CSS for styling
-import StatBox from "../../../components/StatBox/Statbox";
+import StatBox from "../../../components/StatBox/StatBox";
 
-const MainContainer = ({ children }) => {
+const MainContainer = ({ children, hoveredCardId }) => {
   return (
     <div className="flex-stat-container">
       <div className="main-container">
@@ -14,7 +14,7 @@ const MainContainer = ({ children }) => {
         />
       </div>
       <div className="statbox-collection">
-      <StatBox/>
+        <StatBox id={hoveredCardId || "0"} /> {/* Default to 0 if no card is hovered */}
       </div>
     </div>
   );

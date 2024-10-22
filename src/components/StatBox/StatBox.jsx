@@ -3,10 +3,8 @@ import DATA from '../../data/DATA.json';
 import './StatBox.css';
 
 const StatBox = ({ id }) => {
-  // Ensure the ID is parsed as a string
   const character = DATA.find((c) => c.id === String(id));
 
-  // Function to render the stat row based on the value
   const renderStatRow = (statValue) => {
     const filledBoxes = Array.from({ length: statValue }, (_, i) => (
       <div key={`filled-${i}`} className="filledBox"></div>
@@ -17,7 +15,6 @@ const StatBox = ({ id }) => {
     return [...filledBoxes, ...emptyBoxes];
   };
 
-  // If character is not found, render empty stat boxes
   const defaultStats = {
     damage: 0,
     range: 0,
@@ -32,7 +29,7 @@ const StatBox = ({ id }) => {
     leadership: 0,
     crowdControl: 0,
     charisma: 0,
-    manipulation: 0, // Corrected case to match the expected key
+    manipulation: 0,
     speed: 0,
     mobility: 0,
   };
@@ -41,7 +38,6 @@ const StatBox = ({ id }) => {
 
   return (
     <div className="stateBox">
-      {/* OFFENSIVE Section */}
       <section className="row">
         <div className="title">
           <img src="/icons/OFFENSIVE.svg" alt="Offensive Icon" className="stat-icon" />
@@ -63,7 +59,6 @@ const StatBox = ({ id }) => {
         </div>
       </section>
 
-      {/* DEFENSIVE Section */}
       <section className="row">
         <div className="title">
           <img src="/icons/DEFENSIVE.svg" alt="Defensive Icon" className="stat-icon" />
@@ -85,7 +80,6 @@ const StatBox = ({ id }) => {
         </div>
       </section>
 
-      {/* MAGICAL AND MENTAL Section */}
       <section className="row">
         <div className="title">
           <img src="/icons/MAGICAL.svg" alt="Magical Icon" className="stat-icon" />
@@ -111,7 +105,6 @@ const StatBox = ({ id }) => {
         </div>
       </section>
 
-      {/* TEAM PLAY Section */}
       <section className="row">
         <div className="title">
           <img src="/icons/TEAM.svg" alt="Team Play Icon" className="stat-icon" />
@@ -137,7 +130,6 @@ const StatBox = ({ id }) => {
         </div>
       </section>
 
-      {/* AGILITY Section */}
       <section className="row">
         <div className="title">
           <img src="/icons/AGILITY.svg" alt="Agility Icon" className="stat-icon" />
