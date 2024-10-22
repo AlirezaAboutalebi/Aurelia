@@ -22,6 +22,7 @@ const SinglePackPage = () => {
     return <div>Pack not found</div>;
   }
   // window.clearOpenedPacks()
+  // window.clearOpenedCards();
   if (typeof window !== "undefined") {
     window.getOpenedPacks = getOpenedPacks;
     window.saveOpenedPack = saveOpenedPack;
@@ -71,8 +72,8 @@ const SinglePackPage = () => {
       <div className="single-pack-container">
         <div className="single-pack-content">
           <h1 className="pack-realm">{pack.realmName}</h1>
-          <h2 className={`pack-title ${fadeDescriptions ? "fade-out" : ""}`}>
-            {pack.packTitle}
+          <h2 className={`pack-title }`}>
+            {pack.packTitle}:
           </h2>
 
           <p
