@@ -22,6 +22,7 @@ const SinglePackPage = () => {
     return <div>Pack not found</div>;
   }
   // window.clearOpenedPacks()
+  // window.clearOpenedCards();
   if (typeof window !== "undefined") {
     window.getOpenedPacks = getOpenedPacks;
     window.saveOpenedPack = saveOpenedPack;
