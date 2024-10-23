@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import packsData from "../../data/packsDATA.json";
+import packsData from "../../DATA/packsDATA.json";
 import Navigation from "../../components/Navigation/Navigation";
 import ChampionCard from "../../components/ChampionCard/ChampionCard";
-import data from "../../data/DATA.json";
+import data from "../../DATA/DATA.json";
 import { saveOpenedCards } from "../../utils/cardStorage";
 import { getOpenedPacks, saveOpenedPack, clearOpenedPacks } from '../../utils/packStorage';
 import styles from "./SinglePackPage.module.css";

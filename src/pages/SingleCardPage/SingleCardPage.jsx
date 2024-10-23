@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import DATA from "../../data/DATA.json";
+import DATA from "../../DATA/DATA.json";
 import Navigation from "../../components/Navigation/Navigation";
 import styles from "./SingleCardPage.module.css";
 import StatBox from "../../components/StatBox/Statbox";
