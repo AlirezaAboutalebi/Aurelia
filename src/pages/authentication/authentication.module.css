@@ -127,9 +127,9 @@ input::placeholder {
 /* Authentication image position */
 .authImage {
     position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 250px;
+    right: 40px;
+    top: 120px;
+    width: 320px;
     height: auto;
 }
 

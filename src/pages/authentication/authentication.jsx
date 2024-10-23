@@ -29,10 +29,10 @@ const Authentication = () => {
                                 <label htmlFor="name">Declare your name:</label>
                                 <input id="name" type="text" placeholder="Enter your name" />
                                 
-                                <label htmlFor="email">Scroll of Contact (E-mail):</label>
+                                <label htmlFor="email">Scroll of Contact:</label>
                                 <input id="email" type="email" placeholder="Enter your email" />
 
-                                <label htmlFor="password">Secret Word (Password):</label>
+                                <label htmlFor="password">Secret Word:</label>
                                 <input id="password" type="password" placeholder="Enter your password" />
 
                                 <div className={styles.checkbox}>
@@ -52,7 +52,7 @@ const Authentication = () => {
                                 <label htmlFor="loginName">State your name:</label>
                                 <input id="loginName" type="text" placeholder="Enter your name" />
                                 
-                                <label htmlFor="loginPassword">Speak your secret word (Password):</label>
+                                <label htmlFor="loginPassword">Speak your secret word:</label>
                                 <input id="loginPassword" type="password" placeholder="Enter your password" />
 
                                 <button className={styles.button}>Enter the Realm</button>
