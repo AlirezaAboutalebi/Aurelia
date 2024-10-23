@@ -31,7 +31,7 @@ const SingleCardPage = () => {
 
   return (
     <>
-      <div className={styles.figureOverlay}></div>
+       <div className="figure-overlay"></div>
       <Navigation />
       <div className={styles.singleCardPage}>
         <div className={styles.leftContent}>

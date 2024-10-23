@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Navigation.module.css'; // Import the new CSS module
 
-const Navigation = () => {
+const Navigation = ({ className }) => { // Accept className as a prop
   return (
-    <nav className={styles.navbar}>
+    <nav className={`${styles.navbar} ${className || ''}`}> {/* Combine with additional class */}
       <div className={styles.navbarLogo}>
         <img src='/icons/Logo.svg' className={styles.navbarLogoImg} alt="Logo" />
       </div>

@@ -11,7 +11,7 @@ const FreePack = () => {
 
   return (
     <>
-      <div className="figure-overlay"></div>
+       <div className="figure-overlay"></div>
       <Navigation />
       <div className={styles.freePackContainer}>
         <div className={styles.freePackContent}>

@@ -7,7 +7,7 @@ import Rules from './Rules/Rules';
 const LandingPage = () => {
   return (
     <>
-     <div className="figure-overlay"></div>
+      <div className="figure-overlay"></div>
       <Navigation />
     
       <HeroSection />
