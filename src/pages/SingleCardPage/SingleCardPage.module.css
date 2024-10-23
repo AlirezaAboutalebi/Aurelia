@@ -1,56 +1,56 @@
 /* Main container for the single card page */
-.single-card-page {
+.singleCardPage {
     display: flex;
     justify-content: space-between;
-    height: calc(100vh - 72px); /* Adjust for navigation bar */
+    height: calc(100vh - 72px);
     box-sizing: border-box;
-}
+  }
   
-/* Left content styling */
-.left-content {
+  /* Left content styling */
+  .leftContent {
     position: relative;
     height: 100%;
     margin-left: 4px;
     overflow-y: auto;
-}
+  }
   
-.card-banner {
+  .cardBanner {
     width: 1400px;
     height: auto;
-}
+  }
   
-/* Gradient Overlay */
-.card__overlay {
+  /* Gradient Overlay */
+  .cardOverlay {
     position: absolute;
     width: 1400px;
     height: 700px;
     z-index: 1;
     pointer-events: none;
-}
+  }
   
-.card__overlay--right {
+  .cardOverlayRight {
     background: linear-gradient(
       to left,
       rgba(241, 238, 228, 1) 0%,
       rgba(241, 238, 228, 0) 50%
     );
-}
+  }
   
-.card__overlay--bottom {
+  .cardOverlayBottom {
     background: linear-gradient(
       to top,
       rgba(241, 238, 228, 1) 0%,
       rgba(241, 238, 228, 0) 50%
     );
-}
+  }
   
-.card-info {
+  .cardInfo {
     padding: 16px;
     background-color: #f1eee4;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-}
+  }
   
-.card-image {
+  .cardImage {
     position: absolute;
     top: 420px;
     left: 40px;
@@ -59,9 +59,9 @@
     border-radius: 8px;
     margin-bottom: 16px;
     z-index: 10;
-}
+  }
   
-.card--title {
+  .cardTitle {
     font-family: "Capitolina", serif;
     font-size: 88px;
     color: #e94f2d;
@@ -70,12 +70,14 @@
     text-shadow: 3.75px 4px 0.55px #292827;
     letter-spacing: -2px;
     font-style: italic;
-}
-.strong-title-info{
+  }
+  
+  .strongTitleInfo {
     font-weight: 900;
     color: #292827;
-}
-.card-details {
+  }
+  
+  .cardDetails {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -83,16 +85,18 @@
     font-size: 18px;
     font-weight: 700;
     color: #474442;
-}
-.heading-card{
+  }
+  
+  .headingCard {
     display: flex;
     gap: 40px;
-}
-.card-details li {
-    margin-bottom: 4px;
-}
+  }
   
-.card-h2-title {
+  .cardDetails li {
+    margin-bottom: 4px;
+  }
+  
+  .cardH2Title {
     font-family: "Capitolina", serif;
     font-size: 60px;
     color: #e94f2d;
@@ -101,11 +105,10 @@
     text-shadow: 2px 2px 0.55px #292827;
     letter-spacing: -2px;
     font-style: italic;
-}
+  }
   
-  
-/* Toggle Button Styling */
-.toggle-language-btn {
+  /* Toggle Button Styling */
+  .toggleLanguageBtn {
     position: relative;
     bottom: -30px;
     height: 60px;
@@ -117,107 +120,100 @@
     border-radius: 5px;
     cursor: pointer;
     text-decoration: underline;
-}
+  }
   
-.toggle-language-btn:hover {
+  .toggleLanguageBtn:hover {
     color: #292827;
-}
+  }
   
-/* Right content styling */
-.right-content {
+  /* Right content styling */
+  .rightContent {
     width: 488px;
     margin-right: 4px;
     padding-bottom: 4px;
     height: 100%;
     overflow-y: auto;
-}
+  }
   
-.stats-box {
-    width: 488px;
-    height: auto;
-}
-  
-/* Hide scrollbars but still allow scrolling */
-.left-content::-webkit-scrollbar,
-.right-content::-webkit-scrollbar {
+  /* Hide scrollbars but still allow scrolling */
+  .leftContent::-webkit-scrollbar,
+  .rightContent::-webkit-scrollbar {
     display: none;
-}
+  }
   
-.left-content,
-.right-content {
+  .leftContent,
+  .rightContent {
     -ms-overflow-style: none;
     scrollbar-width: none;
-}
+  }
   
-.card--content {
+  .cardContent {
     position: relative;
     left: 380px;
     top: -180px;
     z-index: 5;
     width: 960px;
-}
-
-.abilities-list {
+  }
+  
+  .abilitiesList {
     list-style-type: disc;
     margin-left: 20px;
-}
-
-.abilities-list.ltr {
+  }
+  
+  .abilitiesList.ltr {
     text-align: left;
     direction: ltr;
-    margin-left: 20px;
-}
-
-.abilities-list.rtl {
+  }
+  
+  .abilitiesList.rtl {
     text-align: right;
     direction: rtl;
-    margin-right: 20px;
-    
-}
-
-.abilities-list li {
+  }
+  
+  .abilitiesList li {
     font-size: 18px;
-    margin: 24px 0; /* Adds the desired margin below each list item */
+    margin: 24px 0;
     font-weight: 700;
     color: #474442;
-} 
-.abilities-list.rtl li{
-    font-family: 'IranianSans', sans-serif; /* Apply Persian font for RTL text */
+  }
+  
+  .abilitiesList.rtl li {
+    font-family: 'IranianSans', sans-serif;
     letter-spacing: -1px;
-}
-.abilitis--Text {
+  }
+  
+  .abilitiesText {
     font-weight: 900;
     color: #292827;
-}
-
-.backstory-list {
+  }
+  
+  .backstoryList {
     list-style-type: disc;
     margin-left: 20px;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.5;
-}
-
-.backstory-list.ltr {
+  }
+  
+  .backstoryList.ltr {
     text-align: left;
     direction: ltr;
-    margin-left: 20px;
-}
-
-.backstory-list.rtl {
+  }
+  
+  .backstoryList.rtl {
     text-align: right;
     direction: rtl;
-    margin-right: 20px;
+  }
   
-}
-.backstory-list.rtl li {
-    font-family: 'IranianSans'; /* Apply Persian font for RTL text */
-}
-/* Add this rule to provide 24px margin at the bottom of each backstory part */
-.backstory-list li {
+  .backstoryList.rtl li {
+    font-family: 'IranianSans';
+  }
+  
+  .backstoryList li {
     font-size: 18px;
-    margin: 24px 0; /* Adds the desired margin below each list item */
+    margin: 24px 0;
     font-weight: 700;
     color: #474442;
     letter-spacing: -1px;
-}
+  }
+  

@@ -2,99 +2,93 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DATA from "../../data/DATA.json";
 import Navigation from "../../components/Navigation/Navigation";
-import "./SingleCardPage.css";
+import styles from "./SingleCardPage.module.css";
 import StatBox from "../../components/StatBox/Statbox";
 
 const SingleCardPage = () => {
   const { cardId } = useParams();
-  const [showEnglish, setShowEnglish] = useState(true); // State to toggle between English and Persian text
+  const [showEnglish, setShowEnglish] = useState(true);
 
   useEffect(() => {
-    // Disable scrolling when this component is mounted
     document.body.style.overflow = "hidden";
-
-    // Re-enable scrolling when this component is unmounted
     return () => {
       document.body.style.overflow = "auto";
     };
   }, []);
 
-  const card = DATA.find((c) => c.id === cardId); // Find the card by its ID
+  const card = DATA.find((c) => c.id === cardId);
 
-  // If card is not found, display a message
   if (!card) {
     return <div>Card not found</div>;
   }
 
   const toggleLanguage = () => {
-    setShowEnglish(!showEnglish); // Toggle the language
+    setShowEnglish(!showEnglish);
   };
 
-  const textDirection = showEnglish ? "ltr" : "rtl"; // Set text direction based on language
-  const persianFont = !showEnglish ? { fontFamily: "Tahoma" } : {}; // Apply Persian font when needed
+  const textDirection = showEnglish ? "ltr" : "rtl";
+  const persianFont = !showEnglish ? { fontFamily: "IranianSans" } : {};
 
   return (
     <>
-      <div className="figure-overlay"></div>
+      <div className={styles.figureOverlay}></div>
       <Navigation />
-      <div className="single-card-page">
-        <div className="left-content">
-          <div className="card__overlay card__overlay--right"></div>
-          <div className="card__overlay card__overlay--bottom"></div>
-          <div className="card__overlay card__overlay--top"></div>
+      <div className={styles.singleCardPage}>
+        <div className={styles.leftContent}>
+          <div className={`${styles.cardOverlay} ${styles.cardOverlayRight}`}></div>
+          <div className={`${styles.cardOverlay} ${styles.cardOverlayBottom}`}></div>
+          <div className={`${styles.cardOverlay} ${styles.cardOverlayTop}`}></div>
           <img
-            className="card-banner"
+            className={styles.cardBanner}
             src={card.images.banner}
             alt={card.basicInfo.characterName}
           />
-          <div className="card-info">
+          <div className={styles.cardInfo}>
             <img
-              className="card-image"
+              className={styles.cardImage}
               src={card.images.back}
               alt={card.basicInfo.characterName}
             />
-            <div className="card--content">
-              <h1 className="card--title">{card.basicInfo.characterName}</h1>
-              <ul className="card-details">
+            <div className={styles.cardContent}>
+              <h1 className={styles.cardTitle}>{card.basicInfo.characterName}</h1>
+              <ul className={styles.cardDetails}>
                 <li>
-                  <strong className="strong-title-info">Real Name:</strong> {card.basicInfo.realName}
+                  <strong className={styles.strongTitleInfo}>Real Name:</strong> {card.basicInfo.realName}
                 </li>
                 <li>
-                  <strong className="strong-title-info">Realm:</strong> {card.basicInfo.realm}
+                  <strong className={styles.strongTitleInfo}>Realm:</strong> {card.basicInfo.realm}
                 </li>
                 <li>
-                  <strong className="strong-title-info">Role:</strong> {card.basicInfo.role}
+                  <strong className={styles.strongTitleInfo}>Role:</strong> {card.basicInfo.role}
                 </li>
                 <li>
-                  <strong className="strong-title-info">Damage Type:</strong> {card.basicInfo.damageType}
+                  <strong className={styles.strongTitleInfo}>Damage Type:</strong> {card.basicInfo.damageType}
                 </li>
                 <li>
-                  <strong className="strong-title-info">Weapon:</strong> {card.basicInfo.weapon}
+                  <strong className={styles.strongTitleInfo}>Weapon:</strong> {card.basicInfo.weapon}
                 </li>
                 <li>
-                  <strong className="strong-title-info">Armor Type:</strong> {card.basicInfo.armorType}
+                  <strong className={styles.strongTitleInfo}>Armor Type:</strong> {card.basicInfo.armorType}
                 </li>
               </ul>
 
               {/* Special Abilities */}
-              <span className="heading-card">
-                <h2 className="card-h2-title">Special Abilities</h2>
-                <button onClick={toggleLanguage} className="toggle-language-btn">
+              <span className={styles.headingCard}>
+                <h2 className={styles.cardH2Title}>Special Abilities</h2>
+                <button onClick={toggleLanguage} className={styles.toggleLanguageBtn}>
                   {showEnglish ? "Translate To Persian" : "Translate To English"}
                 </button>
               </span>
               <ul
-                className={`abilities-list ${showEnglish ? "ltr" : "rtl"}`}
+                className={`${styles.abilitiesList} ${showEnglish ? styles.ltr : styles.rtl}`}
                 style={persianFont}
               >
                 {Object.keys(card.abilities).map((abilityKey, index) => {
                   const ability = card.abilities[abilityKey];
                   return (
                     <li key={index}>
-                      <span className="abilitis--Text">
-                        {showEnglish
-                          ? ability.name.english
-                          : ability.name.persian}
+                      <span className={styles.abilitiesText}>
+                        {showEnglish ? ability.name.english : ability.name.persian}
                       </span>
                       :{" "}
                       {showEnglish
@@ -105,35 +99,33 @@ const SingleCardPage = () => {
                 })}
               </ul>
 
-              {/* Backstory Section with Language Toggle */}
-
-              <span className="heading-card">
-                <h2 className="card-h2-title">Backstory</h2>
-                <button onClick={toggleLanguage} className="toggle-language-btn">
+              {/* Backstory Section */}
+              <span className={styles.headingCard}>
+                <h2 className={styles.cardH2Title}>Backstory</h2>
+                <button onClick={toggleLanguage} className={styles.toggleLanguageBtn}>
                   {showEnglish ? "Translate To Persian" : "Translate To English"}
                 </button>
               </span>
 
-
               <ul
-                className={`backstory-list ${textDirection}`}
+                className={`${styles.backstoryList} ${textDirection}`}
                 style={persianFont}
               >
                 {showEnglish
                   ? card.backStory.english.map((paragraph, index) => (
-                    <li key={index}>{paragraph}</li>
-                  ))
+                      <li key={index}>{paragraph}</li>
+                    ))
                   : card.backStory.persian.map((paragraph, index) => (
-                    <li key={index}>{paragraph}</li>
-                  ))}
+                      <li key={index}>{paragraph}</li>
+                    ))}
               </ul>
             </div>
           </div>
         </div>
 
-        {/* Placeholder for stats box (image for now) */}
-        <div className="right-content">
-          <StatBox id={card.id} /> {/* Pass the correct ID */}
+        {/* Stat Box */}
+        <div className={styles.rightContent}>
+          <StatBox id={card.id} />
         </div>
       </div>
     </>
