@@ -6,7 +6,7 @@ import WorldMap from './pages/WorldMap/WorldMap';
 import FreePack from './pages/FreePack/FreePack';
 import SinglePackPage from './pages/SinglePackPage/SinglePackPage';
 import SingleCardPage from './pages/SingleCardPage/SingleCardPage';
-import Authentication from './pages/Authentication/Authentication'; // Import Authentication
+import Authentication from './pages/authentication/authentication'; // Import Authentication
 import { AuthProvider } from './context/AuthContext'; // Import AuthProvider
 
 function App() {
