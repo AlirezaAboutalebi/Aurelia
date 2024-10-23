@@ -1,10 +1,10 @@
 import { useState, useContext } from "react";
-import styles from './Authentication.module.css';
+import styles from './AuthPage.module.css';
 import Navigation from "../../components/Navigation/Navigation";
 import { AuthContext } from "../../context/AuthContext"; 
 import { useNavigate } from 'react-router-dom'; 
 
-const Authentication = () => {
+const AuthPage = () => {
     const [isSignUp, setIsSignUp] = useState(true);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -82,4 +82,4 @@ const Authentication = () => {
     );
 };
 
-export default Authentication;
+export default AuthPage;
