@@ -7,7 +7,7 @@ import Tabs from "./Tabs/Tabs";
 import LostCardsContainer from "./MainContainer/LostCardsContainer/LostCardsContainer";
 
 const CardCollection = () => {
-  const [activeTab, setActiveTab] = useState("packs");
+  const [activeTab, setActiveTab] = useState("mycards");
   const [flippedCards, setFlippedCards] = useState([]);
   const [hoveredCardId, setHoveredCardId] = useState(null);
 
