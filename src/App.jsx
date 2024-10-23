@@ -20,7 +20,6 @@ function App() {
         <Route path="/packs/:packId" element={<SinglePackPage />} />
         <Route path="/cards/:cardId" element={<SingleCardPage />} />
         <Route path="/sign-in" element={<Authentication/>} />
-        
       </Routes>
     </AuthProvider>
   );
