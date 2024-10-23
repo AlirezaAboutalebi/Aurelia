@@ -5,7 +5,6 @@ import PacksContainer from "./MainContainer/PacksContainer/PacksContainer";
 import MainContainer from "./MainContainer/MainContainer";
 import Tabs from "./Tabs/Tabs";
 import LostCardsContainer from "./MainContainer/LostCardsContainer/LostCardsContainer";
-import ClaimBanner from "../../components/ClaimBanner/ClaimBanner";
 
 const CardCollection = () => {
   const [activeTab, setActiveTab] = useState("packs");

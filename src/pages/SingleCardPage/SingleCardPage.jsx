@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import DATA from "../../DATA/DATA.json";
 import Navigation from "../../components/Navigation/Navigation";
 import styles from "./SingleCardPage.module.css";
-import StatBox from "../../components/StatBox/Statbox";
+import StatBox from '../../components/StatBox/StatBox';
+
 
 const SingleCardPage = () => {
   const { cardId } = useParams();
