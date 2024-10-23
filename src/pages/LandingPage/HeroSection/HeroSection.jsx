@@ -1,30 +1,30 @@
-import './HeroSection.css';  // Import the CSS for this section
+import styles from './HeroSection.module.css';  // Import the modular CSS
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
-      <div className="hero-section__overlay hero-section__overlay--right"></div>
-      <div className="hero-section__overlay hero-section__overlay--bottom"></div>
-      <div className="hero-section__overlay hero-section__overlay--top"></div>
+    <div className={styles.heroSection}>
+      <div className={`${styles.heroSectionOverlay} ${styles.heroSectionOverlayRight}`}></div>
+      <div className={`${styles.heroSectionOverlay} ${styles.heroSectionOverlayBottom}`}></div>
+      <div className={`${styles.heroSectionOverlay} ${styles.heroSectionOverlayTop}`}></div>
       
       <img
         src="/images/HeroSection.webp"
         alt="Hero Section Background"
-        className="hero-section__background-image"
+        className={styles.heroSectionBackgroundImage}
       />
       
-      <div className="hero-section__text-container">
-        <h1 className="hero-section__title">Introduction</h1>
-        <div className="hero-section__intro-text">
-          <div className="hero-section__highlight-paragraph">
-            <span className="hero-section__highlight">B</span>
-            <p className="hero-section__paragraph">
+      <div className={styles.heroSectionTextContainer}>
+        <h1 className={styles.heroSectionTitle}>Introduction</h1>
+        <div className={styles.heroSectionIntroText}>
+          <div className={styles.heroSectionHighlightParagraph}>
+            <span className={styles.heroSectionHighlight}>B</span>
+            <p className={styles.heroSectionParagraph}>
               ecome part of the legend in Aurelia, In a realm torn between Light
               and Shadow, ancient powers stir, and the balance of peace begins
               to crumble. As darkness creeps across the land, heroes must rise
               to defend their world, uncover secrets long buried, and restore
               the fragile harmony that keeps the realms from falling into chaos.
-              <span className="hero-section__span">
+              <span className={styles.heroSectionSpan}>
                 Will you answer the call and become the champion this world
                 desperately needs?
               </span>

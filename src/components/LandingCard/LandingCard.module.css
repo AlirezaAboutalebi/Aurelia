@@ -1,0 +1,88 @@
+/* Main Landing Card Container */
+.landingCard {
+  margin-top: 160px;
+  padding: 20px;
+  width: 360px;
+  height: 520px;
+  border: 1px solid #474442;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1eee4;
+}
+
+/* Corner Elements */
+.landingCardCorner {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: #f1eee4;
+  border: 1px solid #474442;
+}
+
+/* Specific Corner Styles */
+.topLeft {
+  top: -1px;
+  left: -1px;
+  border-radius: 0 0 360px 0;
+  border-left: none;
+  border-top: none;
+}
+
+.topRight {
+  top: -1px;
+  right: -1px;
+  border-radius: 0 0 0 360px;
+  border-right: none;
+  border-top: none;
+}
+
+.bottomLeft {
+  bottom: -1px;
+  left: -1px;
+  border-radius: 0 360px 0 0;
+  border-left: none;
+  border-bottom: none;
+}
+
+.bottomRight {
+  bottom: -1px;
+  right: -1px;
+  border-radius: 360px 0 0 0;
+  border-right: none;
+  border-bottom: none;
+}
+
+/* Icon Container */
+.iconContainer {
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+/* Icon */
+.icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Title in Landing Card */
+.title {
+  font-family: "Capitolina", serif;
+  font-size: 32px;
+  color: #e94f2d;
+  margin: 24px 0 4px;
+  text-align: center;
+}
+
+/* Description Text */
+.description {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #474442;
+  text-align: center;
+  margin-top: 15px;
+}

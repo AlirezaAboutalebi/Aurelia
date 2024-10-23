@@ -1,0 +1,108 @@
+/* Custom styles for the navigation bar on the WorldMap page */
+.customNav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 8px);
+    z-index: 100; /* Increased z-index to ensure it's on top */
+    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+}
+
+/* Container for the entire map page */
+.mapPage {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Full height for the map image */
+.mapImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    z-index: 1; /* Lower than navigation */
+}
+
+/* Map navigation buttons */
+.mapNavigationButtons {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
+    z-index: 5; /* Still below the navbar */
+    gap: 16px;
+}
+
+/* Button styles */
+.navButton {
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    background-color: #e94f2d;
+    color: #f1eee4;
+    border: 1px solid #f1eee4;
+    padding: 16px 32px;
+    font-size: 16px;
+    width: 220px;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 8px;
+    text-shadow: 0 2px 0 #292827;
+    box-shadow: 0 2px 0 #292827;
+    transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.navButton:hover {
+    background-color: #d8431e;
+}
+
+.navButton:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+}
+
+.navButton.active {
+    background-color: #cc401d;
+}
+
+/* Icon styles inside the button */
+.navButton img {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+
+/* Overlays for the map */
+.mapOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3; /* Ensure overlays are below the navbar but above the map */
+    pointer-events: none;
+}
+
+.mapOverlayLeft {
+    background: linear-gradient(to left, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.mapOverlayRight {
+    background: linear-gradient(to right, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.mapOverlayBottom {
+    background: linear-gradient(to top, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}
+
+.mapOverlayTop {
+    background: linear-gradient(to bottom, rgba(241, 238, 228, 0.25) 0%, rgba(241, 238, 228, 0) 10%);
+}

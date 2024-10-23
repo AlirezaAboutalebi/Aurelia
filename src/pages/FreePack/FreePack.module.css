@@ -1,0 +1,118 @@
+/* Free Pack container */
+.freePackContainer {
+  height: calc(100vh - 72px);
+  background-color: #f1eee4;
+}
+
+/* Text and button content */
+.freePackContent {
+  max-width: 800px;
+  position: relative;
+  left: 280px;
+  top: 180px;
+}
+
+.freePackTitle {
+  font-family: 'Capitolina', serif;
+  font-size: 140px;
+  color: #e94f2d;
+  -webkit-text-stroke: 1.25px #f1eee4;
+  font-weight: 600;
+  text-shadow: 3.75px 3.75px 0.55px #292827;
+  margin: 0;
+  line-height: 160px;
+}
+
+.freePackTitle span {
+  font-family: 'Capitolina', serif;
+  font-size: 180px;
+  color: #e94f2d;
+  -webkit-text-stroke: 1.25px #f1eee4;
+  font-weight: 700;
+  text-shadow: 3.75px 3.75px 0.55px #292827;
+}
+
+.freePackDescription {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #474442;
+  margin: 40px 0;
+  line-height: 36px;
+}
+
+.freePackValue {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #474442;
+  line-height: 36px;
+  margin-top: 80px;
+}
+
+.discount {
+  text-decoration: line-through;
+}
+
+/* Claim button */
+.claimButton {
+  font-family: 'Capitolina', serif;
+  background-color: #e94f2d;
+  color: #f1eee4;
+  border: 1px solid #f1eee4;
+  padding: 16px 40px;
+  font-size: 28px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0 4px 0 #292827;
+  transition: background-color 0.3s ease;
+  outline: none;
+  margin-top: 16px;
+  letter-spacing: 0.5px;
+}
+
+.claimButton:hover {
+  background-color: #cc3f24;
+}
+
+.claimButton:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #292827;
+}
+
+/* Free Pack image */
+.freePackImage {
+  position: absolute;
+  top: 150px;
+  right: 140px;
+  height: 800px;
+  transform: rotate(7deg);
+}
+
+/* Dice styling */
+.freePackDice {
+  position: absolute;
+  z-index: 2;
+  width: 60px;
+}
+
+.freePackDice1 {
+  width: 80px;
+  top: 76%;
+  right: 6%;
+  transform: rotate(12deg);
+}
+
+.freePackDice2 {
+  width: 100px;
+  top: 18%;
+  right: 30%;
+  transform: rotate(-10deg);
+}
+
+.freePackDice3 {
+  width: 82px;
+  top: 84%;
+  right: 12%;
+  transform: rotate(8deg);
+}

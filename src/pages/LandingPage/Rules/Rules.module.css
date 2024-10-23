@@ -1,72 +1,72 @@
 /* Rules Section Styles */
-.rules-of-play {
+.rulesOfPlay {
     position: relative;
     width: 100vw;
     height: 100vh;
     text-align: center;
     background-color: #F1EEE4;
-}
-
-/* Decorative Card Styles */
-.rules-of-play__card {
+  }
+  
+  /* Decorative Card Styles */
+  .rulesOfPlayCard {
     position: absolute;
-    width: 120px; /* Adjust size as needed */
-    transform: rotate(40deg); /* Default rotation */
-    z-index: 1; /* Adjust to ensure it's behind the main content */
+    width: 120px;
+    transform: rotate(40deg);
+    z-index: 1;
     border-radius: 8px;
     box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.4);
-}
-
-/* Specific Decorative Cards */
-.rules-of-play__card--cd1 {
-    top: 18%; /* Adjust position */
+  }
+  
+  /* Specific Decorative Cards */
+  .rulesOfPlayCardCd1 {
+    top: 18%;
     left: 10%;
     transform: rotate(40deg);
     width: 200px;
-}
-
-.rules-of-play__card--cd2 {
+  }
+  
+  .rulesOfPlayCardCd2 {
     top: 12%;
     left: 6%;
     transform: rotate(20deg);
     width: 200px;
-}
-
-.rules-of-play__card--cd3 {
+  }
+  
+  .rulesOfPlayCardCd3 {
     top: 10%;
     left: 3%;
     transform: rotate(4deg);
     width: 200px;
-}
-
-.rules-of-play__card--pd1 {
+  }
+  
+  .rulesOfPlayCardPd1 {
     top: 24%;
     right: 3%;
     transform: rotate(-32deg);
     box-shadow: none;
     width: 300px;
     z-index: 3;
-}
-
-.rules-of-play__card--pd2 {
+  }
+  
+  .rulesOfPlayCardPd2 {
     top: 16%;
     right: 0%;
     transform: rotate(-6deg);
     box-shadow: none;
     width: 300px;
     z-index: 1;
-}
-
-/* Title Container */
-.rules-of-play__title-container {
+  }
+  
+  /* Title Container */
+  .rulesOfPlayTitleContainer {
     position: relative;
     display: inline-block;
     text-align: center;
-    margin-top: 32px
-}
-
-/* Main Title "Rules" */
-.rules-of-play__title {
+    margin-top: 32px;
+  }
+  
+  /* Main Title "Rules" */
+  .rulesOfPlayTitle {
     font-family: 'Capitolina', serif;
     font-size: 160px;
     color: #E94F2D;
@@ -75,10 +75,10 @@
     text-shadow: 3.75px 3.75px 0.55px #292827;
     margin: 0;
     font-weight: 800;
-}
-
-/* Smaller Title "of" */
-.rules-of-play__title--small {
+  }
+  
+  /* Smaller Title "of" */
+  .rulesOfPlayTitleSmall {
     font-family: 'Capitolina', serif;
     font-size: 72px;
     color: #E94F2D;
@@ -89,10 +89,10 @@
     top: 180px;
     left: 60px;
     font-weight: 800;
-}
-
-/* Large Title "PLAY" */
-.rules-of-play__title--large {
+  }
+  
+  /* Large Title "PLAY" */
+  .rulesOfPlayTitleLarge {
     font-family: 'Capitolina', serif;
     font-size: 160px;
     color: #E94F2D;
@@ -103,41 +103,42 @@
     top: 160px;
     right: -160px;
     font-weight: 800;
-}
-
-/* Dice Styles */
-.rules-of-play__dice {
+  }
+  
+  /* Dice Styles */
+  .rulesOfPlayDice {
     position: absolute;
-    z-index: 2; /* Place above the background, but behind the text */
-    width: 60px; /* Adjust the size of the dice */
-}
-
-/* Positioning each dice */
-.rules-of-play__dice--1 {
+    z-index: 2;
+    width: 60px;
+  }
+  
+  /* Positioning each dice */
+  .rulesOfPlayDice1 {
     width: 80px;
     top: 22%;
     left: 22%;
     transform: rotate(-20deg);
-}
-
-.rules-of-play__dice--2 {
+  }
+  
+  .rulesOfPlayDice2 {
     width: 100px;
     top: 12%;
     right: 12%;
     transform: rotate(10deg);
-}
-
-.rules-of-play__dice--3 {
+  }
+  
+  .rulesOfPlayDice3 {
     width: 82px;
     top: 14%;
     left: 19%;
     transform: rotate(-15deg);
-}
-
-/* Rules Cards */
-.rules-of-play__cards {
+  }
+  
+  /* Rules Cards */
+  .rulesOfPlayCards {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-top: 24px;
-}
+  }
+  

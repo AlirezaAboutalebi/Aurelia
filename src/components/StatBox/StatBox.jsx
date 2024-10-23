@@ -1,16 +1,16 @@
 import React from 'react';
 import DATA from '../../data/DATA.json';
-import './StatBox.css';
+import styles from './StatBox.module.css'; // Import the CSS module
 
 const StatBox = ({ id }) => {
   const character = DATA.find((c) => c.id === String(id));
 
   const renderStatRow = (statValue) => {
     const filledBoxes = Array.from({ length: statValue }, (_, i) => (
-      <div key={`filled-${i}`} className="filledBox"></div>
+      <div key={`filled-${i}`} className={styles.filledBox}></div>
     ));
     const emptyBoxes = Array.from({ length: 5 - statValue }, (_, i) => (
-      <div key={`empty-${i}`} className="emptyBox"></div>
+      <div key={`empty-${i}`} className={styles.emptyBox}></div>
     ));
     return [...filledBoxes, ...emptyBoxes];
   };
@@ -37,110 +37,110 @@ const StatBox = ({ id }) => {
   const stats = character ? character.stats : defaultStats;
 
   return (
-    <div className="stateBox">
-      <section className="row">
-        <div className="title">
-          <img src="/icons/OFFENSIVE.svg" alt="Offensive Icon" className="stat-icon" />
+    <div className={styles.stateBox}>
+      <section className={styles.row}>
+        <div className={styles.title}>
+          <img src="/icons/OFFENSIVE.svg" alt="Offensive Icon" className={styles.statIcon} />
           <span>OFFENSIVE</span>
         </div>
         <div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>DAMAGE</span>
             {renderStatRow(stats.damage)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>RANGE</span>
             {renderStatRow(stats.range)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>PRECISION</span>
             {renderStatRow(stats.precision)}
           </div>
         </div>
       </section>
 
-      <section className="row">
-        <div className="title">
-          <img src="/icons/DEFENSIVE.svg" alt="Defensive Icon" className="stat-icon" />
+      <section className={styles.row}>
+        <div className={styles.title}>
+          <img src="/icons/DEFENSIVE.svg" alt="Defensive Icon" className={styles.statIcon} />
           <span>DEFENSIVE</span>
         </div>
         <div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>SURVIVABILITY</span>
             {renderStatRow(stats.survivability)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>EVASION</span>
             {renderStatRow(stats.evasion)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>ARMOR STRENGTH</span>
             {renderStatRow(stats.armorStrength)}
           </div>
         </div>
       </section>
 
-      <section className="row">
-        <div className="title">
-          <img src="/icons/MAGICAL.svg" alt="Magical Icon" className="stat-icon" />
+      <section className={styles.row}>
+        <div className={styles.title}>
+          <img src="/icons/MAGICAL.svg" alt="Magical Icon" className={styles.statIcon} />
           <span>MAGICAL AND MENTAL</span>
         </div>
         <div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>INTELLIGENCE</span>
             {renderStatRow(stats.intelligence)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>WILLPOWER</span>
             {renderStatRow(stats.willpower)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>MAGIC POTENCY</span>
             {renderStatRow(stats.magicPotency)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>HEALING</span>
             {renderStatRow(stats.healing)}
           </div>
         </div>
       </section>
 
-      <section className="row">
-        <div className="title">
-          <img src="/icons/TEAM.svg" alt="Team Play Icon" className="stat-icon" />
+      <section className={styles.row}>
+        <div className={styles.title}>
+          <img src="/icons/TEAM.svg" alt="Team Play Icon" className={styles.statIcon} />
           <span>TEAM PLAY</span>
         </div>
         <div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>LEADERSHIP</span>
             {renderStatRow(stats.leadership)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>CROWD CONTROL</span>
             {renderStatRow(stats.crowdControl)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>CHARISMA</span>
             {renderStatRow(stats.charisma)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>MANIPULATION</span>
             {renderStatRow(stats.manipulation)}
           </div>
         </div>
       </section>
 
-      <section className="row">
-        <div className="title">
-          <img src="/icons/AGILITY.svg" alt="Agility Icon" className="stat-icon" />
+      <section className={styles.row}>
+        <div className={styles.title}>
+          <img src="/icons/AGILITY.svg" alt="Agility Icon" className={styles.statIcon} />
           <span>AGILITY</span>
         </div>
         <div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>SPEED</span>
             {renderStatRow(stats.speed)}
           </div>
-          <div className="stateAtt">
+          <div className={styles.stateAtt}>
             <span>MOBILITY</span>
             {renderStatRow(stats.mobility)}
           </div>

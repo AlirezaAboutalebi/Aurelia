@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './CookieNotice.css'; // Updated the CSS import
+import styles from './CookieNotice.module.css'; // Importing the modular CSS
 
 const CookieNotice = () => {
   const [visible, setVisible] = useState(false);
@@ -27,11 +27,11 @@ const CookieNotice = () => {
   };
 
   return (
-    <div className={`cookie-notice ${visible ? 'cookie-notice--visible' : ''} ${hide ? 'cookie-notice--hidden' : ''}`}>
-      <p className="cookie-notice__text">
+    <div className={`${styles.cookieNotice} ${visible ? styles.visible : ''} ${hide ? styles.hidden : ''}`}>
+      <p className={styles.cookieNoticeText}>
         We use cookies to provide the services and features offered by our website and to improve your experience.
       </p>
-      <button className="cookie-notice__button" onClick={handleAccept}>
+      <button className={styles.cookieNoticeButton} onClick={handleAccept}>
         ACCEPT
       </button>
     </div>

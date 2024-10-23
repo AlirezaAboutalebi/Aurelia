@@ -1,30 +1,30 @@
-import './Rules.css'; // Updated path to the CSS
+import styles from './Rules.module.css'; // Updated for CSS Modules
 import LandingCard from '../../../components/LandingCard/LandingCard';
 
 const Rules = () => {
   return (
-    <div className="rules-of-play">
+    <div className={styles.rulesOfPlay}>
       {/* Dice Images */}
-      <img src="/decoration/dice1.webp" alt="Dice 1" className="rules-of-play__dice rules-of-play__dice--1" />
-      <img src="/decoration/dice2.webp" alt="Dice 2" className="rules-of-play__dice rules-of-play__dice--2" />
-      <img src="/decoration/dice3.webp" alt="Dice 3" className="rules-of-play__dice rules-of-play__dice--3" />
+      <img src="/decoration/dice1.webp" alt="Dice 1" className={`${styles.rulesOfPlayDice} ${styles.rulesOfPlayDice1}`} />
+      <img src="/decoration/dice2.webp" alt="Dice 2" className={`${styles.rulesOfPlayDice} ${styles.rulesOfPlayDice2}`} />
+      <img src="/decoration/dice3.webp" alt="Dice 3" className={`${styles.rulesOfPlayDice} ${styles.rulesOfPlayDice3}`} />
       
       {/* Decorative Cards */}
-      <img src="/images/Types/Light/Warrior.webp" alt="cd3" className="rules-of-play__card rules-of-play__card--cd3" />
-      <img src="/images/Characters/TheShieldOfDawn/Card.webp" alt="cd2" className="rules-of-play__card rules-of-play__card--cd2" />
-      <img src="/images/Characters/IronShield/Card.webp" alt="cd1" className="rules-of-play__card rules-of-play__card--cd1" />
-      <img src="/images/Packs/Heroes of the Arcane Light.webp" alt="pd1" className="rules-of-play__card rules-of-play__card--pd1" />
-      <img src="/images/Packs/Masters of Shadow’s Secrets.webp" alt="pd2" className="rules-of-play__card rules-of-play__card--pd2" />
+      <img src="/images/Types/Light/Warrior.webp" alt="cd3" className={`${styles.rulesOfPlayCard} ${styles.rulesOfPlayCardCd3}`} />
+      <img src="/images/Characters/TheShieldOfDawn/Card.webp" alt="cd2" className={`${styles.rulesOfPlayCard} ${styles.rulesOfPlayCardCd2}`} />
+      <img src="/images/Characters/IronShield/Card.webp" alt="cd1" className={`${styles.rulesOfPlayCard} ${styles.rulesOfPlayCardCd1}`} />
+      <img src="/images/Packs/Heroes of the Arcane Light.webp" alt="pd1" className={`${styles.rulesOfPlayCard} ${styles.rulesOfPlayCardPd1}`} />
+      <img src="/images/Packs/Masters of Shadow’s Secrets.webp" alt="pd2" className={`${styles.rulesOfPlayCard} ${styles.rulesOfPlayCardPd2}`} />
 
       {/* Title Section */}
-      <div className="rules-of-play__title-container">
-        <h1 className="rules-of-play__title rules-of-play__title--main">Rules</h1>
-        <span className="rules-of-play__title rules-of-play__title--small">of</span>
-        <h1 className="rules-of-play__title rules-of-play__title--large">PLAY</h1>
+      <div className={styles.rulesOfPlayTitleContainer}>
+        <h1 className={`${styles.rulesOfPlayTitle} ${styles.rulesOfPlayTitleMain}`}>Rules</h1>
+        <span className={`${styles.rulesOfPlayTitle} ${styles.rulesOfPlayTitleSmall}`}>of</span>
+        <h1 className={`${styles.rulesOfPlayTitle} ${styles.rulesOfPlayTitleLarge}`}>PLAY</h1>
       </div>
 
       {/* Cards Section */}
-      <div className="rules-of-play__cards">
+      <div className={styles.rulesOfPlayCards}>
         <LandingCard
           iconSrc="/icons/r1.png"
           title="Enter the Realm"

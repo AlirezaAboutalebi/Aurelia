@@ -1,22 +1,22 @@
 import React from 'react';
-import './ChampionCard.css';
+import styles from './ChampionCard.module.css';
 
 const ChampionCard = ({ champion, flipped, onFlip, onClick, onHover, onLeave, className }) => {
   return (
     <div
-      className={`flip-card ${flipped ? 'flipped' : ''} ${className}`} // Apply the custom className
+      className={`${styles.flipCard} ${flipped ? styles.flipped : ''} ${className}`} 
       onMouseEnter={() => {
         onFlip(champion.id);
-        onHover(champion.id); // Trigger hover event to update the stat box
+        onHover(champion.id);
       }}
-      onMouseLeave={() => onLeave()} // Trigger leave event to reset stat box
-      onClick={onClick} // Handle click functionality
+      onMouseLeave={onLeave}
+      onClick={onClick}
     >
-      <div className="flip-card-inner">
-        <div className="flip-card-front">
+      <div className={styles.flipCardInner}>
+        <div className={styles.flipCardFront}>
           <img src={champion.images.front} alt={`${champion.basicInfo.characterName} front`} />
         </div>
-        <div className="flip-card-back">
+        <div className={styles.flipCardBack}>
           <img src={champion.images.back} alt={`${champion.basicInfo.characterName} back`} />
         </div>
       </div>

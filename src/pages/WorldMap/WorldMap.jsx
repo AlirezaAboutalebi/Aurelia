@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import './WorldMap.css';
-import Navigation from '../../components/Navigation/Navigation'; // Assuming this is your navigation component
+import styles from './WorldMap.module.css';
+import Navigation from '../../components/Navigation/Navigation';
 
 const WorldMap = () => {
-    const [currentMap, setCurrentMap] = useState('kingdom'); // Default to Kingdom map
+    const [currentMap, setCurrentMap] = useState('kingdom');
 
     const maps = {
         kingdom: '/images/Maps/KingdomMap.webp',
@@ -12,40 +12,39 @@ const WorldMap = () => {
     };
 
     return (
-        <div className="map-page">
+        <div className={styles.mapPage}>
             <div className="figure-overlay"></div>
-            <Navigation /> {/* Navigation Component */}
-            <div className="map__overlay map__overlay--left"></div>
-            <div className="map__overlay map__overlay--right"></div>
-            <div className="map__overlay map__overlay--bottom"></div>
-            <div className="map__overlay map__overlay--top"></div>
+            <Navigation className={styles.customNav} /> {/* Pass the custom class here */}
+            <div className={`${styles.mapOverlay} ${styles.mapOverlayLeft}`}></div>
+            <div className={`${styles.mapOverlay} ${styles.mapOverlayRight}`}></div>
+            <div className={`${styles.mapOverlay} ${styles.mapOverlayBottom}`}></div>
+            <div className={`${styles.mapOverlay} ${styles.mapOverlayTop}`}></div>
             <div
-                className="map-image"
+                className={styles.mapImage}
                 style={{ backgroundImage: `url(${maps[currentMap]})` }}
             />
-            <div className="map-navigation-buttons">
+            <div className={styles.mapNavigationButtons}>
                 <button
                     onClick={() => setCurrentMap('shadow')}
-                    className={`nav-button ${currentMap === 'shadow' ? 'active' : ''}`}
+                    className={`${styles.navButton} ${currentMap === 'shadow' ? styles.active : ''}`}
                 >
                     <img src="/icons/Moon.svg" alt="Shadow Icon" />
                     Shadow Land
                 </button>
                 <button
                     onClick={() => setCurrentMap('kingdom')}
-                    className={`nav-button ${currentMap === 'kingdom' ? 'active' : ''}`}
+                    className={`${styles.navButton} ${currentMap === 'kingdom' ? styles.active : ''}`}
                 >
                     <img src="/icons/Crown.svg" alt="Kingdom Icon" />
                     The Kingdom
                 </button>
                 <button
                     onClick={() => setCurrentMap('light')}
-                    className={`nav-button ${currentMap === 'light' ? 'active' : ''}`}
+                    className={`${styles.navButton} ${currentMap === 'light' ? styles.active : ''}`}
                 >
                     <img src="/icons/Sun.svg" alt="Light Icon" />
                     Light Realm
                 </button>
-
             </div>
         </div>
     );
