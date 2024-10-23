@@ -1,24 +1,25 @@
-import './LandingCard.css';
+import React from 'react';
+import styles from './LandingCard.module.css';
 
 const LandingCard = ({ iconSrc, title, description }) => {
   return (
-    <div className="landing-card">
+    <div className={styles.landingCard}>
       {/* Four corners */}
-      <div className="landing-card__corner landing-card__corner--top-left"></div>
-      <div className="landing-card__corner landing-card__corner--top-right"></div>
-      <div className="landing-card__corner landing-card__corner--bottom-left"></div>
-      <div className="landing-card__corner landing-card__corner--bottom-right"></div>
+      <div className={`${styles.landingCardCorner} ${styles.topLeft}`}></div>
+      <div className={`${styles.landingCardCorner} ${styles.topRight}`}></div>
+      <div className={`${styles.landingCardCorner} ${styles.bottomLeft}`}></div>
+      <div className={`${styles.landingCardCorner} ${styles.bottomRight}`}></div>
 
       {/* Icon */}
-      <div className="landing-card__icon-container">
-        <img src={iconSrc} alt={`${title} Icon`} className="landing-card__icon" />
+      <div className={styles.iconContainer}>
+        <img src={iconSrc} alt={`${title} Icon`} className={styles.icon} />
       </div>
 
       {/* Title */}
-      <h2 className="landing-card__title">{title}</h2>
+      <h2 className={styles.title}>{title}</h2>
 
       {/* Description */}
-      <p className="landing-card__description">{description}</p>
+      <p className={styles.description}>{description}</p>
     </div>
   );
 };

@@ -1,0 +1,95 @@
+/* General Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  border: 2px solid #474442;
+  position: relative;
+  margin: 4px;
+  background-color: rgba(241, 238, 228, 0.5);
+}
+
+/* Logo Section */
+.navbarLogo {
+  height: 100%;
+  background-color: transparent;
+}
+
+.navbarLogoImg {
+  height: 100%;
+  width: 200px;
+  margin-left: 16px;
+}
+
+/* Links Section */
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+/* Individual Link Styles */
+.navbarLink {
+  font-family: 'Nanum Gothic Coding', 'Merriweather';
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #474442;
+  text-decoration: none;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+/* Sign-In Link Special Case */
+.navbarLinkSignin {
+  display: flex;
+  align-items: center;
+  cursor: not-allowed;
+}
+
+/* Divider Between Links */
+.navbarDivider {
+  width: 2px;
+  height: 100%;
+  background-color: #474442;
+}
+
+/* Right Section (Sign In & Play Game) */
+.navbarRight {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+}
+
+.navbarIcon {
+  margin-left: 4px;
+}
+
+/* Play Game Button */
+.navbarPlayButton {
+  background-color: #E94F2D;
+  color: #292827;
+  border: none;
+  padding: 0 40px;
+  font-family: 'Nanum Gothic Coding', 'Merriweather';
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #474442;
+  transition: background-color 0.3s;
+
+  cursor: not-allowed;
+}
+
+.navbarPlayButton:hover {
+  background-color: #d8431e;
+}

@@ -1,0 +1,114 @@
+/* Main Hero Section */
+.heroSection {
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 72px);
+  overflow: hidden;
+}
+
+/* Background Image */
+.heroSectionBackgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Gradient Overlay */
+.heroSectionOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.heroSectionOverlayRight {
+  background: linear-gradient(to right, rgba(241, 238, 228, 1) 0%, rgba(241, 238, 228, 0) 60%);
+}
+
+.heroSectionOverlayBottom {
+  background: linear-gradient(to top, rgba(241, 238, 228, 1) 0%, rgba(241, 238, 228, 0) 30%);
+}
+
+.heroSectionOverlayTop {
+  background: linear-gradient(to bottom, rgba(241, 238, 228, 1) 0%, rgba(241, 238, 228, 0) 30%);
+}
+
+/* Text Container */
+.heroSectionTextContainer {
+  position: absolute;
+  top: 6%;
+  left: 0.5%;
+  width: 700px;
+  z-index: 3;
+  padding: 50px;
+  color: #3C3C3B;
+}
+
+/* Hero Title */
+.heroSectionTitle {
+  font-family: 'Capitolina';
+  font-size: 116px;
+  color: #E94F2D;
+  -webkit-text-stroke: 1.25px #F1EEE4;
+  font-weight: 600;
+  margin-bottom: 40px;
+  text-shadow: 3.75px 3.75px 0.55px #292827;
+  font-style: italic;
+}
+
+/* Intro Text Container */
+.heroSectionIntroText {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+}
+
+/* Paragraph with Highlight */
+.heroSectionHighlightParagraph {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+/* Highlighted First Letter */
+.heroSectionHighlight {
+  font-family: 'Capitolina';
+  font-size: 96px;
+  font-weight: 600;
+  color: #E94F2D;
+  -webkit-text-stroke: 1.25px #F1EEE4;
+  text-shadow: 3.75px 3.75px 0.55px #292827;
+  line-height: 1;
+  min-width: 70px;
+}
+
+/* Paragraph Style */
+.heroSectionParagraph {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #474442;
+  margin: 0; 
+  padding-top: 32px;
+  padding-left: 8px;
+}
+
+.heroSectionSpan {
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: 1.25rem;
+  line-height: 1.8;
+  font-weight: 900;
+  color: #474442;
+  margin: 0; 
+  padding-top: 16px;
+  margin-top: 40px;
+}

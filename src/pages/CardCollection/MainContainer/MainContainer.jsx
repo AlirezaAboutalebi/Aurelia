@@ -1,19 +1,19 @@
 import React from "react";
-import "./MainContainer.css"; // Importing CSS for styling
+import styles from "./MainContainer.module.css";
 import StatBox from "../../../components/StatBox/StatBox";
 
 const MainContainer = ({ children, hoveredCardId }) => {
   return (
-    <div className="flex-stat-container">
-      <div className="main-container">
-        <div className="main-container__content">{children}</div>
+    <div className={styles.flexStatContainer}>
+      <div className={styles.mainContainer}>
+        <div className={styles.mainContainerContent}>{children}</div>
         <img
           src="/decoration/ContainderDeco.webp"
           alt=""
-          className="container_deco"
+          className={styles.containerDeco}
         />
       </div>
-      <div className="statbox-collection">
+      <div className={styles.statboxCollection}>
         <StatBox id={hoveredCardId || "0"} /> {/* Default to 0 if no card is hovered */}
       </div>
     </div>

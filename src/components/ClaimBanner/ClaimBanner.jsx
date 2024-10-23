@@ -1,16 +1,17 @@
-import './ClaimBanner.css';
+import React from 'react';
+import styles from './ClaimBanner.module.css';
 
 const ClaimBanner = () => {
   return (
-    <div className="claim-banner">
-      <div className="cards-container">
-        <img src="/images/Types/Shadow/Sage.webp" alt="Card 1" className="card-image card-image1" />
-        <img src="/images/Types/Light/Magician.webp" alt="Card 3" className="card-image card-image3" />
-        <img src="/images/Types/Kingdom/Warrior.webp" alt="Card 2" className="card-image card-image2" />
+    <div className={styles.claimBanner}>
+      <div className={styles.cardsContainer}>
+        <img src="/images/Types/Shadow/Sage.webp" alt="Card 1" className={`${styles.cardImage} ${styles.cardImage1}`} />
+        <img src="/images/Types/Light/Magician.webp" alt="Card 3" className={`${styles.cardImage} ${styles.cardImage3}`} />
+        <img src="/images/Types/Kingdom/Warrior.webp" alt="Card 2" className={`${styles.cardImage} ${styles.cardImage2}`} />
       </div>
-      <div className="claim-message">
+      <div className={styles.claimMessage}>
         <p>You've got cards to claim!</p>
-        <button className="claim--button">CLAIM NOW</button>
+        <button className={styles.claimButton}>CLAIM NOW</button>
       </div>
     </div>
   );

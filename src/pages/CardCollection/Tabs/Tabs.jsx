@@ -1,50 +1,48 @@
 import React from 'react';
-import './Tabs.css'; // Import the CSS for styling
+import styles from './Tabs.module.css'; // Import the modular CSS for styling
 
 const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
     return (
-        <div className="tabs-container">
+        <div className={styles.tabsContainer}>
             <button
-                className={`tab-button ${activeTab === 'packs' ? 'active' : ''}`}
+                className={`${styles.tabButton} ${activeTab === 'packs' ? styles.active : ''}`}
                 onClick={() => onTabChange('packs')}
             >
                 <img
                     src={activeTab === 'packs' ? '/icons/HeadingActive.webp' : '/icons/HeadingDeactive.webp'}
                     alt="Packs Tab"
-                    className="tab-image"
+                    className={styles.tabImage}
                 />
-                <span className="tab-text">PACKS</span>
+                <span className={styles.tabText}>PACKS</span>
             </button>
 
-
             <button
-                className={`tab-button ${activeTab === 'mycards' ? 'active' : ''}`}
+                className={`${styles.tabButton} ${activeTab === 'mycards' ? styles.active : ''}`}
                 onClick={() => onTabChange('mycards')}
             >
                 <img
                     src={activeTab === 'mycards' ? '/icons/HeadingActive.webp' : '/icons/HeadingDeactive.webp'}
                     alt="My Cards Tab"
-                    className="tab-image"
+                    className={styles.tabImage}
                 />
-                <span className="tab-text">MY CARDS</span>
+                <span className={styles.tabText}>MY CARDS</span>
             </button>
 
             <button
-                className={`tab-button ${activeTab === 'lostcards' ? 'active' : ''}`}
+                className={`${styles.tabButton} ${activeTab === 'lostcards' ? styles.active : ''}`}
                 onClick={() => onTabChange('lostcards')}
             >
                 <img
                     src={activeTab === 'lostcards' ? '/icons/HeadingActive.webp' : '/icons/HeadingDeactive.webp'}
                     alt="Lost Cards Tab"
-                    className="tab-image"
+                    className={styles.tabImage}
                 />
-                <span className="tab-text">LOST CARDS</span>
+                <span className={styles.tabText}>LOST CARDS</span>
             </button>
 
-            <div className='rightSideTabs'>
-                {/* Hide All Cards Button */}
+            <div className={styles.rightSideTabs}>
                 <button
-                    className="hide-all-button"
+                    className={styles.hideAllButton}
                     onClick={onHideAllCards}
                 >
                     Hide All Cards

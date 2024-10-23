@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./ChampionCardsContainer.css";
+import styles from "./ChampionCardsContainer.module.css"; // Import the CSS module
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
 import data from "../../../../data/DATA.json";
 import {
   getOpenedCards,
   saveOpenedCards,
-  clearOpenedCards as clearStoredOpenedCards, // We will use this function
+  clearOpenedCards as clearStoredOpenedCards,
 } from "../../../../utils/cardStorage";
 
 // Expose the card clearing function to the global window object for testing purposes
 if (typeof window !== "undefined") {
   window.getOpenedCards = getOpenedCards;
   window.saveOpenedCards = saveOpenedCards;
-  window.clearOpenedCards = clearStoredOpenedCards; // Restoring window.clearOpenedCards
+  window.clearOpenedCards = clearStoredOpenedCards;
 }
 
 const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardId }) => {
@@ -46,8 +46,8 @@ const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardI
   };
 
   return (
-    <div className="champion-cards-container">
-      <div className="cards-grid">
+    <div className={styles.championCardsContainer}>
+      <div className={styles.cardsGrid}>
         {Array.from({ length: totalSlots }).map((_, index) => {
           const champion = visibleCards[index];
 
@@ -62,8 +62,8 @@ const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardI
               onClick={() => handleCardClick(champion.id)}
             />
           ) : (
-            <div key={`empty-${index}`} className="empty-card-slot">
-              <span className="empty--message">No Card To Display</span>
+            <div key={`empty-${index}`} className={styles.emptyCardSlot}>
+              <span className={styles.emptyMessage}>No Card To Display</span>
             </div>
           );
         })}

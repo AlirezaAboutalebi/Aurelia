@@ -41,7 +41,7 @@
   margin-bottom: 16px;
 }
 
-.stat-icon {
+.statIcon {
   width: 24px;
   height: 24px;
   margin-bottom: 16px;
@@ -88,7 +88,7 @@
 .emptyBox {
   width: 38px;
   height: 38px;
-  background-color: #f1eee4; /* Empty color */
+  background-color: #f1eee4;
   border: 1px solid #474442;
 }
 
@@ -96,10 +96,10 @@
 .filledBox {
   width: 38px;
   height: 38px;
-  background-color: #474442 !important; /* Filled color */
+  background-color: #474442 !important;
   border: 1px solid #474442;
-  opacity: 0; /* Initially hidden */
-  animation: fadeIn 0.3s ease forwards; /* Trigger fade-in animation */
+  opacity: 0;
+  animation: fadeIn 0.3s ease forwards;
 }
 
 /* Keyframe for fade-in animation */
