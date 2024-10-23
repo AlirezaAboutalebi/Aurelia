@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import styles from './PacksContainer.module.css';
-import packsData from '../../../../data/packsDATA.json';
+import packsData from '../../../../DATA/packsDATA.json';
 
 const PacksContainer = () => {
   const navigate = useNavigate();

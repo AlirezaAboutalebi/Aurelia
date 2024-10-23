@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./ChampionCardsContainer.module.css"; 
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
-import data from "../../../../data/DATA.json";
+import data from "../../../../DATA/DATA.json";
 import {
   getOpenedCards,
   saveOpenedCards,
