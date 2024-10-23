@@ -6,7 +6,7 @@ import WorldMap from './pages/WorldMap/WorldMap';
 import FreePack from './pages/FreePack/FreePack';
 import SinglePackPage from './pages/SinglePackPage/SinglePackPage';
 import SingleCardPage from './pages/SingleCardPage/SingleCardPage';
-import Authentication from './pages/Authentication/Authentication'; 
+import Authentication from './pages/Authentication/Authentication';
 import { AuthProvider } from './context/AuthContext'; 
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
         <Route path="/free-pack" element={<FreePack />} />
         <Route path="/packs/:packId" element={<SinglePackPage />} />
         <Route path="/cards/:cardId" element={<SingleCardPage />} />
-        <Route path="/sign-in" element={<Authentication />} />
+        <Route path="/sign-in" element={<Authentication/>} />
+        
       </Routes>
     </AuthProvider>
   );
