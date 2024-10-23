@@ -1,0 +1,139 @@
+/* General page style */
+.authPage {
+    position: relative;
+    width: 100vw;
+    height: calc(100vh - 72px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1eee4;
+    overflow: hidden;
+}
+
+/* Layered paper background */
+.paper {
+    position: absolute;
+    width: 980px;
+    height: auto;
+    box-shadow: 2px 0px 8px rgba(0, 0, 0, 0.5);
+}
+
+.paper1 {
+    transform: rotate(-3deg);
+    left: 25%;
+    top: 85px;
+}
+
+.paper2 {
+    transform: rotate(-2.5deg);
+    left: 24.5%;
+    top: 95px;
+}
+
+.paper3 {
+    transform: rotate(-2deg);
+    left: 24%;
+    top: 105px;
+}
+
+/* Form container for the top paper */
+.formContainer {
+    position: absolute;
+    z-index: 10;
+    width: 980px;
+    height: 648px;
+    background-image: url("/images/signup/paper.webp"); /* Correct the path */
+    background-size: cover; /* Ensure the image covers the container */
+    padding: 50px;
+    font-family: 'Merriweather', serif;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8); /* Shadow for depth */
+    transform: rotate(-1.5deg);
+    left: 23.5%;
+    top: 115px;
+    
+}
+
+.signUpForm{
+    
+}
+/* Title style */
+.title {
+    font-family: 'Capitolina', serif;
+    font-size: 48px;
+    color: #292827;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Merriweather', serif;
+}
+
+input::placeholder {
+    color: #777;
+    font-size: 14px;
+    opacity: 1;
+}
+
+/* Button styles */
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #E94F2D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d8431e;
+}
+
+.toggleButton {
+    margin-top: 20px;
+    background: none;
+    border: none;
+    color: #292827;
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+}
+
+/* Checkbox styling */
+.checkbox {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+/* Authentication image position */
+.authImage {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: auto;
+}
+
+/* Transition for form switch */
+.formContainer {
+    transition: opacity 0.5s ease-in-out;
+}
