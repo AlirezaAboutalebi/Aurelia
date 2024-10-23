@@ -57,7 +57,7 @@
   background-color: #474442;
 }
 
-/* Right Section (Sign In & Play Game) */
+
 .navbarRight {
   display: flex;
   align-items: center;
@@ -72,7 +72,6 @@
   margin-right: 8px;
 }
 
-/* Play Game Button */
 .navbarPlayButton {
   background-color: #E94F2D;
   color: #292827;
@@ -111,7 +110,6 @@
   align-items: center;
 }
 
-/* Logout button */
 .navbarLogoutButton {
   color: white;
   border: none;

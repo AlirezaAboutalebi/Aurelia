@@ -1,4 +1,4 @@
-/* Rules Section Styles */
+
 .rulesOfPlay {
     position: relative;
     width: 100vw;
@@ -7,7 +7,6 @@
     background-color: #F1EEE4;
   }
   
-  /* Decorative Card Styles */
   .rulesOfPlayCard {
     position: absolute;
     width: 120px;
@@ -17,7 +16,6 @@
     box-shadow: 0px 11px 12px rgba(0, 0, 0, 0.4);
   }
   
-  /* Specific Decorative Cards */
   .rulesOfPlayCardCd1 {
     top: 18%;
     left: 10%;
@@ -57,7 +55,6 @@
     z-index: 1;
   }
   
-  /* Title Container */
   .rulesOfPlayTitleContainer {
     position: relative;
     display: inline-block;
@@ -65,7 +62,6 @@
     margin-top: 32px;
   }
   
-  /* Main Title "Rules" */
   .rulesOfPlayTitle {
     font-family: 'Capitolina', serif;
     font-size: 160px;
@@ -76,8 +72,7 @@
     margin: 0;
     font-weight: 800;
   }
-  
-  /* Smaller Title "of" */
+
   .rulesOfPlayTitleSmall {
     font-family: 'Capitolina', serif;
     font-size: 72px;
@@ -91,7 +86,6 @@
     font-weight: 800;
   }
   
-  /* Large Title "PLAY" */
   .rulesOfPlayTitleLarge {
     font-family: 'Capitolina', serif;
     font-size: 160px;
@@ -105,14 +99,12 @@
     font-weight: 800;
   }
   
-  /* Dice Styles */
   .rulesOfPlayDice {
     position: absolute;
     z-index: 2;
     width: 60px;
   }
-  
-  /* Positioning each dice */
+
   .rulesOfPlayDice1 {
     width: 80px;
     top: 22%;
@@ -134,7 +126,6 @@
     transform: rotate(-15deg);
   }
   
-  /* Rules Cards */
   .rulesOfPlayCards {
     display: flex;
     justify-content: center;

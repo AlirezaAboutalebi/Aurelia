@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./ChampionCardsContainer.module.css"; // Import the CSS module
+import styles from "./ChampionCardsContainer.module.css"; 
 import ChampionCard from "../../../../components/ChampionCard/ChampionCard";
 import data from "../../../../data/DATA.json";
 import {
@@ -9,7 +9,6 @@ import {
   clearOpenedCards as clearStoredOpenedCards,
 } from "../../../../utils/cardStorage";
 
-// Expose the card clearing function to the global window object for testing purposes
 if (typeof window !== "undefined") {
   window.getOpenedCards = getOpenedCards;
   window.saveOpenedCards = saveOpenedCards;
@@ -38,11 +37,11 @@ const ChampionCardsContainer = ({ flippedCards, setFlippedCards, setHoveredCardI
   };
 
   const handleHover = (id) => {
-    setHoveredCardId(id); // Pass the hovered card ID to the parent
+    setHoveredCardId(id); 
   };
 
   const handleLeave = () => {
-    setHoveredCardId(null); // Reset hovered card ID when mouse leaves
+    setHoveredCardId(null); 
   };
 
   return (

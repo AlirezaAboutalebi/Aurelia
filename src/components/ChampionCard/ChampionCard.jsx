@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './ChampionCard.module.css';
 
 const ChampionCard = ({ champion, flipped, onFlip, onClick, onHover, onLeave, className }) => {

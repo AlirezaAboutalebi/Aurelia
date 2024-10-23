@@ -1,29 +1,27 @@
-import React, { useState, useContext } from "react";
+import { useState, useContext } from "react";
 import styles from './Authentication.module.css';
 import Navigation from "../../components/Navigation/Navigation";
-import { AuthContext } from "../../context/AuthContext"; // Import the AuthContext
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
+import { AuthContext } from "../../context/AuthContext"; 
+import { useNavigate } from 'react-router-dom'; 
 
 const Authentication = () => {
     const [isSignUp, setIsSignUp] = useState(true);
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
-    const { logIn } = useContext(AuthContext); // Get the logIn function from context
-    const navigate = useNavigate(); // Initialize the navigate hook
+    const { logIn } = useContext(AuthContext); 
+    const navigate = useNavigate(); 
 
     const handleSignUp = (e) => {
         e.preventDefault();
-        // Simulate sign-up logic, e.g., backend API call
-        logIn(name); // Log the user in with the given name
-        navigate('/'); // Navigate to landing page after sign-up
+        logIn(name); 
+        navigate('/'); 
     };
 
     const handleLogIn = (e) => {
         e.preventDefault();
-        // Simulate log-in logic, e.g., backend API call
-        logIn(name); // Log the user in with the given name
-        navigate('/'); // Navigate to landing page after log-in
+        logIn(name);
+        navigate('/'); 
     };
 
     return (

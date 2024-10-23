@@ -1,4 +1,3 @@
-/* Main container for the single card page */
 .singleCardPage {
     display: flex;
     justify-content: space-between;
@@ -6,7 +5,6 @@
     box-sizing: border-box;
   }
   
-  /* Left content styling */
   .leftContent {
     position: relative;
     height: 100%;
@@ -107,7 +105,6 @@
     font-style: italic;
   }
   
-  /* Toggle Button Styling */
   .toggleLanguageBtn {
     position: relative;
     bottom: -30px;
@@ -125,8 +122,7 @@
   .toggleLanguageBtn:hover {
     color: #292827;
   }
-  
-  /* Right content styling */
+
   .rightContent {
     width: 488px;
     margin-right: 4px;
@@ -135,7 +131,6 @@
     overflow-y: auto;
   }
   
-  /* Hide scrollbars but still allow scrolling */
   .leftContent::-webkit-scrollbar,
   .rightContent::-webkit-scrollbar {
     display: none;

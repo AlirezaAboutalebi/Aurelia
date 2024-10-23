@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import styles from './WorldMap.module.css';
 import Navigation from '../../components/Navigation/Navigation';
 
@@ -14,7 +14,7 @@ const WorldMap = () => {
     return (
         <div className={styles.mapPage}>
             <div className="figure-overlay"></div>
-            <Navigation className={styles.customNav} /> {/* Pass the custom class here */}
+            <Navigation className={styles.customNav} /> 
             <div className={`${styles.mapOverlay} ${styles.mapOverlayLeft}`}></div>
             <div className={`${styles.mapOverlay} ${styles.mapOverlayRight}`}></div>
             <div className={`${styles.mapOverlay} ${styles.mapOverlayBottom}`}></div>

@@ -1,4 +1,4 @@
-import styles from './Ready.module.css'; // Updated path to use CSS modules
+import styles from './Ready.module.css'; 
 
 const Ready = () => {
   return (

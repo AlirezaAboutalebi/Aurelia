@@ -1,6 +1,5 @@
-import React from 'react';
 import DATA from '../../data/DATA.json';
-import styles from './StatBox.module.css'; // Import the CSS module
+import styles from './StatBox.module.css'; 
 
 const StatBox = ({ id }) => {
   const character = DATA.find((c) => c.id === String(id));

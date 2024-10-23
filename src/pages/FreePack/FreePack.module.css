@@ -1,10 +1,9 @@
-/* Free Pack container */
+
 .freePackContainer {
   height: calc(100vh - 72px);
   background-color: #f1eee4;
 }
 
-/* Text and button content */
 .freePackContent {
   max-width: 800px;
   position: relative;
@@ -80,7 +79,6 @@
   box-shadow: 0 2px 0 #292827;
 }
 
-/* Free Pack image */
 .freePackImage {
   position: absolute;
   top: 150px;

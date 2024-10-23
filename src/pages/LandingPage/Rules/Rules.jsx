@@ -1,4 +1,4 @@
-import styles from './Rules.module.css'; // Updated for CSS Modules
+import styles from './Rules.module.css'; 
 import LandingCard from '../../../components/LandingCard/LandingCard';
 
 const Rules = () => {

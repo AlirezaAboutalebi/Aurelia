@@ -1,5 +1,4 @@
-import React from 'react';
-import styles from './Tabs.module.css'; // Import the modular CSS for styling
+import styles from './Tabs.module.css'; 
 
 const Tabs = ({ activeTab, onTabChange, onHideAllCards }) => {
     return (

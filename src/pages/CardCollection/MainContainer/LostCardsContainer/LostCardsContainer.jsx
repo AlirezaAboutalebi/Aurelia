@@ -1,8 +1,7 @@
-import React from "react";
-import styles from "./LostCardsContainer.module.css"; // Import the CSS module
+import styles from "./LostCardsContainer.module.css"; 
 
 const LostCardsContainer = () => {
-  const totalSlots = 18; // Total number of slots including empty slots
+  const totalSlots = 18; 
 
   return (
     <div className={styles.lostCardsContainer}>

@@ -1,14 +1,12 @@
-/* Custom styles for the navigation bar on the WorldMap page */
 .customNav {
     position: fixed;
     top: 0;
     left: 0;
     width: calc(100% - 8px);
-    z-index: 100; /* Increased z-index to ensure it's on top */
-    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+    z-index: 100; 
+    background: rgba(255, 255, 255, 0.5); 
 }
 
-/* Container for the entire map page */
 .mapPage {
     position: relative;
     width: 100vw;
@@ -16,7 +14,6 @@
     overflow: hidden;
 }
 
-/* Full height for the map image */
 .mapImage {
     position: absolute;
     top: 0;
@@ -25,10 +22,9 @@
     height: 100%;
     background-size: cover;
     background-position: top center;
-    z-index: 1; /* Lower than navigation */
+    z-index: 1; 
 }
 
-/* Map navigation buttons */
 .mapNavigationButtons {
     position: absolute;
     bottom: 40px;
@@ -37,11 +33,10 @@
     display: flex;
     justify-content: space-between;
     width: 660px;
-    z-index: 5; /* Still below the navbar */
+    z-index: 5; 
     gap: 16px;
 }
 
-/* Button styles */
 .navButton {
     display: flex;
     align-items: center;
@@ -73,21 +68,19 @@
     background-color: #cc401d;
 }
 
-/* Icon styles inside the button */
 .navButton img {
     width: 24px;
     height: 24px;
     margin-right: 12px;
 }
 
-/* Overlays for the map */
 .mapOverlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 3; /* Ensure overlays are below the navbar but above the map */
+    z-index: 3; 
     pointer-events: none;
 }
 

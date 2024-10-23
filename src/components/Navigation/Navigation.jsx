@@ -1,10 +1,9 @@
-import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Navigation.module.css";
-import { AuthContext } from "../../context/AuthContext"; // Import the context
+import { AuthContext } from "../../context/AuthContext"; 
 
 const Navigation = ({ className }) => {
-  const { user, logOut } = useContext(AuthContext); // Get the user and logOut function from context
+  const { user, logOut } = useContext(AuthContext);
 
   return (
     <nav className={`${styles.navbar} ${className || ""}`}>

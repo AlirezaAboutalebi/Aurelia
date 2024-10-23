@@ -1,12 +1,12 @@
 import { useNavigate } from "react-router-dom";
-import styles from "./FreePack.module.css"; // Importing the modular CSS
+import styles from "./FreePack.module.css"; 
 import Navigation from "../../components/Navigation/Navigation";
 
 const FreePack = () => {
   const navigate = useNavigate();
 
   const handleClaimCards = () => {
-    navigate("/card-collection"); // Navigate to card collection
+    navigate("/card-collection"); 
   };
 
   return (

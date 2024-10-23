@@ -128,16 +128,16 @@ button {
   align-items: center;
 }
 .figure-overlay {
-    position: fixed; /* Fix the overlay to the viewport, so it scrolls with the page */
+    position: fixed; 
     top: 0;
     left: 0;
-    width: 100vw; /* Full width of the viewport */
-    height: 100vh; /* Full height of the viewport */
-    z-index: 999; /* Ensure it stays on top of all content */
-    pointer-events: none; /* Allow interaction with content underneath */
-    background-image: url('../../public/decoration/Figure.svg'); /* Path to the SVG */
-    background-repeat: repeat-y; /* Repeat the image vertically */
-    background-size: 100% 1080px; /* Make sure the image is 1080px tall */
-    background-position: top; /* Start the image at the top */
-    overflow: hidden; /* Prevent content overflow */
+    width: 100vw; 
+    height: 100vh; 
+    z-index: 999; 
+    pointer-events: none; 
+    background-image: url('../../public/decoration/Figure.svg'); 
+    background-repeat: repeat-y; 
+    background-size: 100% 1080px; 
+    background-position: top; 
+    overflow: hidden; 
 }

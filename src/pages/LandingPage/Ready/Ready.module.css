@@ -1,4 +1,4 @@
-/* Container styling for the CTA section */
+
 .readyContainer {
   text-align: center;
   padding: 80px;
@@ -6,7 +6,6 @@
   background-color: #F1EEE4;
 }
 
-/* Title styling */
 .readyTitle {
   font-family: 'Merriweather', serif;
   font-size: 58px;
@@ -14,7 +13,7 @@
   margin-bottom: 48px;
 }
 
-/* Subtitle styling */
+
 .readySubtitle {
   font-family: 'Merriweather', serif;
   font-size: 20px;

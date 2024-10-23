@@ -1,4 +1,3 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './PacksContainer.module.css';
 import packsData from '../../../../data/packsDATA.json';

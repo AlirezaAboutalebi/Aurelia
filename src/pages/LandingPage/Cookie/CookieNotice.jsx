@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import styles from './CookieNotice.module.css'; // Importing the modular CSS
+import styles from './CookieNotice.module.css';
 
 const CookieNotice = () => {
   const [visible, setVisible] = useState(false);

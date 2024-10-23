@@ -22,7 +22,6 @@ const SinglePackPage = () => {
     return <div>Pack not found</div>;
   }
 
-  // Expose the pack management functions globally for testing (if window is available)
   if (typeof window !== "undefined") {
     window.getOpenedPacks = getOpenedPacks;
     window.saveOpenedPack = saveOpenedPack;
