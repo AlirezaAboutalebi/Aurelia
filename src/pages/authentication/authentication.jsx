@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import styles from './Authentication.module.css';
-import paper from '/images/signup/paper.webp'; 
-import signUpImg from '/images/signup/sign.webp';
-import logInImg from '/images/signup/log.webp';
 import Navigation from "../../components/Navigation/Navigation";
 
 const Authentication = () => {
@@ -12,28 +9,33 @@ const Authentication = () => {
         <>
             <div className="figure-overlay"></div>
             <Navigation />
-      
+
             <div className={styles.authPage}>
                 {/* Layered Paper Backgrounds */}
-                <img src={paper} alt="Paper Background" className={`${styles.paper} ${styles.paper1}`} />
-                <img src={paper} alt="Paper Background" className={`${styles.paper} ${styles.paper2}`} />
-                <img src={paper} alt="Paper Background" className={`${styles.paper} ${styles.paper3}`} />
+                <img src="/images/signup/paper.webp" alt="Paper Background" className={`${styles.paper} ${styles.paper1}`} />
+                <img src="/images/signup/paper.webp" alt="Paper Background" className={`${styles.paper} ${styles.paper2}`} />
+                <img src="/images/signup/paper.webp" alt="Paper Background" className={`${styles.paper} ${styles.paper3}`} />
 
                 {/* Top Paper with the form */}
-                <div className={styles.formContainer}>
+                <div className={styles.formContainer} style={{ backgroundImage: `url(${isSignUp ? '/images/signup/SignUp.webp' : '/images/signup/Login.webp'})` }}>
                     {isSignUp ? (
                         <div className={styles.signUpForm}>
-                            <img src={signUpImg} alt="Sign-Up Image" className={styles.authImage} />
-                            <h1 className={styles.title}>Sign-Up Champion</h1>
+                            <h1 className={styles.title}>Sign Up Champion</h1>
                             <form>
-                                <label htmlFor="name">Declare your name:</label>
-                                <input id="name" type="text" placeholder="Enter your name" />
-                                
-                                <label htmlFor="email">Scroll of Contact:</label>
-                                <input id="email" type="email" placeholder="Enter your email" />
+                                <div className={styles.fieldContainer}>
+                                    <label htmlFor="name">Declare your name:</label>
+                                    <input id="name" type="text" placeholder="Enter your name" />
+                                </div>
 
-                                <label htmlFor="password">Secret Word:</label>
-                                <input id="password" type="password" placeholder="Enter your password" />
+                                <div className={styles.fieldContainer}>
+                                    <label htmlFor="email">Scroll of Contact:</label>
+                                    <input id="email" type="email" placeholder="Enter your email" />
+                                </div>
+
+                                <div className={styles.fieldContainer}>
+                                    <label htmlFor="password">Secret Word:</label>
+                                    <input id="password" type="password" placeholder="Enter your password" />
+                                </div>
 
                                 <div className={styles.checkbox}>
                                     <input type="checkbox" id="terms" />
@@ -46,14 +48,17 @@ const Authentication = () => {
                         </div>
                     ) : (
                         <div className={styles.logInForm}>
-                            <img src={logInImg} alt="Log-In Image" className={styles.authImage} />
-                            <h1 className={styles.title}>Log-In to the Battlefield</h1>
+                            <h1 className={styles.title}>Log In to the Battlefield</h1>
                             <form>
-                                <label htmlFor="loginName">State your name:</label>
-                                <input id="loginName" type="text" placeholder="Enter your name" />
-                                
-                                <label htmlFor="loginPassword">Speak your secret word:</label>
-                                <input id="loginPassword" type="password" placeholder="Enter your password" />
+                                <div className={styles.fieldContainer}>
+                                    <label htmlFor="loginName">State your name:</label>
+                                    <input id="loginName" type="text" placeholder="Enter your name" />
+                                </div>
+
+                                <div className={styles.fieldContainer}>
+                                    <label htmlFor="loginPassword">Speak your secret word:</label>
+                                    <input id="loginPassword" type="password" placeholder="Enter your password" />
+                                </div>
 
                                 <button className={styles.button}>Enter the Realm</button>
                             </form>

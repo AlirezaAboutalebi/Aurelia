@@ -36,44 +36,61 @@
     top: 105px;
 }
 
-/* Form container for the top paper */
+/* Form container for the top paper with the background image */
 .formContainer {
     position: absolute;
     z-index: 10;
     width: 980px;
     height: 648px;
-    background-image: url("/images/signup/paper.webp"); /* Correct the path */
-    background-size: cover; /* Ensure the image covers the container */
-    padding: 50px;
+    padding: 28px 80px;
     font-family: 'Merriweather', serif;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8); /* Shadow for depth */
     transform: rotate(-1.5deg);
     left: 23.5%;
     top: 115px;
-    
+    background-size: cover; /* Ensure the image covers the container */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.signUpForm{
-    
-}
 /* Title style */
 .title {
     font-family: 'Capitolina', serif;
     font-size: 48px;
     color: #292827;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+/* Form field container for label and input vertically aligned */
+.fieldContainer {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    margin: 15px 0;
+    max-width: 400px; /* Set max width for the input field and label */
+}
+
+/* Label styles */
+label {
+    font-family: 'Nanum Gothic Coding', 'Merriweather';
+    font-weight: 900;
+    font-size: 16px;
+    color: #292827;
+    margin-bottom: 4px;
 }
 
 /* Input fields */
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 100%;
+    width: 100%; /* Adjusted to fill the container */
     padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #292827;
+    background: transparent;
     font-family: 'Merriweather', serif;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 8px;
 }
 
 input::placeholder {
@@ -85,23 +102,33 @@ input::placeholder {
 /* Button styles */
 .button {
     display: block;
-    width: 100%;
-    padding: 10px;
+    width: 400px; /* Maintain consistent width for the button */
+    padding: 12px;
     background-color: #E94F2D;
     color: white;
-    border: none;
-    border-radius: 5px;
     font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
+    margin-top: 40px;
     text-transform: uppercase;
+    font-family: "Capitolina", serif;
+    background-color: #e94f2d;
+    border: 1px solid #f1eee4;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 #292827;
     transition: background-color 0.3s ease;
+    outline: none;
+    letter-spacing: 0.5px;
 }
 
 .button:hover {
-    background-color: #d8431e;
+    background-color: #cc3f24;
 }
-
+.button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 0 #292827;
+  }
+  
+/* Toggle button styles */
 .toggleButton {
     margin-top: 20px;
     background: none;
@@ -118,13 +145,20 @@ input::placeholder {
     margin: 20px 0;
     display: flex;
     align-items: center;
+    font-size: 14px;
+    max-width: 400px;
 }
 
 .checkbox input {
     margin-right: 10px;
 }
 
-/* Authentication image position */
+/* Transition for form switch */
+.formContainer {
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Adjusted styles for better alignment with the image */
 .authImage {
     position: absolute;
     right: 40px;
@@ -132,8 +166,48 @@ input::placeholder {
     width: 320px;
     height: auto;
 }
-
-/* Transition for form switch */
-.formContainer {
-    transition: opacity 0.5s ease-in-out;
+/* Custom checkbox styling */
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px 0;
 }
+
+/* Hide the default checkbox */
+.checkbox input[type="checkbox"] {
+    appearance: none; /* Remove default checkbox appearance */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #292827; /* Border color for unchecked state */
+    border-radius: 3px; /* Rounded corners */
+    background-color: #f1eee4; /* Background color for unchecked state */
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    margin-right: 10px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Change background when checked */
+.checkbox input[type="checkbox"]:checked {
+    background-color: #E94F2D;
+    border-color: #E94F2D;
+}
+
+/* Create checkmark using a pseudo-element */
+.checkbox input[type="checkbox"]:checked::before {
+    content: '✔'; /* Checkmark symbol */
+    position: absolute;
+    top: -2px;
+    left: 2px;
+    font-size: 14px;
+    color: white;
+}
+
+/* Customize on hover */
+.checkbox input[type="checkbox"]:hover {
+    border-color: #cc3f24; /* Border color on hover */
+}
+
